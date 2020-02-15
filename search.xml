@@ -107,8 +107,6 @@
             
             <tag> vue </tag>
             
-            <tag> web前端 </tag>
-            
             <tag> audio </tag>
             
         </tags>
@@ -136,8 +134,6 @@
             
             <tag> vue </tag>
             
-            <tag> web前端 </tag>
-            
         </tags>
       
     </entry>
@@ -162,8 +158,6 @@
         <tags>
             
             <tag> Hexo </tag>
-            
-            <tag> Github </tag>
             
         </tags>
       
@@ -219,8 +213,6 @@
             
             <tag> vue </tag>
             
-            <tag> web前端 </tag>
-            
         </tags>
       
     </entry>
@@ -247,6 +239,10 @@
             <tag> Linux </tag>
             
             <tag> EC2 </tag>
+            
+            <tag> vpn </tag>
+            
+            <tag> Nginx </tag>
             
         </tags>
       
@@ -298,8 +294,6 @@
             
             <tag> vue </tag>
             
-            <tag> web前端 </tag>
-            
             <tag> 移动端 </tag>
             
         </tags>
@@ -326,8 +320,6 @@
         <tags>
             
             <tag> vue </tag>
-            
-            <tag> web前端 </tag>
             
             <tag> 移动端 </tag>
             
@@ -383,7 +375,7 @@
             
             <tag> mac </tag>
             
-            <tag> 服务器 </tag>
+            <tag> Apache </tag>
             
         </tags>
       
