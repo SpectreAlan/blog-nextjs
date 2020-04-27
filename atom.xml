@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Givingcode</title>
+  <title>Alan Grady</title>
   
-  <subtitle>如果第一次失败了，那这是1.0版本，请继续努力</subtitle>
+  <subtitle>划船不用桨，全靠浪</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="/"/>
+  <link href="http://www.htmler.cn/"/>
   <updated>2020-04-27T06:05:39.559Z</updated>
-  <id>/</id>
+  <id>http://www.htmler.cn/</id>
   
   <author>
-    <name>Givingcode</name>
+    <name>Alan Grady</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>python自动化打包部署</title>
-    <link href="/2020/04/12/python%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85%E9%83%A8%E7%BD%B2/"/>
-    <id>/2020/04/12/python自动化打包部署/</id>
+    <link href="http://www.htmler.cn/2020/04/12/python%E8%87%AA%E5%8A%A8%E5%8C%96%E6%89%93%E5%8C%85%E9%83%A8%E7%BD%B2/"/>
+    <id>http://www.htmler.cn/2020/04/12/python自动化打包部署/</id>
     <published>2020-04-12T09:51:13.000Z</published>
     <updated>2020-04-27T06:05:39.559Z</updated>
     
@@ -34,21 +34,21 @@
     
     </summary>
     
-      <category term="Python" scheme="/categories/Python/"/>
+      <category term="Python" scheme="http://www.htmler.cn/categories/Python/"/>
     
     
-      <category term="Python" scheme="/tags/Python/"/>
+      <category term="Python" scheme="http://www.htmler.cn/tags/Python/"/>
     
-      <category term="部署" scheme="/tags/%E9%83%A8%E7%BD%B2/"/>
+      <category term="部署" scheme="http://www.htmler.cn/tags/%E9%83%A8%E7%BD%B2/"/>
     
-      <category term="自动化" scheme="/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+      <category term="自动化" scheme="http://www.htmler.cn/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
     
   </entry>
   
   <entry>
     <title>pm2实现自动化部署</title>
-    <link href="/2020/03/01/pm2%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/"/>
-    <id>/2020/03/01/pm2实现自动化部署/</id>
+    <link href="http://www.htmler.cn/2020/03/01/pm2%E5%AE%9E%E7%8E%B0%E8%87%AA%E5%8A%A8%E5%8C%96%E9%83%A8%E7%BD%B2/"/>
+    <id>http://www.htmler.cn/2020/03/01/pm2实现自动化部署/</id>
     <published>2020-03-01T07:21:45.000Z</published>
     <updated>2020-03-29T08:24:35.415Z</updated>
     
@@ -63,19 +63,19 @@
     
     </summary>
     
-      <category term="node" scheme="/categories/node/"/>
+      <category term="node" scheme="http://www.htmler.cn/categories/node/"/>
     
     
-      <category term="pm2" scheme="/tags/pm2/"/>
+      <category term="pm2" scheme="http://www.htmler.cn/tags/pm2/"/>
     
-      <category term="部署" scheme="/tags/%E9%83%A8%E7%BD%B2/"/>
+      <category term="部署" scheme="http://www.htmler.cn/tags/%E9%83%A8%E7%BD%B2/"/>
     
   </entry>
   
   <entry>
     <title>React状态逻辑复用</title>
-    <link href="/2020/02/15/React%E7%8A%B6%E6%80%81%E9%80%BB%E8%BE%91%E5%A4%8D%E7%94%A8/"/>
-    <id>/2020/02/15/React状态逻辑复用/</id>
+    <link href="http://www.htmler.cn/2020/02/15/React%E7%8A%B6%E6%80%81%E9%80%BB%E8%BE%91%E5%A4%8D%E7%94%A8/"/>
+    <id>http://www.htmler.cn/2020/02/15/React状态逻辑复用/</id>
     <published>2020-02-15T06:22:33.000Z</published>
     <updated>2020-02-15T11:58:37.598Z</updated>
     
@@ -90,23 +90,23 @@
     
     </summary>
     
-      <category term="React" scheme="/categories/React/"/>
+      <category term="React" scheme="http://www.htmler.cn/categories/React/"/>
     
     
-      <category term="React" scheme="/tags/React/"/>
+      <category term="React" scheme="http://www.htmler.cn/tags/React/"/>
     
-      <category term="Hooks" scheme="/tags/Hooks/"/>
+      <category term="Hooks" scheme="http://www.htmler.cn/tags/Hooks/"/>
     
-      <category term="HOC" scheme="/tags/HOC/"/>
+      <category term="HOC" scheme="http://www.htmler.cn/tags/HOC/"/>
     
-      <category term="Mixin" scheme="/tags/Mixin/"/>
+      <category term="Mixin" scheme="http://www.htmler.cn/tags/Mixin/"/>
     
   </entry>
   
   <entry>
     <title>破解各音乐App的vip限制</title>
-    <link href="/2020/02/15/%E7%A0%B4%E8%A7%A3%E5%90%84%E9%9F%B3%E4%B9%90App%E9%9C%80%E8%A6%81vip%E9%99%90%E5%88%B6/"/>
-    <id>/2020/02/15/破解各音乐App需要vip限制/</id>
+    <link href="http://www.htmler.cn/2020/02/15/%E7%A0%B4%E8%A7%A3%E5%90%84%E9%9F%B3%E4%B9%90App%E9%9C%80%E8%A6%81vip%E9%99%90%E5%88%B6/"/>
+    <id>http://www.htmler.cn/2020/02/15/破解各音乐App需要vip限制/</id>
     <published>2020-02-15T05:13:03.000Z</published>
     <updated>2020-02-16T04:12:01.353Z</updated>
     
@@ -121,19 +121,19 @@
     
     </summary>
     
-      <category term="破解" scheme="/categories/%E7%A0%B4%E8%A7%A3/"/>
+      <category term="破解" scheme="http://www.htmler.cn/categories/%E7%A0%B4%E8%A7%A3/"/>
     
     
-      <category term="网易云音乐" scheme="/tags/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90/"/>
+      <category term="网易云音乐" scheme="http://www.htmler.cn/tags/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90/"/>
     
-      <category term="vip破解" scheme="/tags/vip%E7%A0%B4%E8%A7%A3/"/>
+      <category term="vip破解" scheme="http://www.htmler.cn/tags/vip%E7%A0%B4%E8%A7%A3/"/>
     
   </entry>
   
   <entry>
     <title>flutter打包--Android</title>
-    <link href="/2020/01/14/flutter%E6%89%93%E5%8C%85--Android/"/>
-    <id>/2020/01/14/flutter打包--Android/</id>
+    <link href="http://www.htmler.cn/2020/01/14/flutter%E6%89%93%E5%8C%85--Android/"/>
+    <id>http://www.htmler.cn/2020/01/14/flutter打包--Android/</id>
     <published>2020-01-14T08:22:51.000Z</published>
     <updated>2020-02-15T12:29:48.510Z</updated>
     
@@ -148,19 +148,19 @@
     
     </summary>
     
-      <category term="Flutter" scheme="/categories/Flutter/"/>
+      <category term="Flutter" scheme="http://www.htmler.cn/categories/Flutter/"/>
     
     
-      <category term="Flutter" scheme="/tags/Flutter/"/>
+      <category term="Flutter" scheme="http://www.htmler.cn/tags/Flutter/"/>
     
-      <category term="Android" scheme="/tags/Android/"/>
+      <category term="Android" scheme="http://www.htmler.cn/tags/Android/"/>
     
   </entry>
   
   <entry>
     <title>flutter状态管理之flutter_redux</title>
-    <link href="/2019/12/31/flutter%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86%E4%B9%8Bflutter_redux/"/>
-    <id>/2019/12/31/flutter状态管理之flutter_redux/</id>
+    <link href="http://www.htmler.cn/2019/12/31/flutter%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86%E4%B9%8Bflutter_redux/"/>
+    <id>http://www.htmler.cn/2019/12/31/flutter状态管理之flutter_redux/</id>
     <published>2019-12-31T04:13:03.000Z</published>
     <updated>2020-02-15T11:58:37.598Z</updated>
     
@@ -175,19 +175,19 @@
     
     </summary>
     
-      <category term="Flutter" scheme="/categories/Flutter/"/>
+      <category term="Flutter" scheme="http://www.htmler.cn/categories/Flutter/"/>
     
     
-      <category term="Flutter" scheme="/tags/Flutter/"/>
+      <category term="Flutter" scheme="http://www.htmler.cn/tags/Flutter/"/>
     
-      <category term="跨平台" scheme="/tags/%E8%B7%A8%E5%B9%B3%E5%8F%B0/"/>
+      <category term="跨平台" scheme="http://www.htmler.cn/tags/%E8%B7%A8%E5%B9%B3%E5%8F%B0/"/>
     
   </entry>
   
   <entry>
     <title>linux安装nginx</title>
-    <link href="/2019/06/14/linux%E5%AE%89%E8%A3%85nginx/"/>
-    <id>/2019/06/14/linux安装nginx/</id>
+    <link href="http://www.htmler.cn/2019/06/14/linux%E5%AE%89%E8%A3%85nginx/"/>
+    <id>http://www.htmler.cn/2019/06/14/linux安装nginx/</id>
     <published>2019-06-14T01:14:05.000Z</published>
     <updated>2020-04-14T12:19:18.231Z</updated>
     
@@ -202,17 +202,17 @@
     
     </summary>
     
-      <category term="Linux" scheme="/categories/Linux/"/>
+      <category term="Linux" scheme="http://www.htmler.cn/categories/Linux/"/>
     
     
-      <category term="nginx" scheme="/tags/nginx/"/>
+      <category term="nginx" scheme="http://www.htmler.cn/tags/nginx/"/>
     
   </entry>
   
   <entry>
     <title>ios背景音乐autoplay</title>
-    <link href="/2019/06/01/ios%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90autoplay/"/>
-    <id>/2019/06/01/ios背景音乐autoplay/</id>
+    <link href="http://www.htmler.cn/2019/06/01/ios%E8%83%8C%E6%99%AF%E9%9F%B3%E4%B9%90autoplay/"/>
+    <id>http://www.htmler.cn/2019/06/01/ios背景音乐autoplay/</id>
     <published>2019-06-01T04:26:29.000Z</published>
     <updated>2020-02-15T12:54:59.859Z</updated>
     
@@ -227,19 +227,19 @@
     
     </summary>
     
-      <category term="vue" scheme="/categories/vue/"/>
+      <category term="vue" scheme="http://www.htmler.cn/categories/vue/"/>
     
     
-      <category term="vue" scheme="/tags/vue/"/>
+      <category term="vue" scheme="http://www.htmler.cn/tags/vue/"/>
     
-      <category term="audio" scheme="/tags/audio/"/>
+      <category term="audio" scheme="http://www.htmler.cn/tags/audio/"/>
     
   </entry>
   
   <entry>
     <title>vue-cli配置多入口</title>
-    <link href="/2019/04/23/vue-cli%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%85%A5%E5%8F%A3/"/>
-    <id>/2019/04/23/vue-cli配置多入口/</id>
+    <link href="http://www.htmler.cn/2019/04/23/vue-cli%E9%85%8D%E7%BD%AE%E5%A4%9A%E5%85%A5%E5%8F%A3/"/>
+    <id>http://www.htmler.cn/2019/04/23/vue-cli配置多入口/</id>
     <published>2019-04-23T03:21:55.000Z</published>
     <updated>2020-02-15T12:54:59.864Z</updated>
     
@@ -254,17 +254,17 @@
     
     </summary>
     
-      <category term="vue" scheme="/categories/vue/"/>
+      <category term="vue" scheme="http://www.htmler.cn/categories/vue/"/>
     
     
-      <category term="vue" scheme="/tags/vue/"/>
+      <category term="vue" scheme="http://www.htmler.cn/tags/vue/"/>
     
   </entry>
   
   <entry>
     <title>Hexo+Github搭建个人博客</title>
-    <link href="/2018/12/07/Hexo+Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>/2018/12/07/Hexo+Github搭建个人博客/</id>
+    <link href="http://www.htmler.cn/2018/12/07/Hexo+Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>http://www.htmler.cn/2018/12/07/Hexo+Github搭建个人博客/</id>
     <published>2018-12-07T04:13:03.000Z</published>
     <updated>2020-02-15T12:54:59.856Z</updated>
     
@@ -279,17 +279,17 @@
     
     </summary>
     
-      <category term="Hexo" scheme="/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://www.htmler.cn/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="/tags/Hexo/"/>
+      <category term="Hexo" scheme="http://www.htmler.cn/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Adobe PhotoShop CC激活破解</title>
-    <link href="/2018/10/29/Adobe%20PhotoShop%20CC%E6%BF%80%E6%B4%BB%E7%A0%B4%E8%A7%A3/"/>
-    <id>/2018/10/29/Adobe PhotoShop CC激活破解/</id>
+    <link href="http://www.htmler.cn/2018/10/29/Adobe%20PhotoShop%20CC%E6%BF%80%E6%B4%BB%E7%A0%B4%E8%A7%A3/"/>
+    <id>http://www.htmler.cn/2018/10/29/Adobe PhotoShop CC激活破解/</id>
     <published>2018-10-29T05:13:03.000Z</published>
     <updated>2020-02-15T13:26:27.270Z</updated>
     
@@ -304,19 +304,19 @@
     
     </summary>
     
-      <category term="破解" scheme="/categories/%E7%A0%B4%E8%A7%A3/"/>
+      <category term="破解" scheme="http://www.htmler.cn/categories/%E7%A0%B4%E8%A7%A3/"/>
     
     
-      <category term="PhotoShop" scheme="/tags/PhotoShop/"/>
+      <category term="PhotoShop" scheme="http://www.htmler.cn/tags/PhotoShop/"/>
     
-      <category term="激活破解" scheme="/tags/%E6%BF%80%E6%B4%BB%E7%A0%B4%E8%A7%A3/"/>
+      <category term="激活破解" scheme="http://www.htmler.cn/tags/%E6%BF%80%E6%B4%BB%E7%A0%B4%E8%A7%A3/"/>
     
   </entry>
   
   <entry>
     <title>vue实现拖拽</title>
-    <link href="/2018/10/21/vue%E5%AE%9E%E7%8E%B0%E6%8B%96%E6%8B%BD/"/>
-    <id>/2018/10/21/vue实现拖拽/</id>
+    <link href="http://www.htmler.cn/2018/10/21/vue%E5%AE%9E%E7%8E%B0%E6%8B%96%E6%8B%BD/"/>
+    <id>http://www.htmler.cn/2018/10/21/vue实现拖拽/</id>
     <published>2018-10-21T09:21:43.000Z</published>
     <updated>2020-02-15T12:54:59.858Z</updated>
     
@@ -331,17 +331,17 @@
     
     </summary>
     
-      <category term="vue" scheme="/categories/vue/"/>
+      <category term="vue" scheme="http://www.htmler.cn/categories/vue/"/>
     
     
-      <category term="vue" scheme="/tags/vue/"/>
+      <category term="vue" scheme="http://www.htmler.cn/tags/vue/"/>
     
   </entry>
   
   <entry>
     <title>AWS创建EC2</title>
-    <link href="/2018/10/11/AWS%E6%90%AD%E5%BB%BAEC2/"/>
-    <id>/2018/10/11/AWS搭建EC2/</id>
+    <link href="http://www.htmler.cn/2018/10/11/AWS%E6%90%AD%E5%BB%BAEC2/"/>
+    <id>http://www.htmler.cn/2018/10/11/AWS搭建EC2/</id>
     <published>2018-10-11T08:13:03.000Z</published>
     <updated>2020-04-15T05:57:44.847Z</updated>
     
@@ -356,23 +356,23 @@
     
     </summary>
     
-      <category term="Linux" scheme="/categories/Linux/"/>
+      <category term="Linux" scheme="http://www.htmler.cn/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="/tags/Linux/"/>
+      <category term="Linux" scheme="http://www.htmler.cn/tags/Linux/"/>
     
-      <category term="EC2" scheme="/tags/EC2/"/>
+      <category term="EC2" scheme="http://www.htmler.cn/tags/EC2/"/>
     
-      <category term="vpn" scheme="/tags/vpn/"/>
+      <category term="vpn" scheme="http://www.htmler.cn/tags/vpn/"/>
     
-      <category term="Nginx" scheme="/tags/Nginx/"/>
+      <category term="Nginx" scheme="http://www.htmler.cn/tags/Nginx/"/>
     
   </entry>
   
   <entry>
     <title>RedHat常规操作</title>
-    <link href="/2018/09/29/RedHat%E5%B8%B8%E8%A7%84%E6%93%8D%E4%BD%9C/"/>
-    <id>/2018/09/29/RedHat常规操作/</id>
+    <link href="http://www.htmler.cn/2018/09/29/RedHat%E5%B8%B8%E8%A7%84%E6%93%8D%E4%BD%9C/"/>
+    <id>http://www.htmler.cn/2018/09/29/RedHat常规操作/</id>
     <published>2018-09-29T08:13:03.000Z</published>
     <updated>2020-02-15T11:58:37.598Z</updated>
     
@@ -387,17 +387,17 @@
     
     </summary>
     
-      <category term="Linux" scheme="/categories/Linux/"/>
+      <category term="Linux" scheme="http://www.htmler.cn/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="/tags/Linux/"/>
+      <category term="Linux" scheme="http://www.htmler.cn/tags/Linux/"/>
     
   </entry>
   
   <entry>
     <title>vue移动端屏幕适配解决方案new</title>
-    <link href="/2018/09/08/vue%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88new/"/>
-    <id>/2018/09/08/vue移动端屏幕适配解决方案new/</id>
+    <link href="http://www.htmler.cn/2018/09/08/vue%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88new/"/>
+    <id>http://www.htmler.cn/2018/09/08/vue移动端屏幕适配解决方案new/</id>
     <published>2018-09-08T06:57:41.000Z</published>
     <updated>2020-02-15T12:54:59.857Z</updated>
     
@@ -412,19 +412,19 @@
     
     </summary>
     
-      <category term="vue" scheme="/categories/vue/"/>
+      <category term="vue" scheme="http://www.htmler.cn/categories/vue/"/>
     
     
-      <category term="vue" scheme="/tags/vue/"/>
+      <category term="vue" scheme="http://www.htmler.cn/tags/vue/"/>
     
-      <category term="移动端" scheme="/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
+      <category term="移动端" scheme="http://www.htmler.cn/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>vue移动端屏幕适配</title>
-    <link href="/2018/08/30/vue%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D/"/>
-    <id>/2018/08/30/vue移动端屏幕适配/</id>
+    <link href="http://www.htmler.cn/2018/08/30/vue%E7%A7%BB%E5%8A%A8%E7%AB%AF%E5%B1%8F%E5%B9%95%E9%80%82%E9%85%8D/"/>
+    <id>http://www.htmler.cn/2018/08/30/vue移动端屏幕适配/</id>
     <published>2018-08-30T03:21:55.000Z</published>
     <updated>2020-02-15T12:54:59.855Z</updated>
     
@@ -439,19 +439,19 @@
     
     </summary>
     
-      <category term="vue" scheme="/categories/vue/"/>
+      <category term="vue" scheme="http://www.htmler.cn/categories/vue/"/>
     
     
-      <category term="vue" scheme="/tags/vue/"/>
+      <category term="vue" scheme="http://www.htmler.cn/tags/vue/"/>
     
-      <category term="移动端" scheme="/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
+      <category term="移动端" scheme="http://www.htmler.cn/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/"/>
     
   </entry>
   
   <entry>
     <title>MAC升级Python3.x</title>
-    <link href="/2018/02/05/MAC%E5%8D%87%E7%BA%A7Python3.x/"/>
-    <id>/2018/02/05/MAC升级Python3.x/</id>
+    <link href="http://www.htmler.cn/2018/02/05/MAC%E5%8D%87%E7%BA%A7Python3.x/"/>
+    <id>http://www.htmler.cn/2018/02/05/MAC升级Python3.x/</id>
     <published>2018-02-05T07:02:29.000Z</published>
     <updated>2020-02-15T11:58:37.597Z</updated>
     
@@ -466,19 +466,19 @@
     
     </summary>
     
-      <category term="mac" scheme="/categories/mac/"/>
+      <category term="mac" scheme="http://www.htmler.cn/categories/mac/"/>
     
     
-      <category term="mac" scheme="/tags/mac/"/>
+      <category term="mac" scheme="http://www.htmler.cn/tags/mac/"/>
     
-      <category term="Python" scheme="/tags/Python/"/>
+      <category term="Python" scheme="http://www.htmler.cn/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>使用mac自带阿帕奇</title>
-    <link href="/2017/02/24/%E4%BD%BF%E7%94%A8mac%E8%87%AA%E5%B8%A6%E9%98%BF%E5%B8%95%E5%A5%87/"/>
-    <id>/2017/02/24/使用mac自带阿帕奇/</id>
+    <link href="http://www.htmler.cn/2017/02/24/%E4%BD%BF%E7%94%A8mac%E8%87%AA%E5%B8%A6%E9%98%BF%E5%B8%95%E5%A5%87/"/>
+    <id>http://www.htmler.cn/2017/02/24/使用mac自带阿帕奇/</id>
     <published>2017-02-24T07:02:29.000Z</published>
     <updated>2020-02-15T12:54:59.861Z</updated>
     
@@ -493,12 +493,12 @@
     
     </summary>
     
-      <category term="mac" scheme="/categories/mac/"/>
+      <category term="mac" scheme="http://www.htmler.cn/categories/mac/"/>
     
     
-      <category term="mac" scheme="/tags/mac/"/>
+      <category term="mac" scheme="http://www.htmler.cn/tags/mac/"/>
     
-      <category term="Apache" scheme="/tags/Apache/"/>
+      <category term="Apache" scheme="http://www.htmler.cn/tags/Apache/"/>
     
   </entry>
   
