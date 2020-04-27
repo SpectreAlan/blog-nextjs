@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Alan Grady</title>
+  <title>Givingcode&#39;s blog</title>
   
   <subtitle>划船不用桨，全靠浪</subtitle>
   <link href="/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://www.htmler.cn/</id>
   
   <author>
-    <name>Alan Grady</name>
+    <name>Givingcode</name>
     
   </author>
   
@@ -66,9 +66,9 @@
       <category term="node" scheme="http://www.htmler.cn/categories/node/"/>
     
     
-      <category term="pm2" scheme="http://www.htmler.cn/tags/pm2/"/>
-    
       <category term="部署" scheme="http://www.htmler.cn/tags/%E9%83%A8%E7%BD%B2/"/>
+    
+      <category term="pm2" scheme="http://www.htmler.cn/tags/pm2/"/>
     
   </entry>
   
