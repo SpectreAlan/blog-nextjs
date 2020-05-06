@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+Allow: /home/
+Allow: /archives/
+Allow: /about/
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+Sitemap: http://htmler.cn/sitemap.xml
+Sitemap: http://htmler.cn/baidusitemap.xml
