@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.htmler.cn/"/>
-  <updated>2020-06-28T12:32:25.607Z</updated>
+  <updated>2020-07-02T08:09:19.493Z</updated>
   <id>http://www.htmler.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>web前端性能优化</title>
+    <link href="http://www.htmler.cn/posts/1dec0c17.html"/>
+    <id>http://www.htmler.cn/posts/1dec0c17.html</id>
+    <published>2020-07-02T08:09:19.000Z</published>
+    <updated>2020-07-02T08:09:19.493Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>JAVA learning note</title>
@@ -526,33 +547,6 @@
       <category term="git" scheme="http://www.htmler.cn/tags/git/"/>
     
       <category term="github" scheme="http://www.htmler.cn/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MAC升级Python3.x</title>
-    <link href="http://www.htmler.cn/posts/61ca8f11.html"/>
-    <id>http://www.htmler.cn/posts/61ca8f11.html</id>
-    <published>2018-02-05T07:02:29.000Z</published>
-    <updated>2020-06-16T09:53:16.360Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>mac自带Python为2.7，如何升级自带版本，其实这个问题网上争议比较大，有大神删除自带python重新安装的，但是个人建议保留自带Python，通过brew安装，开发测试两不误，操作如下：</p><h3 id="查看Python版本"><a href="#查看Python版本" class="headerlink" title="查看Python版本"></a>查看Python版本</h3><p>首先python -V得到当前系统版本是2.7.10，然后通过brew安装，不知道brew的自行度娘</p><h3 id="brew命令"><a href="#brew命令" class="headerlink" title="brew命令"></a>brew命令</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install python3</span><br></pre></td></tr></table></figure></div><p>之后的话呢可能报错<br><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">subunit</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight subunit"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Error: </span>An unexpected error occurred during the `brew link` step</span><br><span class="line">The formula built, but is not symlinked into /usr/local</span><br><span class="line">Permission denied - /usr/local/Frameworks</span><br><span class="line"><span class="keyword">Error: </span>Permission denied - /usr/local/Frameworks</span><br></pre></td></tr></table></figure></div></p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><p>查看了日志发现/usr/local/下没有路径/usr/local/Frameworks ，所以先创建一个目录，<br>执行</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">maxima</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo <span class="built_in">mkdir</span> /usr/<span class="built_in">local</span>/Frameworks</span><br></pre></td></tr></table></figure></div><p>然后修改一下权限</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">elixir</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo chown <span class="variable">$(</span>whoami)<span class="symbol">:admin</span> /usr/local/Frameworks</span><br></pre></td></tr></table></figure></div><p>接下来再link一下</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">armasm</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight armasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">brew </span>link python3</span><br></pre></td></tr></table></figure></div><p>提示</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">angelscript</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Linking /usr/local/Cellar/python3/<span class="number">3.6</span><span class="number">.3</span>... <span class="number">1</span> symlinks created</span><br></pre></td></tr></table></figure></div><p>代表成功了，此时我们python -V发现结果还是2.7.10,啥原因呢？系统默认选择了自带的python，解决很简单，把常规python命令换成python3，比如：python3 -V</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-      <category term="mac" scheme="http://www.htmler.cn/categories/mac/"/>
-    
-    
-      <category term="mac" scheme="http://www.htmler.cn/tags/mac/"/>
-    
-      <category term="Python" scheme="http://www.htmler.cn/tags/Python/"/>
     
   </entry>
   
