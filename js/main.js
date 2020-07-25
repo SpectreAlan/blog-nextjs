@@ -10,7 +10,7 @@ $(function () {
   }
   var s = document.getElementsByTagName("script")[0];
   s.parentNode.insertBefore(bp, s);
-
+  
   const isSnackbar = GLOBAL_CONFIG.Snackbar !== undefined
   const isTocContent = $('#sidebar .sidebar-toc__content').children().length > 0
   /**
@@ -18,7 +18,7 @@ $(function () {
    */
   const searchWidth = $('#search_button').outerWidth() !== undefined ? $('#search_button').outerWidth() : 0
   const blogNameWidth = $('#blog_name').width()
-
+  
   var mw = 0
   for (var i = 0; i < $('#page-header .menus_item').length; i++) {
     mw = mw + $('#page-header .menus_item').eq(i).outerWidth()
