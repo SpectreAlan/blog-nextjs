@@ -15,8 +15,8 @@ $(function () {
   /**
    * 當menu過多時，自動適配，避免UI錯亂
    */
-  const cover = 'https://raw.githubusercontent.com/SpectreAlan/images/master/ ' + parseInt(Math.random()*7) + '.jpg';
-  $('#top-container').css({background:'url(' +cover+ ')'})
+  const cover = 'https://raw.githubusercontent.com/SpectreAlan/images/master/' + parseInt(Math.random()*7) + '.jpg';
+  $('#top-container').css({"background":"url(" +cover+ ")"})
   const searchWidth = $('#search_button').outerWidth() !== undefined ? $('#search_button').outerWidth() : 0
   const blogNameWidth = $('#blog_name').width()
 

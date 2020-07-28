@@ -325,6 +325,10 @@ img:not([src]) {
 }
 #nav,
 #top-container {
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  background-size: cover !important;
+  background-position: center center;
   -webkit-animation: header 1s;
   -moz-animation: header 1s;
   -o-animation: header 1s;
