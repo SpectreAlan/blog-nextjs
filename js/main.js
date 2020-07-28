@@ -1,5 +1,4 @@
 $(function () {
-
   var bp = document.createElement('script');
   var curProtocol = window.location.protocol.split(':')[0];
   if (curProtocol === 'https') {
@@ -18,7 +17,7 @@ $(function () {
    */
   const searchWidth = $('#search_button').outerWidth() !== undefined ? $('#search_button').outerWidth() : 0
   const blogNameWidth = $('#blog_name').width()
-  
+
   var mw = 0
   for (var i = 0; i < $('#page-header .menus_item').length; i++) {
     mw = mw + $('#page-header .menus_item').eq(i).outerWidth()
