@@ -9,5 +9,4 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: http://997.dog/sitemap.xml
-Sitemap: http://997.dog/baidusitemap.xml
+Sitemap: https://997.dog/sitemap_https.xml
