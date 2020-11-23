@@ -1,0 +1,48 @@
+name: Blog console CI/CD
+on:
+  push:
+    branches: [ master ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build project
+        run:
+          npm install;
+          npm run build;
+          mkdir blog-web;
+          cp -r {build,seo,server.js,package.json,next.config.js} blog-web;
+          mkdir dist;
+          tar -cvf ./dist/blog-web.tar blog-web;
+      - name: Scp
+        uses: garygrossgarten/github-action-scp@release
+        with:
+          local: dist
+          remote: /home/alan/www
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.HOST_USERNAME }}
+          password: ${{ secrets.HOST_PASSWORD }}
+          port: ${{ secrets.HOST_PORT }}
+          concurrency: 20
+  deploy:
+    needs: [build]
+    name: Deploy console
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.HOST_USERNAME }}
+          password: ${{ secrets.HOST_PASSWORD }}
+          port: ${{ secrets.HOST_PORT }}
+          script: |
+            cd /home/alan/www
+            rm -rf blog-web
+            tar -xvf blog-web.tar
+            rm -f blog-web.tar
+            cd blog-web
+            npm install
+            pm2 restart blog-web
+            
