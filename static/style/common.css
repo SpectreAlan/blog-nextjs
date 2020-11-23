@@ -1,0 +1,58 @@
+body{
+    background: #fff;
+}
+
+.list-context img{
+    width:100% ;
+    border-radius:5px;
+    border:1px solid #f0f0f0;
+    max-width:1000px !important;
+    display: block;
+    margin:8px  auto ;
+
+}
+p{
+    margin:0;
+    padding: 0;
+}
+
+*::selection {
+    background: #00c4b6;
+    color: #f7f7f7;
+}
+*::-webkit-scrollbar-thumb {
+    background: #49b1f5;
+}
+*::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.ant-avatar{
+    cursor: pointer;
+    transition: transform 1s;
+}
+.ant-avatar:hover{
+    transform: rotate(360deg);
+}
+.searchItem{
+    cursor: pointer;
+}
+.searchItem:hover{
+     color: rgb(73, 177, 245);
+     transform: translateX(6px);
+ }
+.align-center{
+    text-align: center;
+}
+.ant-spin{
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+}
+.ant-spin-text{
+    top: 53% !important;
+}

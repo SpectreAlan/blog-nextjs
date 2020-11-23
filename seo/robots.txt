@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Allow: /detail/
+Allow: /timeLine
+Allow: /gallery
+Allow: /about
+Allow: /imageZip
+Sitemap: http://jrsee.com/sitemap.xml
