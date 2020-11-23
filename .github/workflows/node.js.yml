@@ -11,10 +11,8 @@ jobs:
         run:
           npm install;
           npm run build;
-          mkdir blog-web;
-          cp -r {build,seo,server.js,package.json,next.config.js} blog-web;
           mkdir dist;
-          tar -cvf ./dist/blog-web.tar blog-web;
+          cp -r {build,seo,server.js,package.json,next.config.js} dist;
       - name: Scp
         uses: garygrossgarten/github-action-scp@release
         with:
@@ -38,11 +36,11 @@ jobs:
           password: ${{ secrets.HOST_PASSWORD }}
           port: ${{ secrets.HOST_PORT }}
           script: |
-            cd /home/alan/www
-            rm -rf blog-web
-            tar -xvf blog-web.tar
-            rm -f blog-web.tar
-            cd blog-web
-            yarn install
+            cd /home/alan/www/blog-web
+            rm -rf build seo server.js package.json next.config.js
+            mv /home/alan/www/dist/* /home/alan/www/blog-web/
+            npm install
             pm2 restart blog-web
+            cd /home/alan/www
+            rm -f /home/alan/www/dist
 
