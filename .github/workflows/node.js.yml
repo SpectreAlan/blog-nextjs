@@ -12,7 +12,7 @@ jobs:
           npm install;
           npm run build;
           mkdir dist;
-          cp -r {build,seo,server.js,package.json,next.config.js} dist;
+          cp -r {build,seo,server.js,package.json,next.config.js,package-lock.json} dist;
       - name: Scp
         uses: garygrossgarten/github-action-scp@release
         with:
