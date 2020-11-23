@@ -32,7 +32,7 @@ const About = () => (
             生成文章目录使用 markdown-navbar ，语法高亮 highlight.js
           </Descriptions.Item>
           <Descriptions.Item label="前台源码" >
-            <div id="detail-content" dangerouslySetInnerHTML={{ __html: marked('[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog_nextjs&theme=react)](https://github.com/SpectreAlan/blog_nextjs)') }}/>
+            <div id="detail-content" dangerouslySetInnerHTML={{ __html: marked('[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog-nextjs&theme=react)](https://github.com/SpectreAlan/blog-nextjs)') }}/>
           </Descriptions.Item>
           <Descriptions.Item label="后台管理">
             VUE全家桶、axios、echarts<br/>
