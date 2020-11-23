@@ -9,4 +9,4 @@ Disallow: /css/
 Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
-Sitemap: https://997.dog/sitemap_https.xml
+Sitemap: https://jrsee.com/sitemap_https.xml

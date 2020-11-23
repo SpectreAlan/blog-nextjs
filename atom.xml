@@ -5,9 +5,9 @@
   <subtitle>划船不用桨，全靠浪</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.997.dog/"/>
+  <link href="https://www.jrsee.com/"/>
   <updated>2020-09-01T11:21:28.079Z</updated>
-  <id>http://www.997.dog/</id>
+  <id>https://www.jrsee.com/</id>
   
   <author>
     <name>SpectreAlan</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Github actions + Docker实现持续部署</title>
-    <link href="http://www.997.dog/posts/a8e60f1b.html"/>
-    <id>http://www.997.dog/posts/a8e60f1b.html</id>
+    <link href="https://www.jrsee.com/posts/a8e60f1b.html"/>
+    <id>https://www.jrsee.com/posts/a8e60f1b.html</id>
     <published>2020-07-11T11:44:14.000Z</published>
     <updated>2020-09-01T11:21:28.079Z</updated>
     
@@ -34,21 +34,21 @@
     
     </summary>
     
-      <category term="Github actions" scheme="http://www.997.dog/categories/Github-actions/"/>
+      <category term="Github actions" scheme="https://www.jrsee.com/categories/Github-actions/"/>
     
-      <category term="Docker" scheme="http://www.997.dog/categories/Github-actions/Docker/"/>
+      <category term="Docker" scheme="https://www.jrsee.com/categories/Github-actions/Docker/"/>
     
     
-      <category term="Docker" scheme="http://www.997.dog/tags/Docker/"/>
+      <category term="Docker" scheme="https://www.jrsee.com/tags/Docker/"/>
     
-      <category term="Github actions" scheme="http://www.997.dog/tags/Github-actions/"/>
+      <category term="Github actions" scheme="https://www.jrsee.com/tags/Github-actions/"/>
     
   </entry>
   
   <entry>
     <title>VMware安装macOS Catalina 10.15虚拟机</title>
-    <link href="http://www.997.dog/posts/fc1a72cb.html"/>
-    <id>http://www.997.dog/posts/fc1a72cb.html</id>
+    <link href="https://www.jrsee.com/posts/fc1a72cb.html"/>
+    <id>https://www.jrsee.com/posts/fc1a72cb.html</id>
     <published>2020-07-09T03:25:18.000Z</published>
     <updated>2020-07-28T10:52:13.505Z</updated>
     
@@ -63,23 +63,23 @@
     
     </summary>
     
-      <category term="VMware" scheme="http://www.997.dog/categories/VMware/"/>
+      <category term="VMware" scheme="https://www.jrsee.com/categories/VMware/"/>
     
     
-      <category term="macOS" scheme="http://www.997.dog/tags/macOS/"/>
+      <category term="macOS" scheme="https://www.jrsee.com/tags/macOS/"/>
     
-      <category term="VMware" scheme="http://www.997.dog/tags/VMware/"/>
+      <category term="VMware" scheme="https://www.jrsee.com/tags/VMware/"/>
     
-      <category term="Catalina" scheme="http://www.997.dog/tags/Catalina/"/>
+      <category term="Catalina" scheme="https://www.jrsee.com/tags/Catalina/"/>
     
-      <category term="虚拟机" scheme="http://www.997.dog/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+      <category term="虚拟机" scheme="https://www.jrsee.com/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>JAVA学习笔记</title>
-    <link href="http://www.997.dog/posts/7f1ae6d2.html"/>
-    <id>http://www.997.dog/posts/7f1ae6d2.html</id>
+    <link href="https://www.jrsee.com/posts/7f1ae6d2.html"/>
+    <id>https://www.jrsee.com/posts/7f1ae6d2.html</id>
     <published>2020-05-15T06:15:11.000Z</published>
     <updated>2020-07-28T10:52:13.505Z</updated>
     
@@ -94,21 +94,21 @@
     
     </summary>
     
-      <category term="java" scheme="http://www.997.dog/categories/java/"/>
+      <category term="java" scheme="https://www.jrsee.com/categories/java/"/>
     
     
-      <category term="java" scheme="http://www.997.dog/tags/java/"/>
+      <category term="java" scheme="https://www.jrsee.com/tags/java/"/>
     
   </entry>
   
   <entry>
     <title>websocket + TLS带伪装V2ray</title>
-    <link href="http://www.997.dog/posts/8826f1ea.html"/>
-    <id>http://www.997.dog/posts/8826f1ea.html</id>
+    <link href="https://www.jrsee.com/posts/8826f1ea.html"/>
+    <id>https://www.jrsee.com/posts/8826f1ea.html</id>
     <published>2020-05-04T16:55:21.000Z</published>
-    <updated>2020-09-01T11:18:26.582Z</updated>
+    <updated>2020-11-23T07:04:30.757Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>近期的科学上网难度增大，各大论坛里因为ip被和谐可谓是一片哀嚎，所以流量伪装显得格外重要，伪装的原理就是将梯子的流量代理到能正常访问的网站</p><h3 id="准备事项"><a href="#准备事项" class="headerlink" title="准备事项"></a>准备事项</h3><h4 id="一、服务器"><a href="#一、服务器" class="headerlink" title="一、服务器"></a>一、服务器</h4><p>想要自己搭建科学上的梯子，首先要有一台能够上外网的服务器，在购买服务器方面，我之前有用过 BandwagonHost 也就是大家说的搬瓦工，也用过vultr，最近入手一台亚马逊的EC2,先说说优缺点吧</p><ul><li>搬瓦工： 针对中国网络特别优化，网速很给力。支持支付宝，换ip需要手续费 <a href="https://bwh88.net" target="_blank" rel="noopener">官方网址</a></li><li>vultr: 支持支付宝和微信，随时、免费更换ip和机房,随时销毁vps，销毁后不计费,最低月资费$2.5起，Vultr服务器没有针对中国网络做优化 <a href="https://www.vultr.com" target="_blank" rel="noopener">官方网址</a></li><li>AWS: 信用卡注册，首年$1用一年(到期前记得注销账号)，每个月12G流量/750H，ip免费任意换 <a href="https://aws.amazon.com/cn" target="_blank" rel="noopener">官方网址</a></li></ul><blockquote><p>优劣势对比明显，新手的话，建议aws的ec2，12G流量一般还是够用了，如果经常大流量挂梯子的话建议随时关注消费情况，控制台可以查看实时消费</p></blockquote><h4 id="二、域名"><a href="#二、域名" class="headerlink" title="二、域名"></a>二、域名</h4><p>首先声明，该域名不需要备案，也不建议备案，道理大家都懂，域名租用的话，渠道很多，阿里的 <a href="http://aliyun.com" target="_blank" rel="noopener">万网</a> ,我一般是去 <a href="https://www.west.cn/" target="_blank" rel="noopener">西部数码</a>，做伪装的域名不用选太好，照最简易的挑就好，当然，土豪随意</p><h3 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h3><h4 id="一、安装v2ray"><a href="#一、安装v2ray" class="headerlink" title="一、安装v2ray"></a>一、安装v2ray</h4><p>sudo命令切换到管理员，这里使用了github <a href="https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC" target="_blank" rel="noopener">大佬</a> 提供的一键脚本,在此感谢，命令行执行：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -s -L https://git.io/v2ray.sh)</span><br></pre></td></tr></table></figure></div><blockquote><p>ps: 安装过程建议全程Enter</p><blockquote><p>如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl<br>ubuntu/debian 系统安装 Curl 方法: apt-get update -y &amp;&amp; apt-get install curl -y<br>centos 系统安装 Curl 方法: yum update -y &amp;&amp; yum install curl -y<br>安装好 curl 之后就能安装脚本了</p></blockquote></blockquote><p>安装完以后，使用v2ray命令可以进行相关操作</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"> 1. 查看 V2Ray 配置</span><br><span class="line"></span><br><span class="line"> 2. 修改 V2Ray 配置</span><br><span class="line"></span><br><span class="line"> 3. 下载 V2Ray 配置 / 生成配置信息链接 / 生成二维码链接</span><br><span class="line"></span><br><span class="line"> 4. 查看 Shadowsocks 配置 / 生成二维码链接</span><br><span class="line"></span><br><span class="line"> 5. 修改 Shadowsocks 配置</span><br><span class="line"></span><br><span class="line"> 6. 查看 MTProto 配置 / 修改 MTProto 配置</span><br><span class="line"></span><br><span class="line"> 7. 查看 Socks5 配置 / 修改 Socks5 配置</span><br><span class="line"></span><br><span class="line"> 8. 启动 / 停止 / 重启 / 查看日志</span><br><span class="line"></span><br><span class="line"> 9. 更新 V2Ray / 更新 V2Ray 管理脚本</span><br><span class="line"></span><br><span class="line">10. 卸载 V2Ray</span><br><span class="line"></span><br><span class="line">11. 其他</span><br></pre></td></tr></table></figure></div><p>在这里我们输入2回车，修改传输协议，继续输入2回车</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"> 1. TCP</span><br><span class="line"> 2. TCP_HTTP</span><br><span class="line"> 3. WebSocket</span><br><span class="line"> 4. WebSocket + TLS</span><br><span class="line"> 5. HTTP/2</span><br><span class="line"> 6. mKCP</span><br><span class="line"> 7. mKCP_utp</span><br><span class="line"> 8. mKCP_srtp</span><br><span class="line"> 9. mKCP_wechat-video</span><br><span class="line">10. mKCP_dtls</span><br><span class="line">11. mKCP_wireguard</span><br><span class="line">12. QUIC</span><br><span class="line">13. QUIC_utp</span><br><span class="line">14. QUIC_srtp</span><br><span class="line">15. QUIC_wechat-video</span><br><span class="line">16. QUIC_dtls</span><br><span class="line">17. QUIC_wireguard</span><br><span class="line">18. TCP_dynamicPort</span><br><span class="line">19. TCP_HTTP_dynamicPort</span><br><span class="line">20. WebSocket_dynamicPort</span><br><span class="line">21. mKCP_dynamicPort</span><br><span class="line">22. mKCP_utp_dynamicPort</span><br><span class="line">23. mKCP_srtp_dynamicPort</span><br><span class="line">24. mKCP_wechat-video_dynamicPort</span><br><span class="line">25. mKCP_dtls_dynamicPort</span><br><span class="line">26. mKCP_wireguard_dynamicPort</span><br><span class="line">27. QUIC_dynamicPort</span><br><span class="line">28. QUIC_utp_dynamicPort</span><br><span class="line">29. QUIC_srtp_dynamicPort</span><br><span class="line">30. QUIC_wechat-video_dynamicPort</span><br><span class="line">31. QUIC_dtls_dynamicPort</span><br><span class="line">32. QUIC_wireguard_dynamicPort</span><br></pre></td></tr></table></figure></div><p>选择 WebSocket + TLS协议，于是输入4回车，这时候会提示否有域名，输入Y回车，接着提示后续工作是否自动进行，输入N回车</p><h4 id="二、域名DNS解析"><a href="#二、域名DNS解析" class="headerlink" title="二、域名DNS解析"></a>二、域名DNS解析</h4><p>到域名控制台里面，将域名解析到服务器IP,如(192.168.1.1)，添加2条记录值</p><table><thead><tr><th>记录类型</th><th>主机记录</th><th>解析线路(isp)</th><th>记录值</th></tr></thead><tbody><tr><td>A</td><td>@</td><td>默认</td><td>192.168.1.1</td></tr><tr><td>A</td><td>www</td><td>默认</td><td>192.168.1.1</td></tr></tbody></table><h4 id="三、生成域名证书"><a href="#三、生成域名证书" class="headerlink" title="三、生成域名证书"></a>三、生成域名证书</h4><p>使用certbot生成免费证书，这样做是为了更稳定</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装certbot</span></span><br><span class="line">yum install -y python3 &amp;&amp; pip3 install certbot</span><br><span class="line"><span class="comment"># 生成证书,将997.dog替换为自己域名</span></span><br><span class="line">certbot certonly --standalone -d 997.dog -d www.997.dog</span><br></pre></td></tr></table></figure></div><blockquote><p>注意：这一步需要关闭占用80/443端口的程序，如果生成失败，则多尝试几次</p></blockquote><p>生成成功以后，记录下证书存放路径备用</p><h4 id="四、创建项目、代理目录"><a href="#四、创建项目、代理目录" class="headerlink" title="四、创建项目、代理目录"></a>四、创建项目、代理目录</h4><ul><li>代理目录：该目录作为代理转发使用，建议创建在根目录，同时不要删除</li></ul><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /dontDelete</span><br></pre></td></tr></table></figure></div><ul><li>项目目录： 该目录存放真实项目</li></ul><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># xxx替换为自己取得名字</span></span><br><span class="line">mkdir -p /www/xxx</span><br></pre></td></tr></table></figure></div><p>接下来将项目部署到/www/xxx目录</p><h4 id="五、安装-配置nginx"><a href="#五、安装-配置nginx" class="headerlink" title="五、安装/配置nginx"></a>五、安装/配置nginx</h4><p>安装nginx的教程可以参考 <a href="https://997.dog/posts/a5141d63.html" target="_blank" rel="noopener">nginx安装</a> ,安装以后修改配置文件,nginx配置文件默认存放在 /etc/nginx/nginx.conf</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen  80; <span class="comment"># 端口号</span></span><br><span class="line">    server_name     997.dog www.997.dog; <span class="comment"># 997.dog替换为自己域名</span></span><br><span class="line">    rewrite ^(.*) https://<span class="variable">$server_name</span><span class="variable">$1</span> permanent;</span><br><span class="line">    location / &#123;</span><br><span class="line">            root    /www/xxx; <span class="comment"># /www/xxx替换为项目地址</span></span><br><span class="line">            index   index.html;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">server &#123;</span><br><span class="line">     listen 443 ssl;</span><br><span class="line">     server_name www.997.dog 997.dog; <span class="comment"># 997.dog替换为自己域名</span></span><br><span class="line">     charset utf-8;</span><br><span class="line">     ssl_certificate /etc/letsencrypt/live/www.997.dog/fullchain.pem; <span class="comment"># 这里替换为自己fullchain.pem地址</span></span><br><span class="line">     ssl_certificate_key /etc/letsencrypt/live/www.997.dog/privkey.pem; <span class="comment"># 这里替换为自己privkey.pem地址</span></span><br><span class="line">     ssl_protocols TLSv1.2 TLSv1.3;</span><br><span class="line">     ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384;</span><br><span class="line">     ssl_ecdh_curve secp384r1;</span><br><span class="line">     ssl_prefer_server_ciphers on;</span><br><span class="line">     ssl_session_cache shared:SSL:10m;</span><br><span class="line">     ssl_session_timeout 10m;</span><br><span class="line">     ssl_session_tickets off;</span><br><span class="line">     keepalive_timeout 70;</span><br><span class="line">     location / &#123;</span><br><span class="line">            root    /www/xxx; <span class="comment"># /www/xxx替换为项目地址</span></span><br><span class="line">            index   index.html;</span><br><span class="line">     &#125;</span><br><span class="line">     location /dontDelete &#123; <span class="comment"># 这里改为自己创建的代理目录</span></span><br><span class="line">             proxy_redirect off;</span><br><span class="line">             proxy_pass http://127.0.0.1:443; <span class="comment"># 443改为v2ray的端口，默认为443，可以通过v2ray命令查看</span></span><br><span class="line">             proxy_http_version 1.1;</span><br><span class="line">             proxy_set_header Upgrade <span class="variable">$http_upgrade</span>;</span><br><span class="line">             proxy_set_header Connection <span class="string">"upgrade"</span>;</span><br><span class="line">             proxy_set_header Host <span class="variable">$host</span>;</span><br><span class="line">             proxy_set_header X-Real-IP <span class="variable">$remote_addr</span>;</span><br><span class="line">             proxy_set_header X-Forwarded-For <span class="variable">$proxy_add_x_forwarded_for</span>;</span><br><span class="line">     &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>修改好以后按下esc键，输入:wq回车保存，然后重新加载一下nginx配置文件或者重启Nginx，附上几个nginx常用命令</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 启动命令</span></span><br><span class="line">nginx</span><br><span class="line"><span class="comment"># 重载配置文件</span></span><br><span class="line">nginx -s reload</span><br><span class="line"><span class="comment"># 重启</span></span><br><span class="line">nginx -s reopen</span><br><span class="line"><span class="comment"># 停止</span></span><br><span class="line">nginx -s stop</span><br></pre></td></tr></table></figure></div><p>以上步骤完成以后通过域名边可以访问自己项目了</p><h4 id="六、修改v2ray配置"><a href="#六、修改v2ray配置" class="headerlink" title="六、修改v2ray配置"></a>六、修改v2ray配置</h4><p>使用命令： vi /etc/v2ray/config.json 修改streamSettings字段<br><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"streamSettings"</span>: &#123;</span><br><span class="line">    <span class="string">"network"</span>: <span class="string">"ws"</span>, <span class="comment"># 载体配置段，设置为websocket</span></span><br><span class="line">    <span class="string">"wsSettings"</span>: &#123;</span><br><span class="line">      <span class="string">"path"</span>: <span class="string">"/dontDelete"</span>  <span class="comment"># 与nginx中的路径保持一致</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line"><span class="string">"listen"</span>: <span class="string">"127.0.0.1"</span> <span class="comment"># 出于安全考虑，只接受本地连接</span></span><br></pre></td></tr></table></figure></div></p><blockquote><p>修改好以后，重启v2ray，依次输入v2ray回车，输入8回车，输入重启序号回车</p></blockquote><p>以上步骤完成以后，通过 <a href="https://997.dog/dontDelete" target="_blank" rel="noopener">https://997.dog/dontDelete</a> 访问，如果页面提示Bad Request则证明伪装成功</p><h3 id="客户端设置"><a href="#客户端设置" class="headerlink" title="客户端设置"></a>客户端设置</h3><blockquote><p>在服务器端输入v2ray回车，再输入1回车便可以获取后续配置采参数</p></blockquote><p>以Windows平台的V2RayW软件为例，右键托盘图标，点击“配置”。在弹框中新建服务器，输入服务器ip，端口写443，把用户id、额外id信息填上，网络类型选择”ws”。接着点“传输设置”，找到“websocket”，路径一栏输入nginx和v2ray中的路径，例如“/dontDelete”；http头部输入：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Host"</span>:<span class="string">"www.997.dog"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>ps： 997.dog替换为你的域名<br>接着点击“tls”，勾选：启用传输层加密tls、允许不安全的加密方式、允许不安全连接，在“服务器域名”的输入框中输入域名</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>近期的科学上网难度增大，各大论坛里因为ip被和谐可谓是一片哀嚎，所以流量伪装显得格外重要，伪装的原理就是将梯子的流量代理到能正常访问的网站</p><h3 id="准备事项"><a href="#准备事项" class="headerlink" title="准备事项"></a>准备事项</h3><h4 id="一、服务器"><a href="#一、服务器" class="headerlink" title="一、服务器"></a>一、服务器</h4><p>想要自己搭建科学上的梯子，首先要有一台能够上外网的服务器，在购买服务器方面，我之前有用过 BandwagonHost 也就是大家说的搬瓦工，也用过vultr，最近入手一台亚马逊的EC2,先说说优缺点吧</p><ul><li>搬瓦工： 针对中国网络特别优化，网速很给力。支持支付宝，换ip需要手续费 <a href="https://bwh88.net" target="_blank" rel="noopener">官方网址</a></li><li>vultr: 支持支付宝和微信，随时、免费更换ip和机房,随时销毁vps，销毁后不计费,最低月资费$2.5起，Vultr服务器没有针对中国网络做优化 <a href="https://www.vultr.com" target="_blank" rel="noopener">官方网址</a></li><li>AWS: 信用卡注册，首年$1用一年(到期前记得注销账号)，每个月12G流量/750H，ip免费任意换 <a href="https://aws.amazon.com/cn" target="_blank" rel="noopener">官方网址</a></li></ul><blockquote><p>优劣势对比明显，新手的话，建议aws的ec2，12G流量一般还是够用了，如果经常大流量挂梯子的话建议随时关注消费情况，控制台可以查看实时消费</p></blockquote><h4 id="二、域名"><a href="#二、域名" class="headerlink" title="二、域名"></a>二、域名</h4><p>首先声明，该域名不需要备案，也不建议备案，道理大家都懂，域名租用的话，渠道很多，阿里的 <a href="http://aliyun.com" target="_blank" rel="noopener">万网</a> ,我一般是去 <a href="https://www.west.cn/" target="_blank" rel="noopener">西部数码</a>，做伪装的域名不用选太好，照最简易的挑就好，当然，土豪随意</p><h3 id="操作步骤"><a href="#操作步骤" class="headerlink" title="操作步骤"></a>操作步骤</h3><h4 id="一、安装v2ray"><a href="#一、安装v2ray" class="headerlink" title="一、安装v2ray"></a>一、安装v2ray</h4><p>sudo命令切换到管理员，这里使用了github <a href="https://github.com/233boy/v2ray/wiki/V2Ray%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E8%84%9A%E6%9C%AC" target="_blank" rel="noopener">大佬</a> 提供的一键脚本,在此感谢，命令行执行：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bash &lt;(curl -s -L https://git.io/v2ray.sh)</span><br></pre></td></tr></table></figure></div><blockquote><p>ps: 安装过程建议全程Enter</p><blockquote><p>如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl<br>ubuntu/debian 系统安装 Curl 方法: apt-get update -y &amp;&amp; apt-get install curl -y<br>centos 系统安装 Curl 方法: yum update -y &amp;&amp; yum install curl -y<br>安装好 curl 之后就能安装脚本了</p></blockquote></blockquote><p>安装完以后，使用v2ray命令可以进行相关操作</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"> 1. 查看 V2Ray 配置</span><br><span class="line"></span><br><span class="line"> 2. 修改 V2Ray 配置</span><br><span class="line"></span><br><span class="line"> 3. 下载 V2Ray 配置 / 生成配置信息链接 / 生成二维码链接</span><br><span class="line"></span><br><span class="line"> 4. 查看 Shadowsocks 配置 / 生成二维码链接</span><br><span class="line"></span><br><span class="line"> 5. 修改 Shadowsocks 配置</span><br><span class="line"></span><br><span class="line"> 6. 查看 MTProto 配置 / 修改 MTProto 配置</span><br><span class="line"></span><br><span class="line"> 7. 查看 Socks5 配置 / 修改 Socks5 配置</span><br><span class="line"></span><br><span class="line"> 8. 启动 / 停止 / 重启 / 查看日志</span><br><span class="line"></span><br><span class="line"> 9. 更新 V2Ray / 更新 V2Ray 管理脚本</span><br><span class="line"></span><br><span class="line">10. 卸载 V2Ray</span><br><span class="line"></span><br><span class="line">11. 其他</span><br></pre></td></tr></table></figure></div><p>在这里我们输入2回车，修改传输协议，继续输入2回车</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"> 1. TCP</span><br><span class="line"> 2. TCP_HTTP</span><br><span class="line"> 3. WebSocket</span><br><span class="line"> 4. WebSocket + TLS</span><br><span class="line"> 5. HTTP/2</span><br><span class="line"> 6. mKCP</span><br><span class="line"> 7. mKCP_utp</span><br><span class="line"> 8. mKCP_srtp</span><br><span class="line"> 9. mKCP_wechat-video</span><br><span class="line">10. mKCP_dtls</span><br><span class="line">11. mKCP_wireguard</span><br><span class="line">12. QUIC</span><br><span class="line">13. QUIC_utp</span><br><span class="line">14. QUIC_srtp</span><br><span class="line">15. QUIC_wechat-video</span><br><span class="line">16. QUIC_dtls</span><br><span class="line">17. QUIC_wireguard</span><br><span class="line">18. TCP_dynamicPort</span><br><span class="line">19. TCP_HTTP_dynamicPort</span><br><span class="line">20. WebSocket_dynamicPort</span><br><span class="line">21. mKCP_dynamicPort</span><br><span class="line">22. mKCP_utp_dynamicPort</span><br><span class="line">23. mKCP_srtp_dynamicPort</span><br><span class="line">24. mKCP_wechat-video_dynamicPort</span><br><span class="line">25. mKCP_dtls_dynamicPort</span><br><span class="line">26. mKCP_wireguard_dynamicPort</span><br><span class="line">27. QUIC_dynamicPort</span><br><span class="line">28. QUIC_utp_dynamicPort</span><br><span class="line">29. QUIC_srtp_dynamicPort</span><br><span class="line">30. QUIC_wechat-video_dynamicPort</span><br><span class="line">31. QUIC_dtls_dynamicPort</span><br><span class="line">32. QUIC_wireguard_dynamicPort</span><br></pre></td></tr></table></figure></div><p>选择 WebSocket + TLS协议，于是输入4回车，这时候会提示否有域名，输入Y回车，接着提示后续工作是否自动进行，输入N回车</p><h4 id="二、域名DNS解析"><a href="#二、域名DNS解析" class="headerlink" title="二、域名DNS解析"></a>二、域名DNS解析</h4><p>到域名控制台里面，将域名解析到服务器IP,如(192.168.1.1)，添加2条记录值</p><table><thead><tr><th>记录类型</th><th>主机记录</th><th>解析线路(isp)</th><th>记录值</th></tr></thead><tbody><tr><td>A</td><td>@</td><td>默认</td><td>192.168.1.1</td></tr><tr><td>A</td><td>www</td><td>默认</td><td>192.168.1.1</td></tr></tbody></table><h4 id="三、生成域名证书"><a href="#三、生成域名证书" class="headerlink" title="三、生成域名证书"></a>三、生成域名证书</h4><p>使用certbot生成免费证书，这样做是为了更稳定</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装certbot</span></span><br><span class="line">yum install -y python3 &amp;&amp; pip3 install certbot</span><br><span class="line"><span class="comment"># 生成证书,将jrsee.com替换为自己域名</span></span><br><span class="line">certbot certonly --standalone -d jrsee.com -d www.jrsee.com</span><br></pre></td></tr></table></figure></div><blockquote><p>注意：这一步需要关闭占用80/443端口的程序，如果生成失败，则多尝试几次</p></blockquote><p>生成成功以后，记录下证书存放路径备用</p><h4 id="四、创建项目、代理目录"><a href="#四、创建项目、代理目录" class="headerlink" title="四、创建项目、代理目录"></a>四、创建项目、代理目录</h4><ul><li>代理目录：该目录作为代理转发使用，建议创建在根目录，同时不要删除</li></ul><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir /dontDelete</span><br></pre></td></tr></table></figure></div><ul><li>项目目录： 该目录存放真实项目</li></ul><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># xxx替换为自己取得名字</span></span><br><span class="line">mkdir -p /www/xxx</span><br></pre></td></tr></table></figure></div><p>接下来将项目部署到/www/xxx目录</p><h4 id="五、安装-配置nginx"><a href="#五、安装-配置nginx" class="headerlink" title="五、安装/配置nginx"></a>五、安装/配置nginx</h4><p>安装nginx的教程可以参考 <a href="https://jrsee.com/posts/a5141d63.html" target="_blank" rel="noopener">nginx安装</a> ,安装以后修改配置文件,nginx配置文件默认存放在 /etc/nginx/nginx.conf</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">server &#123;</span><br><span class="line">    listen  80; <span class="comment"># 端口号</span></span><br><span class="line">    server_name     jrsee.com www.jrsee.com; <span class="comment"># jrsee.com替换为自己域名</span></span><br><span class="line">    rewrite ^(.*) https://<span class="variable">$server_name</span><span class="variable">$1</span> permanent;</span><br><span class="line">    location / &#123;</span><br><span class="line">            root    /www/xxx; <span class="comment"># /www/xxx替换为项目地址</span></span><br><span class="line">            index   index.html;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">server &#123;</span><br><span class="line">     listen 443 ssl;</span><br><span class="line">     server_name www.jrsee.com jrsee.com; <span class="comment"># jrsee.com替换为自己域名</span></span><br><span class="line">     charset utf-8;</span><br><span class="line">     ssl_certificate /etc/letsencrypt/live/www.jrsee.com/fullchain.pem; <span class="comment"># 这里替换为自己fullchain.pem地址</span></span><br><span class="line">     ssl_certificate_key /etc/letsencrypt/live/www.jrsee.com/privkey.pem; <span class="comment"># 这里替换为自己privkey.pem地址</span></span><br><span class="line">     ssl_protocols TLSv1.2 TLSv1.3;</span><br><span class="line">     ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384;</span><br><span class="line">     ssl_ecdh_curve secp384r1;</span><br><span class="line">     ssl_prefer_server_ciphers on;</span><br><span class="line">     ssl_session_cache shared:SSL:10m;</span><br><span class="line">     ssl_session_timeout 10m;</span><br><span class="line">     ssl_session_tickets off;</span><br><span class="line">     keepalive_timeout 70;</span><br><span class="line">     location / &#123;</span><br><span class="line">            root    /www/xxx; <span class="comment"># /www/xxx替换为项目地址</span></span><br><span class="line">            index   index.html;</span><br><span class="line">     &#125;</span><br><span class="line">     location /dontDelete &#123; <span class="comment"># 这里改为自己创建的代理目录</span></span><br><span class="line">             proxy_redirect off;</span><br><span class="line">             proxy_pass http://127.0.0.1:443; <span class="comment"># 443改为v2ray的端口，默认为443，可以通过v2ray命令查看</span></span><br><span class="line">             proxy_http_version 1.1;</span><br><span class="line">             proxy_set_header Upgrade <span class="variable">$http_upgrade</span>;</span><br><span class="line">             proxy_set_header Connection <span class="string">"upgrade"</span>;</span><br><span class="line">             proxy_set_header Host <span class="variable">$host</span>;</span><br><span class="line">             proxy_set_header X-Real-IP <span class="variable">$remote_addr</span>;</span><br><span class="line">             proxy_set_header X-Forwarded-For <span class="variable">$proxy_add_x_forwarded_for</span>;</span><br><span class="line">     &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>修改好以后按下esc键，输入:wq回车保存，然后重新加载一下nginx配置文件或者重启Nginx，附上几个nginx常用命令</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 启动命令</span></span><br><span class="line">nginx</span><br><span class="line"><span class="comment"># 重载配置文件</span></span><br><span class="line">nginx -s reload</span><br><span class="line"><span class="comment"># 重启</span></span><br><span class="line">nginx -s reopen</span><br><span class="line"><span class="comment"># 停止</span></span><br><span class="line">nginx -s stop</span><br></pre></td></tr></table></figure></div><p>以上步骤完成以后通过域名边可以访问自己项目了</p><h4 id="六、修改v2ray配置"><a href="#六、修改v2ray配置" class="headerlink" title="六、修改v2ray配置"></a>六、修改v2ray配置</h4><p>使用命令： vi /etc/v2ray/config.json 修改streamSettings字段<br><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">"streamSettings"</span>: &#123;</span><br><span class="line">    <span class="string">"network"</span>: <span class="string">"ws"</span>, <span class="comment"># 载体配置段，设置为websocket</span></span><br><span class="line">    <span class="string">"wsSettings"</span>: &#123;</span><br><span class="line">      <span class="string">"path"</span>: <span class="string">"/dontDelete"</span>  <span class="comment"># 与nginx中的路径保持一致</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br><span class="line"><span class="string">"listen"</span>: <span class="string">"127.0.0.1"</span> <span class="comment"># 出于安全考虑，只接受本地连接</span></span><br></pre></td></tr></table></figure></div></p><blockquote><p>修改好以后，重启v2ray，依次输入v2ray回车，输入8回车，输入重启序号回车</p></blockquote><p>以上步骤完成以后，通过 <a href="https://jrsee.com/dontDelete" target="_blank" rel="noopener">https://jrsee.com/dontDelete</a> 访问，如果页面提示Bad Request则证明伪装成功</p><h3 id="客户端设置"><a href="#客户端设置" class="headerlink" title="客户端设置"></a>客户端设置</h3><blockquote><p>在服务器端输入v2ray回车，再输入1回车便可以获取后续配置采参数</p></blockquote><p>以Windows平台的V2RayW软件为例，右键托盘图标，点击“配置”。在弹框中新建服务器，输入服务器ip，端口写443，把用户id、额外id信息填上，网络类型选择”ws”。接着点“传输设置”，找到“websocket”，路径一栏输入nginx和v2ray中的路径，例如“/dontDelete”；http头部输入：</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"Host"</span>:<span class="string">"www.jrsee.com"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></div><p>ps： jrsee.com替换为你的域名<br>接着点击“tls”，勾选：启用传输层加密tls、允许不安全的加密方式、允许不安全连接，在“服务器域名”的输入框中输入域名</p>]]></content>
     
     <summary type="html">
     
@@ -119,21 +119,21 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://www.997.dog/categories/Linux/"/>
+      <category term="Linux" scheme="https://www.jrsee.com/categories/Linux/"/>
     
     
-      <category term="v2ray" scheme="http://www.997.dog/tags/v2ray/"/>
+      <category term="v2ray" scheme="https://www.jrsee.com/tags/v2ray/"/>
     
-      <category term="梯子" scheme="http://www.997.dog/tags/%E6%A2%AF%E5%AD%90/"/>
+      <category term="梯子" scheme="https://www.jrsee.com/tags/%E6%A2%AF%E5%AD%90/"/>
     
-      <category term="Nginx" scheme="http://www.997.dog/tags/Nginx/"/>
+      <category term="Nginx" scheme="https://www.jrsee.com/tags/Nginx/"/>
     
   </entry>
   
   <entry>
     <title>python自动化打包部署</title>
-    <link href="http://www.997.dog/posts/eb712ecd.html"/>
-    <id>http://www.997.dog/posts/eb712ecd.html</id>
+    <link href="https://www.jrsee.com/posts/eb712ecd.html"/>
+    <id>https://www.jrsee.com/posts/eb712ecd.html</id>
     <published>2020-04-12T09:51:13.000Z</published>
     <updated>2020-07-28T10:52:13.505Z</updated>
     
@@ -148,21 +148,21 @@
     
     </summary>
     
-      <category term="Python" scheme="http://www.997.dog/categories/Python/"/>
+      <category term="Python" scheme="https://www.jrsee.com/categories/Python/"/>
     
     
-      <category term="Python" scheme="http://www.997.dog/tags/Python/"/>
+      <category term="Python" scheme="https://www.jrsee.com/tags/Python/"/>
     
-      <category term="部署" scheme="http://www.997.dog/tags/%E9%83%A8%E7%BD%B2/"/>
+      <category term="部署" scheme="https://www.jrsee.com/tags/%E9%83%A8%E7%BD%B2/"/>
     
-      <category term="自动化" scheme="http://www.997.dog/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
+      <category term="自动化" scheme="https://www.jrsee.com/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/"/>
     
   </entry>
   
   <entry>
     <title>pm2实现自动化部署</title>
-    <link href="http://www.997.dog/posts/5ce4dbbc.html"/>
-    <id>http://www.997.dog/posts/5ce4dbbc.html</id>
+    <link href="https://www.jrsee.com/posts/5ce4dbbc.html"/>
+    <id>https://www.jrsee.com/posts/5ce4dbbc.html</id>
     <published>2020-03-01T07:21:45.000Z</published>
     <updated>2020-07-28T10:52:13.504Z</updated>
     
@@ -177,19 +177,19 @@
     
     </summary>
     
-      <category term="node" scheme="http://www.997.dog/categories/node/"/>
+      <category term="node" scheme="https://www.jrsee.com/categories/node/"/>
     
     
-      <category term="pm2" scheme="http://www.997.dog/tags/pm2/"/>
+      <category term="pm2" scheme="https://www.jrsee.com/tags/pm2/"/>
     
-      <category term="部署" scheme="http://www.997.dog/tags/%E9%83%A8%E7%BD%B2/"/>
+      <category term="部署" scheme="https://www.jrsee.com/tags/%E9%83%A8%E7%BD%B2/"/>
     
   </entry>
   
   <entry>
     <title>React状态逻辑复用</title>
-    <link href="http://www.997.dog/posts/undefined.html"/>
-    <id>http://www.997.dog/posts/undefined.html</id>
+    <link href="https://www.jrsee.com/posts/undefined.html"/>
+    <id>https://www.jrsee.com/posts/undefined.html</id>
     <published>2020-02-15T06:22:33.000Z</published>
     <updated>2020-07-28T10:52:13.505Z</updated>
     
@@ -204,23 +204,23 @@
     
     </summary>
     
-      <category term="React" scheme="http://www.997.dog/categories/React/"/>
+      <category term="React" scheme="https://www.jrsee.com/categories/React/"/>
     
     
-      <category term="React" scheme="http://www.997.dog/tags/React/"/>
+      <category term="React" scheme="https://www.jrsee.com/tags/React/"/>
     
-      <category term="Hooks" scheme="http://www.997.dog/tags/Hooks/"/>
+      <category term="Hooks" scheme="https://www.jrsee.com/tags/Hooks/"/>
     
-      <category term="HOC" scheme="http://www.997.dog/tags/HOC/"/>
+      <category term="HOC" scheme="https://www.jrsee.com/tags/HOC/"/>
     
-      <category term="Mixin" scheme="http://www.997.dog/tags/Mixin/"/>
+      <category term="Mixin" scheme="https://www.jrsee.com/tags/Mixin/"/>
     
   </entry>
   
   <entry>
     <title>破解各音乐App的vip限制</title>
-    <link href="http://www.997.dog/posts/f351d41f.html"/>
-    <id>http://www.997.dog/posts/f351d41f.html</id>
+    <link href="https://www.jrsee.com/posts/f351d41f.html"/>
+    <id>https://www.jrsee.com/posts/f351d41f.html</id>
     <published>2020-02-15T05:13:03.000Z</published>
     <updated>2020-07-28T10:52:13.505Z</updated>
     
@@ -235,19 +235,19 @@
     
     </summary>
     
-      <category term="破解" scheme="http://www.997.dog/categories/%E7%A0%B4%E8%A7%A3/"/>
+      <category term="破解" scheme="https://www.jrsee.com/categories/%E7%A0%B4%E8%A7%A3/"/>
     
     
-      <category term="网易云音乐" scheme="http://www.997.dog/tags/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90/"/>
+      <category term="网易云音乐" scheme="https://www.jrsee.com/tags/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90/"/>
     
-      <category term="vip破解" scheme="http://www.997.dog/tags/vip%E7%A0%B4%E8%A7%A3/"/>
+      <category term="vip破解" scheme="https://www.jrsee.com/tags/vip%E7%A0%B4%E8%A7%A3/"/>
     
   </entry>
   
   <entry>
     <title>flutter打包--Android</title>
-    <link href="http://www.997.dog/posts/7208bb97.html"/>
-    <id>http://www.997.dog/posts/7208bb97.html</id>
+    <link href="https://www.jrsee.com/posts/7208bb97.html"/>
+    <id>https://www.jrsee.com/posts/7208bb97.html</id>
     <published>2020-01-14T08:22:51.000Z</published>
     <updated>2020-07-28T10:52:13.504Z</updated>
     
@@ -262,19 +262,19 @@
     
     </summary>
     
-      <category term="Flutter" scheme="http://www.997.dog/categories/Flutter/"/>
+      <category term="Flutter" scheme="https://www.jrsee.com/categories/Flutter/"/>
     
     
-      <category term="Flutter" scheme="http://www.997.dog/tags/Flutter/"/>
+      <category term="Flutter" scheme="https://www.jrsee.com/tags/Flutter/"/>
     
-      <category term="Android" scheme="http://www.997.dog/tags/Android/"/>
+      <category term="Android" scheme="https://www.jrsee.com/tags/Android/"/>
     
   </entry>
   
   <entry>
     <title>flutter状态管理之flutter_redux</title>
-    <link href="http://www.997.dog/posts/dcdd92a8.html"/>
-    <id>http://www.997.dog/posts/dcdd92a8.html</id>
+    <link href="https://www.jrsee.com/posts/dcdd92a8.html"/>
+    <id>https://www.jrsee.com/posts/dcdd92a8.html</id>
     <published>2019-12-31T04:13:03.000Z</published>
     <updated>2020-07-28T10:52:13.504Z</updated>
     
@@ -289,19 +289,19 @@
     
     </summary>
     
-      <category term="Flutter" scheme="http://www.997.dog/categories/Flutter/"/>
+      <category term="Flutter" scheme="https://www.jrsee.com/categories/Flutter/"/>
     
     
-      <category term="Flutter" scheme="http://www.997.dog/tags/Flutter/"/>
+      <category term="Flutter" scheme="https://www.jrsee.com/tags/Flutter/"/>
     
-      <category term="跨平台" scheme="http://www.997.dog/tags/%E8%B7%A8%E5%B9%B3%E5%8F%B0/"/>
+      <category term="跨平台" scheme="https://www.jrsee.com/tags/%E8%B7%A8%E5%B9%B3%E5%8F%B0/"/>
     
   </entry>
   
   <entry>
     <title>React hooks</title>
-    <link href="http://www.997.dog/posts/b0e51ca2.html"/>
-    <id>http://www.997.dog/posts/b0e51ca2.html</id>
+    <link href="https://www.jrsee.com/posts/b0e51ca2.html"/>
+    <id>https://www.jrsee.com/posts/b0e51ca2.html</id>
     <published>2019-12-09T03:25:18.000Z</published>
     <updated>2020-07-28T10:52:13.505Z</updated>
     
@@ -316,19 +316,19 @@
     
     </summary>
     
-      <category term="web前端" scheme="http://www.997.dog/categories/web%E5%89%8D%E7%AB%AF/"/>
+      <category term="web前端" scheme="https://www.jrsee.com/categories/web%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="web前端" scheme="http://www.997.dog/tags/web%E5%89%8D%E7%AB%AF/"/>
+      <category term="web前端" scheme="https://www.jrsee.com/tags/web%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="React hooks" scheme="http://www.997.dog/tags/React-hooks/"/>
+      <category term="React hooks" scheme="https://www.jrsee.com/tags/React-hooks/"/>
     
   </entry>
   
   <entry>
     <title>web前端性能优化</title>
-    <link href="http://www.997.dog/posts/1dec0c17.html"/>
-    <id>http://www.997.dog/posts/1dec0c17.html</id>
+    <link href="https://www.jrsee.com/posts/1dec0c17.html"/>
+    <id>https://www.jrsee.com/posts/1dec0c17.html</id>
     <published>2019-11-08T09:45:13.000Z</published>
     <updated>2020-07-28T10:52:13.505Z</updated>
     
@@ -343,19 +343,19 @@
     
     </summary>
     
-      <category term="web前端" scheme="http://www.997.dog/categories/web%E5%89%8D%E7%AB%AF/"/>
+      <category term="web前端" scheme="https://www.jrsee.com/categories/web%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="web前端" scheme="http://www.997.dog/tags/web%E5%89%8D%E7%AB%AF/"/>
+      <category term="web前端" scheme="https://www.jrsee.com/tags/web%E5%89%8D%E7%AB%AF/"/>
     
-      <category term="优化" scheme="http://www.997.dog/tags/%E4%BC%98%E5%8C%96/"/>
+      <category term="优化" scheme="https://www.jrsee.com/tags/%E4%BC%98%E5%8C%96/"/>
     
   </entry>
   
   <entry>
     <title>linux安装nginx</title>
-    <link href="http://www.997.dog/posts/a5141d63.html"/>
-    <id>http://www.997.dog/posts/a5141d63.html</id>
+    <link href="https://www.jrsee.com/posts/a5141d63.html"/>
+    <id>https://www.jrsee.com/posts/a5141d63.html</id>
     <published>2019-06-14T01:14:05.000Z</published>
     <updated>2020-07-28T10:52:13.504Z</updated>
     
@@ -370,17 +370,17 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://www.997.dog/categories/Linux/"/>
+      <category term="Linux" scheme="https://www.jrsee.com/categories/Linux/"/>
     
     
-      <category term="nginx" scheme="http://www.997.dog/tags/nginx/"/>
+      <category term="nginx" scheme="https://www.jrsee.com/tags/nginx/"/>
     
   </entry>
   
   <entry>
     <title>ios背景音乐autoplay</title>
-    <link href="http://www.997.dog/posts/21214a4.html"/>
-    <id>http://www.997.dog/posts/21214a4.html</id>
+    <link href="https://www.jrsee.com/posts/21214a4.html"/>
+    <id>https://www.jrsee.com/posts/21214a4.html</id>
     <published>2019-06-01T04:26:29.000Z</published>
     <updated>2020-07-28T10:52:13.504Z</updated>
     
@@ -395,19 +395,19 @@
     
     </summary>
     
-      <category term="vue" scheme="http://www.997.dog/categories/vue/"/>
+      <category term="vue" scheme="https://www.jrsee.com/categories/vue/"/>
     
     
-      <category term="vue" scheme="http://www.997.dog/tags/vue/"/>
+      <category term="vue" scheme="https://www.jrsee.com/tags/vue/"/>
     
-      <category term="audio" scheme="http://www.997.dog/tags/audio/"/>
+      <category term="audio" scheme="https://www.jrsee.com/tags/audio/"/>
     
   </entry>
   
   <entry>
     <title>vue-cli配置多入口</title>
-    <link href="http://www.997.dog/posts/7ac3b51.html"/>
-    <id>http://www.997.dog/posts/7ac3b51.html</id>
+    <link href="https://www.jrsee.com/posts/7ac3b51.html"/>
+    <id>https://www.jrsee.com/posts/7ac3b51.html</id>
     <published>2019-04-23T03:21:55.000Z</published>
     <updated>2020-07-28T10:52:13.505Z</updated>
     
@@ -422,17 +422,17 @@
     
     </summary>
     
-      <category term="vue" scheme="http://www.997.dog/categories/vue/"/>
+      <category term="vue" scheme="https://www.jrsee.com/categories/vue/"/>
     
     
-      <category term="vue" scheme="http://www.997.dog/tags/vue/"/>
+      <category term="vue" scheme="https://www.jrsee.com/tags/vue/"/>
     
   </entry>
   
   <entry>
     <title>Hexo+Github搭建个人博客</title>
-    <link href="http://www.997.dog/posts/405e7e90.html"/>
-    <id>http://www.997.dog/posts/405e7e90.html</id>
+    <link href="https://www.jrsee.com/posts/405e7e90.html"/>
+    <id>https://www.jrsee.com/posts/405e7e90.html</id>
     <published>2018-12-07T04:13:03.000Z</published>
     <updated>2020-07-28T10:52:13.504Z</updated>
     
@@ -447,17 +447,17 @@
     
     </summary>
     
-      <category term="Hexo" scheme="http://www.997.dog/categories/Hexo/"/>
+      <category term="Hexo" scheme="https://www.jrsee.com/categories/Hexo/"/>
     
     
-      <category term="Hexo" scheme="http://www.997.dog/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://www.jrsee.com/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>Adobe PhotoShop CC激活破解</title>
-    <link href="http://www.997.dog/posts/5b3ca933.html"/>
-    <id>http://www.997.dog/posts/5b3ca933.html</id>
+    <link href="https://www.jrsee.com/posts/5b3ca933.html"/>
+    <id>https://www.jrsee.com/posts/5b3ca933.html</id>
     <published>2018-10-29T05:13:03.000Z</published>
     <updated>2020-07-28T10:52:13.504Z</updated>
     
@@ -472,19 +472,19 @@
     
     </summary>
     
-      <category term="破解" scheme="http://www.997.dog/categories/%E7%A0%B4%E8%A7%A3/"/>
+      <category term="破解" scheme="https://www.jrsee.com/categories/%E7%A0%B4%E8%A7%A3/"/>
     
     
-      <category term="PhotoShop" scheme="http://www.997.dog/tags/PhotoShop/"/>
+      <category term="PhotoShop" scheme="https://www.jrsee.com/tags/PhotoShop/"/>
     
-      <category term="激活破解" scheme="http://www.997.dog/tags/%E6%BF%80%E6%B4%BB%E7%A0%B4%E8%A7%A3/"/>
+      <category term="激活破解" scheme="https://www.jrsee.com/tags/%E6%BF%80%E6%B4%BB%E7%A0%B4%E8%A7%A3/"/>
     
   </entry>
   
   <entry>
     <title>vue实现拖拽</title>
-    <link href="http://www.997.dog/posts/4461359d.html"/>
-    <id>http://www.997.dog/posts/4461359d.html</id>
+    <link href="https://www.jrsee.com/posts/4461359d.html"/>
+    <id>https://www.jrsee.com/posts/4461359d.html</id>
     <published>2018-10-21T09:21:43.000Z</published>
     <updated>2020-07-28T10:52:13.505Z</updated>
     
@@ -499,21 +499,21 @@
     
     </summary>
     
-      <category term="vue" scheme="http://www.997.dog/categories/vue/"/>
+      <category term="vue" scheme="https://www.jrsee.com/categories/vue/"/>
     
     
-      <category term="vue" scheme="http://www.997.dog/tags/vue/"/>
+      <category term="vue" scheme="https://www.jrsee.com/tags/vue/"/>
     
   </entry>
   
   <entry>
     <title>服务器基础环境搭建</title>
-    <link href="http://www.997.dog/posts/f886afb6.html"/>
-    <id>http://www.997.dog/posts/f886afb6.html</id>
+    <link href="https://www.jrsee.com/posts/f886afb6.html"/>
+    <id>https://www.jrsee.com/posts/f886afb6.html</id>
     <published>2018-10-11T08:13:03.000Z</published>
-    <updated>2020-09-01T11:20:15.287Z</updated>
+    <updated>2020-11-23T07:08:37.737Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="服务器配置"><a href="#服务器配置" class="headerlink" title="服务器配置"></a>服务器配置</h2><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">sh</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看当前操作系统发行版信息</span></span><br><span class="line">cat /etc/redhat-release</span><br><span class="line"><span class="comment"># 查看CPU统计信息</span></span><br><span class="line">lscpu</span><br><span class="line"><span class="comment"># 查看CPU型号</span></span><br><span class="line">cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c</span><br><span class="line"><span class="comment"># 查看每个物理CPU中core的个数(即核数)</span></span><br><span class="line">cat /proc/cpuinfo| grep <span class="string">"cpu cores"</span>| uniq</span><br><span class="line"><span class="comment"># 查看内存硬件信息</span></span><br><span class="line">dmidecode -t memory</span><br><span class="line"><span class="comment"># 查看内存详细使用情况</span></span><br><span class="line">cat /proc/meminfo</span><br><span class="line"><span class="comment"># 查看内存的插槽数,已经使用多少插槽.每条内存多大</span></span><br><span class="line">dmidecode|grep -A5 <span class="string">"Memory Device"</span>|grep Size|grep -v Range</span><br><span class="line"><span class="comment"># 查看硬盘和分区分布</span></span><br><span class="line">dmidecode|grep -A5 <span class="string">"Memory Device"</span>|grep Size|grep -v Range</span><br><span class="line"><span class="comment"># 查看硬盘和分区的详细信息</span></span><br><span class="line">fdisk -l</span><br></pre></td></tr></table></figure></div><h2 id="登录、账号"><a href="#登录、账号" class="headerlink" title="登录、账号"></a>登录、账号</h2><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 创建root密码</span></span><br><span class="line">sudo passwd root </span><br><span class="line"><span class="comment"># 输入两次密码，期间没有任何提示</span></span><br><span class="line"><span class="comment"># 切换到root身份</span></span><br><span class="line">su root</span><br><span class="line"><span class="comment"># 添加账号</span></span><br><span class="line">useradd [username]</span><br><span class="line"><span class="comment"># 设置密码</span></span><br><span class="line">passwd [username]</span><br><span class="line"><span class="comment"># 输入两次密码</span></span><br><span class="line"><span class="comment"># 修改默认ssh的22端口</span></span><br><span class="line">vi /etc/ssh/sshd_config </span><br><span class="line"><span class="comment"># 把#Port 22的#去掉，同时在下面一行添加：Port 66886</span></span><br><span class="line"><span class="comment"># 设置允许用户名密码登录 :</span></span><br><span class="line"><span class="comment"># 把 PasswordAuthentication no 改为 PasswordAuthentication yes </span></span><br><span class="line"><span class="comment"># ps: 如果没有则新插进去 </span></span><br><span class="line"><span class="comment"># 按下esc输入:wq保存退出</span></span><br><span class="line"><span class="comment"># 重启sshd使修改生效</span></span><br><span class="line">systemctl restart sshd</span><br><span class="line"><span class="comment"># 防火墙放行66886端口</span></span><br><span class="line">firewall-cmd --zone=public --add-port=66886/tcp --permanent</span><br><span class="line"><span class="comment"># 重载防火墙</span></span><br><span class="line">firewall-cmd --reload</span><br><span class="line"><span class="comment"># 查看端口开放情况，确认66886被放行</span></span><br><span class="line">firewall-cmd --zone=public --list-ports</span><br><span class="line"><span class="comment"># 使用git bash或者xshell之类的ssh客户端通过用户名密码远程连接</span></span><br><span class="line">ssh -p 66886 用户名@ip地址</span><br><span class="line"><span class="comment"># 登录成功以后，禁用root账户远程登录</span></span><br><span class="line">vi /etc/ssh/sshd_config</span><br><span class="line"><span class="comment"># 将Port 22这一行注释</span></span><br><span class="line"><span class="comment"># 找到#PermitRootLogin yes这一行，取消行首的#，将yes修改为no</span></span><br><span class="line"><span class="comment">#重启sshd</span></span><br><span class="line">systemctl restart sshd</span><br></pre></td></tr></table></figure></div><h2 id="FTP"><a href="#FTP" class="headerlink" title="FTP"></a>FTP</h2><blockquote><p>ps：这是单独搭建ftp服务器用于上传下载文件，但是一般不建议这么操作，容易被攻击，如果常用ssh客户端为xShell，那么可以使用xFtp</p></blockquote><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">routeros</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用 yum 安装 vsftpd</span></span><br><span class="line">yum install -y vsftpd</span><br><span class="line"><span class="comment"># 启动 VSFTPD</span></span><br><span class="line">service vsftpd start</span><br><span class="line"><span class="comment"># 查看端口</span></span><br><span class="line">netstat -nltp | grep 21</span><br><span class="line"><span class="comment"># 配置 FTP 权限</span></span><br><span class="line"><span class="comment"># 编辑 /etc/vsftpd/vsftpd.conf，找到下面两处配置并修改：</span></span><br><span class="line"><span class="comment"># 禁用匿名用户  12 YES 改为NO</span></span><br><span class="line"><span class="attribute">anonymous_enable</span>=<span class="literal">NO</span></span><br><span class="line"><span class="comment"># 禁止切换根目录 101 行 删除#</span></span><br><span class="line"><span class="attribute">chroot_local_user</span>=<span class="literal">YES</span></span><br><span class="line"><span class="comment"># 重新启动 FTP 服务</span></span><br><span class="line">service vsftpd restart</span><br><span class="line"><span class="comment"># 创建 FTP 用户（useradd 用户名）</span></span><br><span class="line">useradd web</span><br><span class="line"><span class="comment"># 为用户 ftpuser 设置密码</span></span><br><span class="line">echo <span class="string">"123456"</span> | passwd web --stdin</span><br><span class="line"><span class="comment"># 限制用户 ftpuser只能通过 FTP 访问服务器，而不能直接登录服务器：</span></span><br><span class="line">usermod -s /sbin/nologin web</span><br><span class="line"><span class="comment"># 为用户 ftpuser创建主目录并约定：</span></span><br><span class="line"><span class="comment"># /data/ftp 为主目录, 该目录不可上传文件 </span></span><br><span class="line"><span class="comment"># /data/ftp/pub 文件只能上传到该目录下</span></span><br><span class="line">mkdir -p /data/ftp/pub</span><br><span class="line"><span class="comment"># 设置访问权限</span></span><br><span class="line">chmod a-w /data/ftp &amp;&amp; chmod 777 -R /data/ftp/pub</span><br><span class="line"><span class="comment"># 设置为用户的主目录：</span></span><br><span class="line">usermod -d /data/ftp web</span><br><span class="line"><span class="comment"># 防火墙放行21端口</span></span><br><span class="line">firewall-cmd <span class="attribute">--zone</span>=public <span class="attribute">--add-port</span>=21/tcp --permanent</span><br><span class="line"><span class="comment"># 重载防火墙</span></span><br><span class="line">firewall-cmd --reload</span><br></pre></td></tr></table></figure></div><p>注意：记得关闭防火墙或者开放FTP默认端口(21)</p><h2 id="node"><a href="#node" class="headerlink" title="node"></a>node</h2><h3 id="yum-安装"><a href="#yum-安装" class="headerlink" title="yum 安装"></a>yum 安装</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 配置yum源</span></span><br><span class="line">curl --silent --location https://rpm.nodesource.com/setup_10.x | bash</span><br><span class="line"><span class="comment"># 安装</span></span><br><span class="line">yum install -y nodejs</span><br><span class="line"><span class="comment"># 配置环境变量</span></span><br><span class="line">ln -s /usr/bin/node /usr/sbin/node</span><br></pre></td></tr></table></figure></div><h3 id="常规安装"><a href="#常规安装" class="headerlink" title="常规安装"></a>常规安装</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载node压缩包</span></span><br><span class="line">wget https://npm.taobao.org/mirrors/node/v10.6.0/node-v10.6.0-linux-x64.tar.xz</span><br><span class="line"><span class="comment"># 解压</span></span><br><span class="line">tar -xvf node-v10.6.0-linux-x64.tar.xz</span><br><span class="line"><span class="comment"># 更改node安装目录</span></span><br><span class="line">mv node-v10.6.0-linux-x64 /root/node</span><br><span class="line"><span class="comment"># 配置全局环境变量 </span></span><br><span class="line">ln -s /root/node/bin/node /usr/sbin/node</span><br><span class="line">ln -s /root/node/bin/npm /usr/sbin/npm</span><br><span class="line"><span class="comment"># 安装守护程序pm2</span></span><br><span class="line">npm i pm2 -g</span><br><span class="line"><span class="comment"># 添加pm2软链接</span></span><br><span class="line">ln -s /root/node/bin/pm2 /usr/sbin/pm2</span><br></pre></td></tr></table></figure></div><h2 id="ngnix"><a href="#ngnix" class="headerlink" title="ngnix"></a>ngnix</h2><p>nginx的安装点👉 <a href="https://997.dog/detail/11" target="_blank" rel="noopener">这里</a></p><h2 id="mysql"><a href="#mysql" class="headerlink" title="mysql"></a>mysql</h2><h3 id="常规安装-1"><a href="#常规安装-1" class="headerlink" title="常规安装"></a>常规安装</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看是否有自带的MySql库，如果先有卸载</span></span><br><span class="line">rpm -qa | grep mysql</span><br><span class="line"><span class="comment"># 删除mysql-lib(系统自带的版本过低)</span></span><br><span class="line">yum remove mysql-libs</span><br><span class="line"><span class="comment"># 下载mysql</span></span><br><span class="line">wget https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.12-1.el6.x86_64.rpm-bundle.tar </span><br><span class="line"><span class="comment"># 解压</span></span><br><span class="line">tar -xvf mysql-5.7.12-1.el6.x86_64.rpm-bundle.tar  </span><br><span class="line"><span class="comment"># 依次安装mysql包（common、libs、client、server）</span></span><br><span class="line">rpm -ivh mysql-community-common-5.7.12-1.el6.x86_64.rpm</span><br><span class="line">rpm -ivh mysql-community-libs-5.7.12-1.el6.x86_64.rpm</span><br><span class="line">rpm -ivh mysql-community-client-5.7.12-1.el6.x86_64.rpm  </span><br><span class="line">rpm -ivh mysql-community-server-5.7.12-1.el6.x86_64.rpm </span><br><span class="line"><span class="comment"># 启动mysql服务</span></span><br><span class="line">service mysqld start</span><br></pre></td></tr></table></figure></div><h3 id="yum安装"><a href="#yum安装" class="headerlink" title="yum安装"></a>yum安装</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载mysql的yum源</span></span><br><span class="line">wget https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm</span><br><span class="line"><span class="comment"># 安装rpm</span></span><br><span class="line">rpm -ivh mysql57-community-release-el7-9.noarch.rpm</span><br><span class="line"><span class="comment"># 安装mysql</span></span><br><span class="line"><span class="built_in">cd</span> /etc/yum.repos.d/</span><br><span class="line">yum install mysql-server -y</span><br><span class="line"><span class="comment"># 启动</span></span><br><span class="line">systemctl start mysqld</span><br></pre></td></tr></table></figure></div><h3 id="mysql基础配置"><a href="#mysql基础配置" class="headerlink" title="mysql基础配置"></a>mysql基础配置</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看默认密码</span></span><br><span class="line">grep <span class="string">'password'</span> /var/<span class="built_in">log</span>/mysqld.log</span><br><span class="line"><span class="comment"># [Note] A temporary password is generated for root@localhost: x2sX3Gb6+Dtm</span></span><br><span class="line"><span class="comment"># root@localhost: 这里后面就是默认密码</span></span><br><span class="line"><span class="comment"># 登陆</span></span><br><span class="line">mysql -uroot -p</span><br><span class="line"><span class="comment"># 修改默认密码</span></span><br><span class="line">SET PASSWORD = PASSWORD(<span class="string">'YOURPASSWORD'</span>);</span><br><span class="line"><span class="comment"># ps：这里需要大小写数组字符相结合，不然会通不过</span></span><br><span class="line"><span class="comment"># 刷新系统权限</span></span><br><span class="line">flush privileges;</span><br><span class="line"><span class="comment"># 开启远程登录权限</span></span><br><span class="line">GRANT ALL PRIVILEGES ON *.* TO <span class="string">'root'</span>@<span class="string">'%'</span> IDENTIFIED BY <span class="string">'YOURPASSWORD'</span> WITH GRANT OPTION;</span><br><span class="line"><span class="comment"># 刷新系统权限</span></span><br><span class="line">flush privileges;</span><br><span class="line"><span class="comment"># 接下来就可以远程登陆了</span></span><br></pre></td></tr></table></figure></div><h2 id="阿帕奇"><a href="#阿帕奇" class="headerlink" title="阿帕奇"></a>阿帕奇</h2><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装阿帕奇</span></span><br><span class="line">yum install  httpd  -y</span><br><span class="line"><span class="comment"># 开启服务</span></span><br><span class="line">systemctl start httpd</span><br></pre></td></tr></table></figure></div><blockquote><p>添加阿帕奇工作空间</p></blockquote><p>修改/etc/httpd/conf/httpd.conf配置文件<br>指定阿帕奇workspace为/var/www/html<br>修改前</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">apache</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">&lt;Directory&gt;</span></span><br><span class="line">   <span class="attribute">AllowOverride</span> none</span><br><span class="line">   <span class="attribute">Require</span> <span class="literal">all</span> denied</span><br><span class="line"><span class="section">&lt;/Directory&gt;</span></span><br></pre></td></tr></table></figure></div><p>修改后</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">lasso</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;Directory <span class="string">"/var/www/html"</span>&gt;</span><br><span class="line">   AllowOverride <span class="literal">none</span></span><br><span class="line">   <span class="keyword">Require</span> <span class="literal">all</span> denied</span><br><span class="line">&lt;/Directory&gt;</span><br></pre></td></tr></table></figure></div><blockquote><p>启动服务</p></blockquote><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">crmsh</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="literal">start</span> httpd</span><br></pre></td></tr></table></figure></div><blockquote><p> 域名绑定</p></blockquote><p>在/etc/httpd/conf目录下创建default.conf添加如下内容<br><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;VirtualHost *:80&gt;</span><br><span class="line">DocumentRoot &quot;/var/www/html&quot;</span><br><span class="line">ServerName www.997.dog</span><br><span class="line">&lt;VirtualHost&gt;</span><br></pre></td></tr></table></figure></div></p><p>DocumentRoot:工作空间<br>ServerName：域名</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h2 id="服务器配置"><a href="#服务器配置" class="headerlink" title="服务器配置"></a>服务器配置</h2><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">sh</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看当前操作系统发行版信息</span></span><br><span class="line">cat /etc/redhat-release</span><br><span class="line"><span class="comment"># 查看CPU统计信息</span></span><br><span class="line">lscpu</span><br><span class="line"><span class="comment"># 查看CPU型号</span></span><br><span class="line">cat /proc/cpuinfo | grep name | cut -f2 -d: | uniq -c</span><br><span class="line"><span class="comment"># 查看每个物理CPU中core的个数(即核数)</span></span><br><span class="line">cat /proc/cpuinfo| grep <span class="string">"cpu cores"</span>| uniq</span><br><span class="line"><span class="comment"># 查看内存硬件信息</span></span><br><span class="line">dmidecode -t memory</span><br><span class="line"><span class="comment"># 查看内存详细使用情况</span></span><br><span class="line">cat /proc/meminfo</span><br><span class="line"><span class="comment"># 查看内存的插槽数,已经使用多少插槽.每条内存多大</span></span><br><span class="line">dmidecode|grep -A5 <span class="string">"Memory Device"</span>|grep Size|grep -v Range</span><br><span class="line"><span class="comment"># 查看硬盘和分区分布</span></span><br><span class="line">dmidecode|grep -A5 <span class="string">"Memory Device"</span>|grep Size|grep -v Range</span><br><span class="line"><span class="comment"># 查看硬盘和分区的详细信息</span></span><br><span class="line">fdisk -l</span><br></pre></td></tr></table></figure></div><h2 id="登录、账号"><a href="#登录、账号" class="headerlink" title="登录、账号"></a>登录、账号</h2><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 创建root密码</span></span><br><span class="line">sudo passwd root </span><br><span class="line"><span class="comment"># 输入两次密码，期间没有任何提示</span></span><br><span class="line"><span class="comment"># 切换到root身份</span></span><br><span class="line">su root</span><br><span class="line"><span class="comment"># 添加账号</span></span><br><span class="line">useradd [username]</span><br><span class="line"><span class="comment"># 设置密码</span></span><br><span class="line">passwd [username]</span><br><span class="line"><span class="comment"># 输入两次密码</span></span><br><span class="line"><span class="comment"># 修改默认ssh的22端口</span></span><br><span class="line">vi /etc/ssh/sshd_config </span><br><span class="line"><span class="comment"># 把#Port 22的#去掉，同时在下面一行添加：Port 66886</span></span><br><span class="line"><span class="comment"># 设置允许用户名密码登录 :</span></span><br><span class="line"><span class="comment"># 把 PasswordAuthentication no 改为 PasswordAuthentication yes </span></span><br><span class="line"><span class="comment"># ps: 如果没有则新插进去 </span></span><br><span class="line"><span class="comment"># 按下esc输入:wq保存退出</span></span><br><span class="line"><span class="comment"># 重启sshd使修改生效</span></span><br><span class="line">systemctl restart sshd</span><br><span class="line"><span class="comment"># 防火墙放行66886端口</span></span><br><span class="line">firewall-cmd --zone=public --add-port=66886/tcp --permanent</span><br><span class="line"><span class="comment"># 重载防火墙</span></span><br><span class="line">firewall-cmd --reload</span><br><span class="line"><span class="comment"># 查看端口开放情况，确认66886被放行</span></span><br><span class="line">firewall-cmd --zone=public --list-ports</span><br><span class="line"><span class="comment"># 使用git bash或者xshell之类的ssh客户端通过用户名密码远程连接</span></span><br><span class="line">ssh -p 66886 用户名@ip地址</span><br><span class="line"><span class="comment"># 登录成功以后，禁用root账户远程登录</span></span><br><span class="line">vi /etc/ssh/sshd_config</span><br><span class="line"><span class="comment"># 将Port 22这一行注释</span></span><br><span class="line"><span class="comment"># 找到#PermitRootLogin yes这一行，取消行首的#，将yes修改为no</span></span><br><span class="line"><span class="comment">#重启sshd</span></span><br><span class="line">systemctl restart sshd</span><br></pre></td></tr></table></figure></div><h2 id="FTP"><a href="#FTP" class="headerlink" title="FTP"></a>FTP</h2><blockquote><p>ps：这是单独搭建ftp服务器用于上传下载文件，但是一般不建议这么操作，容易被攻击，如果常用ssh客户端为xShell，那么可以使用xFtp</p></blockquote><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">routeros</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 使用 yum 安装 vsftpd</span></span><br><span class="line">yum install -y vsftpd</span><br><span class="line"><span class="comment"># 启动 VSFTPD</span></span><br><span class="line">service vsftpd start</span><br><span class="line"><span class="comment"># 查看端口</span></span><br><span class="line">netstat -nltp | grep 21</span><br><span class="line"><span class="comment"># 配置 FTP 权限</span></span><br><span class="line"><span class="comment"># 编辑 /etc/vsftpd/vsftpd.conf，找到下面两处配置并修改：</span></span><br><span class="line"><span class="comment"># 禁用匿名用户  12 YES 改为NO</span></span><br><span class="line"><span class="attribute">anonymous_enable</span>=<span class="literal">NO</span></span><br><span class="line"><span class="comment"># 禁止切换根目录 101 行 删除#</span></span><br><span class="line"><span class="attribute">chroot_local_user</span>=<span class="literal">YES</span></span><br><span class="line"><span class="comment"># 重新启动 FTP 服务</span></span><br><span class="line">service vsftpd restart</span><br><span class="line"><span class="comment"># 创建 FTP 用户（useradd 用户名）</span></span><br><span class="line">useradd web</span><br><span class="line"><span class="comment"># 为用户 ftpuser 设置密码</span></span><br><span class="line">echo <span class="string">"123456"</span> | passwd web --stdin</span><br><span class="line"><span class="comment"># 限制用户 ftpuser只能通过 FTP 访问服务器，而不能直接登录服务器：</span></span><br><span class="line">usermod -s /sbin/nologin web</span><br><span class="line"><span class="comment"># 为用户 ftpuser创建主目录并约定：</span></span><br><span class="line"><span class="comment"># /data/ftp 为主目录, 该目录不可上传文件 </span></span><br><span class="line"><span class="comment"># /data/ftp/pub 文件只能上传到该目录下</span></span><br><span class="line">mkdir -p /data/ftp/pub</span><br><span class="line"><span class="comment"># 设置访问权限</span></span><br><span class="line">chmod a-w /data/ftp &amp;&amp; chmod 777 -R /data/ftp/pub</span><br><span class="line"><span class="comment"># 设置为用户的主目录：</span></span><br><span class="line">usermod -d /data/ftp web</span><br><span class="line"><span class="comment"># 防火墙放行21端口</span></span><br><span class="line">firewall-cmd <span class="attribute">--zone</span>=public <span class="attribute">--add-port</span>=21/tcp --permanent</span><br><span class="line"><span class="comment"># 重载防火墙</span></span><br><span class="line">firewall-cmd --reload</span><br></pre></td></tr></table></figure></div><p>注意：记得关闭防火墙或者开放FTP默认端口(21)</p><h2 id="node"><a href="#node" class="headerlink" title="node"></a>node</h2><h3 id="yum-安装"><a href="#yum-安装" class="headerlink" title="yum 安装"></a>yum 安装</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 配置yum源</span></span><br><span class="line">curl --silent --location https://rpm.nodesource.com/setup_10.x | bash</span><br><span class="line"><span class="comment"># 安装</span></span><br><span class="line">yum install -y nodejs</span><br><span class="line"><span class="comment"># 配置环境变量</span></span><br><span class="line">ln -s /usr/bin/node /usr/sbin/node</span><br></pre></td></tr></table></figure></div><h3 id="常规安装"><a href="#常规安装" class="headerlink" title="常规安装"></a>常规安装</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载node压缩包</span></span><br><span class="line">wget https://npm.taobao.org/mirrors/node/v10.6.0/node-v10.6.0-linux-x64.tar.xz</span><br><span class="line"><span class="comment"># 解压</span></span><br><span class="line">tar -xvf node-v10.6.0-linux-x64.tar.xz</span><br><span class="line"><span class="comment"># 更改node安装目录</span></span><br><span class="line">mv node-v10.6.0-linux-x64 /root/node</span><br><span class="line"><span class="comment"># 配置全局环境变量 </span></span><br><span class="line">ln -s /root/node/bin/node /usr/sbin/node</span><br><span class="line">ln -s /root/node/bin/npm /usr/sbin/npm</span><br><span class="line"><span class="comment"># 安装守护程序pm2</span></span><br><span class="line">npm i pm2 -g</span><br><span class="line"><span class="comment"># 添加pm2软链接</span></span><br><span class="line">ln -s /root/node/bin/pm2 /usr/sbin/pm2</span><br></pre></td></tr></table></figure></div><h2 id="ngnix"><a href="#ngnix" class="headerlink" title="ngnix"></a>ngnix</h2><p>nginx的安装点👉 <a href="https://jrsee.com/detail/11" target="_blank" rel="noopener">这里</a></p><h2 id="mysql"><a href="#mysql" class="headerlink" title="mysql"></a>mysql</h2><h3 id="常规安装-1"><a href="#常规安装-1" class="headerlink" title="常规安装"></a>常规安装</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看是否有自带的MySql库，如果先有卸载</span></span><br><span class="line">rpm -qa | grep mysql</span><br><span class="line"><span class="comment"># 删除mysql-lib(系统自带的版本过低)</span></span><br><span class="line">yum remove mysql-libs</span><br><span class="line"><span class="comment"># 下载mysql</span></span><br><span class="line">wget https://dev.mysql.com/get/Downloads/MySQL-5.7/mysql-5.7.12-1.el6.x86_64.rpm-bundle.tar </span><br><span class="line"><span class="comment"># 解压</span></span><br><span class="line">tar -xvf mysql-5.7.12-1.el6.x86_64.rpm-bundle.tar  </span><br><span class="line"><span class="comment"># 依次安装mysql包（common、libs、client、server）</span></span><br><span class="line">rpm -ivh mysql-community-common-5.7.12-1.el6.x86_64.rpm</span><br><span class="line">rpm -ivh mysql-community-libs-5.7.12-1.el6.x86_64.rpm</span><br><span class="line">rpm -ivh mysql-community-client-5.7.12-1.el6.x86_64.rpm  </span><br><span class="line">rpm -ivh mysql-community-server-5.7.12-1.el6.x86_64.rpm </span><br><span class="line"><span class="comment"># 启动mysql服务</span></span><br><span class="line">service mysqld start</span><br></pre></td></tr></table></figure></div><h3 id="yum安装"><a href="#yum安装" class="headerlink" title="yum安装"></a>yum安装</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载mysql的yum源</span></span><br><span class="line">wget https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm</span><br><span class="line"><span class="comment"># 安装rpm</span></span><br><span class="line">rpm -ivh mysql57-community-release-el7-9.noarch.rpm</span><br><span class="line"><span class="comment"># 安装mysql</span></span><br><span class="line"><span class="built_in">cd</span> /etc/yum.repos.d/</span><br><span class="line">yum install mysql-server -y</span><br><span class="line"><span class="comment"># 启动</span></span><br><span class="line">systemctl start mysqld</span><br></pre></td></tr></table></figure></div><h3 id="mysql基础配置"><a href="#mysql基础配置" class="headerlink" title="mysql基础配置"></a>mysql基础配置</h3><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 查看默认密码</span></span><br><span class="line">grep <span class="string">'password'</span> /var/<span class="built_in">log</span>/mysqld.log</span><br><span class="line"><span class="comment"># [Note] A temporary password is generated for root@localhost: x2sX3Gb6+Dtm</span></span><br><span class="line"><span class="comment"># root@localhost: 这里后面就是默认密码</span></span><br><span class="line"><span class="comment"># 登陆</span></span><br><span class="line">mysql -uroot -p</span><br><span class="line"><span class="comment"># 修改默认密码</span></span><br><span class="line">SET PASSWORD = PASSWORD(<span class="string">'YOURPASSWORD'</span>);</span><br><span class="line"><span class="comment"># ps：这里需要大小写数组字符相结合，不然会通不过</span></span><br><span class="line"><span class="comment"># 刷新系统权限</span></span><br><span class="line">flush privileges;</span><br><span class="line"><span class="comment"># 开启远程登录权限</span></span><br><span class="line">GRANT ALL PRIVILEGES ON *.* TO <span class="string">'root'</span>@<span class="string">'%'</span> IDENTIFIED BY <span class="string">'YOURPASSWORD'</span> WITH GRANT OPTION;</span><br><span class="line"><span class="comment"># 刷新系统权限</span></span><br><span class="line">flush privileges;</span><br><span class="line"><span class="comment"># 接下来就可以远程登陆了</span></span><br></pre></td></tr></table></figure></div><h2 id="阿帕奇"><a href="#阿帕奇" class="headerlink" title="阿帕奇"></a>阿帕奇</h2><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">bash</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装阿帕奇</span></span><br><span class="line">yum install  httpd  -y</span><br><span class="line"><span class="comment"># 开启服务</span></span><br><span class="line">systemctl start httpd</span><br></pre></td></tr></table></figure></div><blockquote><p>添加阿帕奇工作空间</p></blockquote><p>修改/etc/httpd/conf/httpd.conf配置文件<br>指定阿帕奇workspace为/var/www/html<br>修改前</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">apache</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">&lt;Directory&gt;</span></span><br><span class="line">   <span class="attribute">AllowOverride</span> none</span><br><span class="line">   <span class="attribute">Require</span> <span class="literal">all</span> denied</span><br><span class="line"><span class="section">&lt;/Directory&gt;</span></span><br></pre></td></tr></table></figure></div><p>修改后</p><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">lasso</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight lasso"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;Directory <span class="string">"/var/www/html"</span>&gt;</span><br><span class="line">   AllowOverride <span class="literal">none</span></span><br><span class="line">   <span class="keyword">Require</span> <span class="literal">all</span> denied</span><br><span class="line">&lt;/Directory&gt;</span><br></pre></td></tr></table></figure></div><blockquote><p>启动服务</p></blockquote><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">crmsh</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl <span class="literal">start</span> httpd</span><br></pre></td></tr></table></figure></div><blockquote><p> 域名绑定</p></blockquote><p>在/etc/httpd/conf目录下创建default.conf添加如下内容<br><div class="code-area-wrap"><div class="highlight-tools"><i class="fa fa-angle-down code-expand" aria-hidden="true"></i><div class="code_lang">Code</div><div class="copy-notice"></div><i class="fa fa-clipboard" aria-hidden="true"></i></div><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;VirtualHost *:80&gt;</span><br><span class="line">DocumentRoot &quot;/var/www/html&quot;</span><br><span class="line">ServerName www.jrsee.com</span><br><span class="line">&lt;VirtualHost&gt;</span><br></pre></td></tr></table></figure></div></p><p>DocumentRoot:工作空间<br>ServerName：域名</p>]]></content>
     
     <summary type="html">
     
@@ -524,23 +524,23 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://www.997.dog/categories/Linux/"/>
+      <category term="Linux" scheme="https://www.jrsee.com/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="http://www.997.dog/tags/Linux/"/>
+      <category term="Linux" scheme="https://www.jrsee.com/tags/Linux/"/>
     
-      <category term="Nginx" scheme="http://www.997.dog/tags/Nginx/"/>
+      <category term="Nginx" scheme="https://www.jrsee.com/tags/Nginx/"/>
     
-      <category term="EC2" scheme="http://www.997.dog/tags/EC2/"/>
+      <category term="EC2" scheme="https://www.jrsee.com/tags/EC2/"/>
     
-      <category term="vpn" scheme="http://www.997.dog/tags/vpn/"/>
+      <category term="vpn" scheme="https://www.jrsee.com/tags/vpn/"/>
     
   </entry>
   
   <entry>
     <title>RedHat常规操作</title>
-    <link href="http://www.997.dog/posts/48e6a2a8.html"/>
-    <id>http://www.997.dog/posts/48e6a2a8.html</id>
+    <link href="https://www.jrsee.com/posts/48e6a2a8.html"/>
+    <id>https://www.jrsee.com/posts/48e6a2a8.html</id>
     <published>2018-09-29T08:13:03.000Z</published>
     <updated>2020-07-28T10:52:13.505Z</updated>
     
@@ -555,10 +555,10 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://www.997.dog/categories/Linux/"/>
+      <category term="Linux" scheme="https://www.jrsee.com/categories/Linux/"/>
     
     
-      <category term="Linux" scheme="http://www.997.dog/tags/Linux/"/>
+      <category term="Linux" scheme="https://www.jrsee.com/tags/Linux/"/>
     
   </entry>
   
