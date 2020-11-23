@@ -16,7 +16,7 @@ jobs:
           yarn install;
           yarn build;
           mkdir dist;
-          cp -r {build,seo,server.js,package.json,next.config.js,package-lock.json} dist;
+          cp -r {build,seo,server.js,package.json,next.config.js,yarn.lock} dist;
       - name: Scp
         uses: garygrossgarten/github-action-scp@release
         with:
