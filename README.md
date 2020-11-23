@@ -1,9 +1,9 @@
 ## 项目介绍
-基于nextjs搭建的个人博客,闲来无事SSR练手，线上[预览地址](https://jrsee.com)
+基于nextjs搭建的个人博客,闲来无事SSR练手，线上预览地址[https://www.jrsee.com](https://jrsee.com)
 ## 项目打包
 ```sh
 # pulls仓库
-git clone https://github.com/SpectreAlan/blog_nextjs.git
+git clone https://github.com/SpectreAlan/blog-nextjs.git
 # 修改接口路径，目录：/api/index.js
 # 进入项目目录
 cd blog_nextjs
