@@ -37,10 +37,9 @@ jobs:
           port: ${{ secrets.HOST_PORT }}
           script: |
             cd /home/alan/www/blog-web
-            rm -rf build seo server.js package.json next.config.js
+            rm -rf build seo server.js package.json next.config.js package-lock.json
             mv /home/alan/www/dist/* /home/alan/www/blog-web/
             npm install
             pm2 restart blog-web
-            cd /home/alan/www
-            rm -f /home/alan/www/dist
+            rm -f /home/alan/www/dist/*
 
