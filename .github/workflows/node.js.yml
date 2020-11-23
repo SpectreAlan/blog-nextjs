@@ -7,10 +7,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Use Node.js 12.1.0
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.1.0
       - name: Build project
         run:
-          npm install;
-          npm run build;
+          yarn install;
+          yarn build;
           mkdir dist;
           cp -r {build,seo,server.js,package.json,next.config.js,package-lock.json} dist;
       - name: Scp
@@ -39,7 +43,7 @@ jobs:
             cd /home/alan/www/blog-web
             rm -rf build seo server.js package.json next.config.js package-lock.json
             mv /home/alan/www/dist/* /home/alan/www/blog-web/
-            npm install
+            yarn install
             pm2 restart blog-web
             rm -f /home/alan/www/dist/*
 
