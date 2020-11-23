@@ -26,7 +26,8 @@ const Detail = (props) => {
   const [modal, setModal] = useState({})
   const [show, setShow] = useState(false)
   const { id, keywords, tic, article_title, article_des, content, create_time, update_time, category_name, readed, cover, recommend, comments } = props
-  const detail = new Buffer(content).toString()
+  // eslint-disable-next-line no-undef
+  const detail = Buffer.from(content).toString()
   const previewImgEvent = () => {
     const detail = document.getElementById('detail-content')
     const images = detail.getElementsByTagName('img')

@@ -43,6 +43,6 @@ jobs:
             tar -xvf blog-web.tar
             rm -f blog-web.tar
             cd blog-web
-            npm install
+            yarn install
             pm2 restart blog-web
-            
+
