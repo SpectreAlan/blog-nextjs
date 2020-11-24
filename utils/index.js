@@ -108,11 +108,11 @@ function canvasDataURL (path, options, callback) {
     w = options.width || w;
     h = options.height || (w / scale);
     let quality = 0.7;
-    let canvas = document.createElement('canvas');
-    let ctx = canvas.getContext('2d');
-    let anw = document.createAttribute('width');
+    const canvas = document.createElement('canvas');
+    const ctx = canvas.getContext('2d');
+    const anw = document.createAttribute('width');
     anw.nodeValue = w;
-    let anh = document.createAttribute('height');
+    const anh = document.createAttribute('height');
     anh.nodeValue = h;
     canvas.setAttributeNode(anw);
     canvas.setAttributeNode(anh);
@@ -120,7 +120,7 @@ function canvasDataURL (path, options, callback) {
     if (options.quality && options.quality <= 1 && options.quality > 0) {
       quality = options.quality;
     }
-    let base64 = canvas.toDataURL('image/' + options.type, quality);
+    const base64 = canvas.toDataURL(options.type === 'image/png' ? 'image/png' : 'image/jpeg', quality)
     callback(base64);
   }
 }
