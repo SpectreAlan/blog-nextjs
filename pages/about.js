@@ -1,14 +1,14 @@
 import React from 'react'
-import { Descriptions } from 'antd';
+import { Descriptions } from 'antd'
 import { Container } from '../static/style/timeLine'
 import { Main } from '../static/style/about'
-import MyHead from '../components/Head';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import { GithubOutlined, TwitterOutlined } from '@ant-design/icons';
-import hljs from 'highlight.js';
-import config from '../config/markdown.conf';
-import marked from 'marked';
+import MyHead from '../components/Head'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import { GithubOutlined, TwitterOutlined } from '@ant-design/icons'
+import hljs from 'highlight.js'
+import config from '../config/markdown.conf'
+import marked from 'marked'
 hljs.configure(config.hljs)
 marked.setOptions({
   highlight: (code) => hljs.highlightAuto(code).value,
