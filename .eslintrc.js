@@ -11,7 +11,6 @@ module.exports = {
   ],
   "parserOptions": {
     "ecmaVersion": 7,
-    // 开启实验属性
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
       // 修饰器
