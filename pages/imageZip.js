@@ -47,7 +47,7 @@ const ImageZip = () => {
     className: 'upload-list-inline',
     beforeUpload: (file) => {
       if (!file.type || !file.type.includes('image')) {
-        message.error(file.name + ' 不是一张图片呀大佬')
+        message.error('年轻人不讲武德 ' + file.name + ' 不是一张图片呀铁汁')
         return
       }
       setList((list) => {
