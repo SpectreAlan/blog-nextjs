@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import MyHead from '../components/Head'
-import Header from '../components/Header';
-import Comment from '../components/detail/Comment';
+import Header from '../components/Header'
+import Comment from '../components/detail/Comment'
 import { fetch } from '../api'
 import marked from 'marked'
-import hljs from 'highlight.js';
+import hljs from 'highlight.js'
 import Top from '../components/detail/Top'
 import { DetailContent, Aside, Container } from '../static/style/detail'
 import MarkNav from 'markdown-navbar'
@@ -13,8 +13,8 @@ import { CopyCode } from '../utils'
 import { BackTop } from 'antd';
 import Footer from '../components/Footer'
 import Recommend from '../components/detail/Recommend'
-import { SmileOutlined } from '@ant-design/icons';
-import ImagePreview from '../components/ImagePreview';
+import { SmileOutlined } from '@ant-design/icons'
+import ImagePreview from '../components/ImagePreview'
 
 hljs.configure(config.hljs)
 marked.setOptions({
