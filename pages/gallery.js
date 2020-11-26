@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 import { Container } from '../static/style/timeLine'
 import { Main } from '../static/style/gallery'
-import MyHead from '../components/Head';
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import { fetch } from '../api';
-import ImagePreview from '../components/ImagePreview';
-import { BackTop } from 'antd';
+import MyHead from '../components/Head'
+import Header from '../components/Header'
+import Footer from '../components/Footer'
+import { fetch } from '../api'
+import ImagePreview from '../components/ImagePreview'
+import { BackTop } from 'antd'
 const info = {
   article_title: 'AlanGrady的个人相册',
   article_des: 'AlanGrady的个人博客，一个有内涵的web前端，专注vue/react/nodejs/flutter,批量压缩，打包下载，压缩质量设置',
