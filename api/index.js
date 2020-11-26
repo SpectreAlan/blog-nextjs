@@ -15,11 +15,11 @@ const urls = {
 export function fetch (url, param) {
   return new Promise((resolve) => {
     axios[param ? 'post' : 'get'](baseUrl + urls[url], param || {}).then(
-      (res) => {
-        if (res.data.code === 302) {
+      (response) => {
+        if (response.data.code === 302) {
           window.location.href = '/'
         }
-        resolve(res.data.data)
+        resolve(response.data.data)
       }
     )
   })
