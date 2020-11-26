@@ -2,10 +2,10 @@ import React from 'react'
 import Head from '../components/Head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import { BackTop, Timeline } from 'antd';
-import { fetch } from '../api';
+import { BackTop, Timeline } from 'antd'
+import { fetch } from '../api'
 import { Container, Main } from '../static/style/timeLine'
-import Link from 'next/link';
+import Link from 'next/link'
 const TimeLine = (props) => {
   const { list, image } = props
   return (
