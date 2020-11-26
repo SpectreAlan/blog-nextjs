@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
-import Router from 'next/router';
-import { FrownOutlined } from '@ant-design/icons';
+import Router from 'next/router'
+import { FrownOutlined } from '@ant-design/icons'
 
 const Error = () => {
   const [time, setTime] = useState(5)
@@ -20,7 +20,7 @@ const Error = () => {
   }, [])
   return <Container>
     <div className='out'>
-      <img src="https://raw.githubusercontent.com/SpectreAlan/images/master/blog/error.gif" alt=""/>
+      <img src="https://raw.githubusercontent.com/SpectreAlan/images/master/blog/error.gif" alt="error"/>
       <div>
         <FrownOutlined/>发生了一些意外... <b>{time}</b>秒后将 <span className='go'>回到首页</span>
       </div>
