@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
-import styled from 'styled-components';
-import { fetch } from '../api';
-import Router from 'next/router';
-import Loading from '../components/loading';
+import React, { useEffect, useState } from 'react'
+import styled from 'styled-components'
+import { fetch } from '../api'
+import Router from 'next/router'
+import Loading from '../components/loading'
 
 const Container = styled.div`
   margin: 20px auto;
