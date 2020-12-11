@@ -23,16 +23,7 @@ const Footer = () => {
   useEffect(() => {
     Router.events.on('routeChangeStart', startLoading)
     Router.events.on('routeChangeComplete', stopLoading)
-    const script = document.createElement('script');
-    script.setAttribute('type', 'text/javascript');
-    script.setAttribute('src', 'https://pv.sohu.com/cityjson?ie=utf-8');
-    document.getElementsByTagName('body')[0].appendChild(script);
-    script.onload = script.onreadystatechange = function () {
-      if (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete') {
-        fetch('statistics', { city: returnCitySN.cname || '' }).then((res) => setInfo(res))
-      }
-      script.onload = script.onreadystatechange = null;
-    }
+    fetch('statistics').then((res) => setInfo(res))
     return () => {
       Router.events.off('routeChangeStart', stopLoading)
       Router.events.off('routeChangeComplete', stopLoading)
