@@ -18,7 +18,7 @@ const About = () => (
   <>
     <MyHead/>
     <Header/>
-    <Container image='https://raw.githubusercontent.com/SpectreAlan/images/master/blog/me.jpg'>
+    <Container image='image-base-url/blog/common/me.jpg'>
       <div className="top">
         <p>Alan Grady</p>
       </div>

@@ -11,7 +11,7 @@ const Aside = (props) => {
     <Container>
       <Item>
         <div className="profile">
-          <Avatar src='https://raw.githubusercontent.com/SpectreAlan/images/master/blog/logo.png' size='large' shape="circle"/>
+          <Avatar src='image-base-url/blog/common/logo.png' size='large' shape="circle"/>
           <h2>AlanGrady</h2>
           <p>如果第一次失败了，那这是1.0版本，请继续努力</p>
           <Row>

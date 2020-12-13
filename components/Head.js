@@ -20,7 +20,7 @@ const MyHead = (props) => {
       <meta name="keywords" content={head.keywords}/>
       <meta name="Description" content={head.article_des}/>
       <meta name="author" content="AlanGrady"/>
-      <link rel='shortcut icon' type='image/x-icon' href='https://raw.githubusercontent.com/SpectreAlan/images/master/blog/favicon.ico' />
+      <link rel='shortcut icon' type='image/x-icon' href='image-base-url/blog/common/favicon.ico' />
       <meta name="sogou_site_verification" content="RSa1MBtgZI"/>
       <title key="viewport">{head.article_title}</title>
     </Head>

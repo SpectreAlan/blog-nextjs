@@ -53,7 +53,7 @@ const Comment = (props) => {
               level0.map((k, i) => (<div key={i} className={k.parent_id === -1 ? 'level0' : 'level1'}>
                 <Row>
                   <Col xs={4} sm={4} md={2} lg={2} xl={2}>
-                    <Avatar src={k.author ? 'https://raw.githubusercontent.com/SpectreAlan/images/master/blog/logo.png' : 'https://raw.githubusercontent.com/SpectreAlan/images/master/blog/avatar1.png'}/>
+                    <Avatar src={k.author ? 'image-base-url/blog/common/logo.png' : 'image-base-url/blog/common/avatar1.png'}/>
                   </Col>
                   <Col xs={16} sm={16} md={20} lg={20} xl={20}>
                     {k.author ? <i className='author'>作者</i> : (

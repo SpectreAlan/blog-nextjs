@@ -20,7 +20,7 @@ const Error = () => {
   }, [])
   return <Container>
     <div className='out'>
-      <img src="https://raw.githubusercontent.com/SpectreAlan/images/master/blog/404.gif" alt="404"/>
+      <img src="image-base-url/blog/common/404.gif" alt="404"/>
       <div>
         <FrownOutlined/>发生了一些意外... <b>{time}</b>秒后将 <span className='go'>回到首页</span>
       </div>

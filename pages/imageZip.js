@@ -120,7 +120,7 @@ const ImageZip = () => {
     setModal({})
   }
   useEffect(() => {
-    setImage(`https://raw.githubusercontent.com/SpectreAlan/images/master/${parseInt(Math.random() * 31 + 1)}.jpg`)
+    setImage(`image-base-url/blog/cover/${parseInt(Math.random() * 31 + 1)}.jpg`)
   }, [])
   return (<>
     <MyHead info={info}/>

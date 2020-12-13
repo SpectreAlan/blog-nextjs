@@ -104,7 +104,7 @@ export const Container = styled.div`
       top: 10px;
       width: 16px;
       height: 16px;
-      background: url("https://raw.githubusercontent.com/SpectreAlan/images/master/blog/copy.png");
+      background: url("image-base-url/blog/common/copy.png");
       background-size: cover;
       border:none;
       outline: none;

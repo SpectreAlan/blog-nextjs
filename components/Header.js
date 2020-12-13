@@ -76,7 +76,7 @@ const Header = () => {
       <Row justify="space-around">
         <Col xs={16} sm={6} className='logo'>
           <Row>
-            <Col xs={0} sm={4}><Avatar size="large" src='https://raw.githubusercontent.com/SpectreAlan/images/master/blog/logo.png' /></Col>
+            <Col xs={0} sm={4}><Avatar size="large" src='image-base-url/blog/common/logo.png' /></Col>
             <Col xs={24} sm={20}>
               <span>{'AlanGrady\'s blogs'}</span>
             </Col>
