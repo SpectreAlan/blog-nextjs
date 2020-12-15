@@ -40,10 +40,10 @@ jobs:
           password: ${{ secrets.HOST_PASSWORD }}
           port: ${{ secrets.HOST_PORT }}
           script: |
-            cd /home/alan/www/blog-web
+            cd /home/alan/www/blog
             ls |grep -v 'node_modules' |xargs rm -rf
-            mv /home/alan/www/dist/* /home/alan/www/blog-web/
+            mv /home/alan/www/dist/* /home/alan/www/blog/
             yarn install
-            pm2 restart blog-web
+            pm2 restart blog
             rm -f /home/alan/www/dist/*
 
