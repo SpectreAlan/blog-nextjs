@@ -55,7 +55,7 @@ const About = () => (
         </Descriptions>
         <Descriptions title="关于我自己" layout="vertical" column={2}>
           <Descriptions.Item label="Name">Alan Grady</Descriptions.Item>
-          <Descriptions.Item label="email">jrseemail@gmail.com</Descriptions.Item>
+          <Descriptions.Item label="email">comjszoo@gmail.com</Descriptions.Item>
           <Descriptions.Item label="Hometown">四川 - 成都 </Descriptions.Item>
           <Descriptions.Item label="Live">Philippines</Descriptions.Item>
           <Descriptions.Item label="Other Contacts" span={2}>
