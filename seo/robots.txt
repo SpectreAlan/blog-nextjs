@@ -5,4 +5,4 @@ Allow: /timeLine
 Allow: /gallery
 Allow: /about
 Allow: /imageZip
-Sitemap: http://jrsee.com/sitemap.xml
+Sitemap: http://jszoo.com/sitemap.xml

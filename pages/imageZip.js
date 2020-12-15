@@ -104,7 +104,7 @@ const ImageZip = () => {
     })
     Promise.all(promises).then(() => {
       zip.generateAsync({ type: 'blob' }).then((content) => {
-        FileSaver.saveAs(content, 'jrsee.com.zip');
+        FileSaver.saveAs(content, 'jszoo.com.zip');
         message.success('压缩完毕，保存压缩包即可')
         setState(false)
         setList([])

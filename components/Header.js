@@ -62,7 +62,7 @@ const Header = () => {
       <Menu.Item key="Search" icon={<SearchOutlined/>}>搜索</Menu.Item>
       <Menu.Item key="/" icon={<HomeOutlined/>}>主页</Menu.Item>
       <Menu.Item key="/timeLine" icon={<CalendarOutlined/>}>时间轴</Menu.Item>
-      <Menu.Item key="NOTE" icon={<FileTextOutlined/>}><a href="http://note.jrsee.com" target="_blank">文档</a></Menu.Item>
+      <Menu.Item key="NOTE" icon={<FileTextOutlined/>}><a href="http://note.jszoo.com" target="_blank">文档</a></Menu.Item>
       <Menu.Item key="/gallery" icon={<PictureOutlined/>}>相册</Menu.Item>
       <SubMenu icon={<ToolOutlined/>} title="工具">
         <Menu.Item key="/imageZip" icon={<FileZipOutlined/>}>图片无损压缩</Menu.Item>

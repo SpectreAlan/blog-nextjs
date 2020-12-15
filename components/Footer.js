@@ -33,7 +33,7 @@ const Footer = () => {
     <>
       <Container>
         <Loading loading={loading}/>
-        <p>©2018 - 2020 by <a href="https://jrsee.com">AlanGrady </a>
+        <p>©2018 - 2020 by <a href="https://jszoo.com">AlanGrady </a>
           <span> 访客(总数/今日): {info.visitors} / {info.today}, 总访问量: {info.total}</span>
         </p>
         <img src="image-base-url/blog/common/copyright.gif" alt="copyright"/>

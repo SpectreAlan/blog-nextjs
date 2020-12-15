@@ -1,5 +1,5 @@
 ## 项目介绍
-基于nextjs搭建的个人博客,闲来无事SSR练手，线上预览地址[https://www.jrsee.com](https://jrsee.com)
+基于nextjs搭建的个人博客,闲来无事SSR练手，线上预览地址[https://www.jszoo.com](https://jszoo.com)
 ## 项目打包
 ```sh
 # pulls仓库
@@ -180,7 +180,7 @@ http {
     gzip  on;
     server {
         listen       80;
-        server_name console.jrsee.com;
+        server_name console.jszoo.com;
         location / {
              root   /usr/share/nginx/html/console;
              index  index.html index.htm;
@@ -191,7 +191,7 @@ http {
     }
     server {
          listen       80;
-         server_name note.jrsee.com;
+         server_name note.jszoo.com;
          location / {
                 root   /usr/share/nginx/html/note;
                 index  index.html index.htm;
@@ -199,7 +199,7 @@ http {
     }
     server {
         listen       80;
-        server_name jrsee.com www.jrsee.com;
+        server_name jszoo.com www.jszoo.com;
         location / {
             rewrite     ^  https://$host$request_uri? permanent;
             proxy_pass http://blog_web:3000;
@@ -217,9 +217,9 @@ http {
     }
     server {
          listen     443 ssl;
-         server_name jrsee.com www.jrsee.com;
-         ssl_certificate /etc/nginx/pem/jrsee.com/fullchain1.pem;
-         ssl_certificate_key /etc/nginx/pem/jrsee.com/privkey1.pem;
+         server_name jszoo.com www.jszoo.com;
+         ssl_certificate /etc/nginx/pem/jszoo.com/fullchain1.pem;
+         ssl_certificate_key /etc/nginx/pem/jszoo.com/privkey1.pem;
          ssl_protocols TLSv1.2 TLSv1.3;
          ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384;
          ssl_ecdh_curve secp384r1;
@@ -241,9 +241,9 @@ http {
     }
     server {
          listen     443 ssl;
-         server_name console.jrsee.com;
-         ssl_certificate /etc/nginx/pem/console.jrsee.com/fullchain1.pem;
-         ssl_certificate_key /etc/nginx/pem/console.jrsee.com/privkey1.pem;
+         server_name console.jszoo.com;
+         ssl_certificate /etc/nginx/pem/console.jszoo.com/fullchain1.pem;
+         ssl_certificate_key /etc/nginx/pem/console.jszoo.com/privkey1.pem;
          ssl_protocols TLSv1.2 TLSv1.3;
          ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384;
          ssl_ecdh_curve secp384r1;
