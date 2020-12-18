@@ -1,3 +1,14 @@
+<div align="center">
+<h1 align="center">个人博客</h1>
+<img src="https://img.shields.io/github/issues/SpectreAlan/blog-nextjs?color=green">
+<img src="https://img.shields.io/github/stars/SpectreAlan/blog-nextjs?color=yellow">
+<img src="https://img.shields.io/github/forks/SpectreAlan/blog-nextjs?color=orange">
+<img src="https://img.shields.io/github/license/SpectreAlan/blog-nextjs?color=ff69b4">
+<img src="https://img.shields.io/github/search/SpectreAlan/blog-nextjs/main?color=blue">
+<img src="https://img.shields.io/github/v/release/SpectreAlan/blog-nextjs?color=blueviolet">
+<img src="https://img.shields.io/github/languages/code-size/SpectreAlan/blog-nextjs?color=critical">
+</div>
+
 ## 项目介绍
 基于nextjs搭建的个人博客,闲来无事SSR练手 , 搭配 [后台管理](https://github.com/SpectreAlan/blog_admin) 以及 [中台server](https://github.com/SpectreAlan/blog-nextjs) 一起组成完整的个人博客系统
 
@@ -5,7 +16,7 @@
 
 ## 项目打包
 ```sh
-# pulls仓库
+# pull仓库
 git clone https://github.com/SpectreAlan/blog-nextjs.git
 # 修改接口路径，目录：/api/index.js
 # 进入项目目录
