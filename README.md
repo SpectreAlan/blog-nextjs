@@ -20,7 +20,7 @@
 git clone https://github.com/SpectreAlan/blog-nextjs.git
 # 修改接口路径，目录：/api/index.js
 # 进入项目目录
-cd blog_nextjs
+cd blog-nextjs
 # 安装依赖
 npm install
 # 打包
