@@ -26,5 +26,10 @@ export const Main = styled.div`
       font-size: 20px;
       margin-right: 12px;
     }
+    #detail-content{
+      img{
+        width: 100%
+      }
+    }
   }
 `
