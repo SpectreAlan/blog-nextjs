@@ -28,7 +28,7 @@
   "devDependencies": {
     "@ant-design/icons": "^4.2.0",
     "@zeit/next-css": "^1.0.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "babel-plugin-import": "^1.13.0",
     "babel-plugin-styled-components": "^1.10.7",
     "compression": "^1.7.4",
