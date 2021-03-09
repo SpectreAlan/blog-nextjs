@@ -59,7 +59,7 @@ const About = () => (
           <Descriptions.Item label="Hometown">四川 - 成都 </Descriptions.Item>
           <Descriptions.Item label="Live">Philippines</Descriptions.Item>
           <Descriptions.Item label="Other Contacts" span={2}>
-            <a href="https://github.com/SpectreAlan/blog" target="_blank" title='SpectreAlan'><GithubOutlined /></a>
+            <a href="https://github.com/SpectreAlan" target="_blank" title='SpectreAlan'><GithubOutlined /></a>
             <a href="https://twitter.com/SpectreAlan" target="_blank" title='SpectreAlan'><TwitterOutlined/></a>
           </Descriptions.Item>
           <Descriptions.Item label="Summary" span={2}>
