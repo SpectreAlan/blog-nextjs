@@ -10,9 +10,10 @@
 </div>
 
 ## 项目介绍
-基于nextjs搭建的个人博客,闲来无事SSR练手 , 搭配 [后台管理](https://github.com/SpectreAlan/blog_admin) 以及 [中台server](https://github.com/SpectreAlan/blog-nextjs) 一起组成完整的个人博客系统
+基于nextjs搭建的个人博客,闲来无事SSR练手 , 搭配 <a href="https://github.com/SpectreAlan/blog_admin" target="_blank">后台管理</a> 以及 <a href="https://github.com/SpectreAlan/blog-nextjs" target="">中台server</a> 一起组成完整的个人博客系统
 
-线上预览地址[https://www.jszoo.com](https://jszoo.com)
+线上预览地址
+<a href="https://jszoo.com" target="_blank" title="SpectreAlan"> https://www.jszoo.com </a>
 
 ## 项目打包
 ```sh
