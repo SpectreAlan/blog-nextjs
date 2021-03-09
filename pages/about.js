@@ -32,7 +32,9 @@ const About = () => (
             生成文章目录使用 markdown-navbar ，语法高亮 highlight.js
           </Descriptions.Item>
           <Descriptions.Item label="前台源码" >
-            <div id="detail-content" dangerouslySetInnerHTML={{ __html: marked('[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog-nextjs&theme=react)](https://github.com/SpectreAlan/blog-nextjs)') }}/>
+            <div id="detail-content">
+              <a href="https://github.com/SpectreAlan/blog-nextjs" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog-nextjs&theme=react" alt="blog-serve"/></a>
+            </div>
           </Descriptions.Item>
           <Descriptions.Item label="后台管理">
             VUE全家桶、axios、echarts<br/>
@@ -41,7 +43,9 @@ const About = () => (
             新建/编辑文章使用 tui-editor
           </Descriptions.Item>
           <Descriptions.Item label="后台源码">
-            <div id="detail-content" dangerouslySetInnerHTML={{ __html: marked('[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog_admin&theme=blueberry)](https://github.com/SpectreAlan/blog_admin)') }}/>
+            <div id="detail-content">
+              <a href="https://github.com/SpectreAlan/blog_admin" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog_admin&theme=blueberry" alt="blog-serve"/></a>
+            </div>
           </Descriptions.Item>
           <Descriptions.Item label="中台数据接口">
             基础架构使用阿里的Egg.js<br/>
@@ -50,7 +54,9 @@ const About = () => (
             数据库使用mysql
           </Descriptions.Item>
           <Descriptions.Item label="中台源码">
-            <div id="detail-content" dangerouslySetInnerHTML={{ __html: marked('[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog-server&theme=chartreuse-dark)](https://github.com/SpectreAlan/blog-server)') }}/>
+            <div id="detail-content">
+              <a href="https://github.com/SpectreAlan/blog-server" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog-server&theme=chartreuse-dark" alt="blog-serve"/></a>
+            </div>
           </Descriptions.Item>
         </Descriptions>
         <Descriptions title="关于我自己" layout="vertical" column={2}>
