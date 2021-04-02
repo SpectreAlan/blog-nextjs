@@ -22,7 +22,7 @@ const Aside = (props) => {
           <div className="collect" onClick={() => AddFavorite()}><BookOutlined />加入书签</div>
           <div className="social">
             <Tooltip title='SpectreAlan'><a href="https://github.com/SpectreAlan" target="_blank"><GithubOutlined/></a></Tooltip>
-            <Tooltip title='giveuptocode@gmail.com'><a href="mailto:comjszoo@gmail.com" target="_blank"><MailOutlined/></a></Tooltip>
+            <Tooltip title='comjszoo@gmail.com@gmail.com'><a href="mailto:comjszoo@gmail.com" target="_blank"><MailOutlined/></a></Tooltip>
             <Tooltip title='SpectreAlan'><a href="https://twitter.com/SpectreAlan" target="_blank"><TwitterOutlined/></a></Tooltip>
           </div>
         </div>
