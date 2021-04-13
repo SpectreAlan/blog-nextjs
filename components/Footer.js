@@ -36,6 +36,9 @@ const Footer = () => {
         <p>©2018 - 2020 by <a href="https://jszoo.com">AlanGrady </a>
           <span> 访客(总数/今日): {info.visitors} / {info.today}, 总访问量: {info.total}</span>
         </p>
+        <p>
+          <a href="http://beian.miit.gov.cn/"><img src="image-base-url/blog/common/beian.png" alt="beian"/>蜀ICP备2021007490号-1</a>
+        </p>
         <img src="image-base-url/blog/common/copyright.gif" alt="copyright"/>
       </Container>
     </>
