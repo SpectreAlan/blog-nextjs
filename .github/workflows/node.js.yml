@@ -20,7 +20,7 @@ jobs:
       - name: Scp
         uses: garygrossgarten/github-action-scp@release
         with:
-          local: dist
+          local: blog
           remote: /home/alan/tmp
           host: ${{ secrets.HOST }}
           username: ${{ secrets.HOST_USERNAME }}
