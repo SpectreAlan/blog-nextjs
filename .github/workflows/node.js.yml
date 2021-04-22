@@ -15,13 +15,13 @@ jobs:
         run:
           yarn install;
           yarn build;
-          mkdir dist;
-          cp -r {build,seo,server.js,package.json,next.config.js,yarn.lock} dist;
+          mkdir blog;
+          cp -r {build,seo,server.js,package.json,next.config.js,yarn.lock} blog;
       - name: Scp
         uses: garygrossgarten/github-action-scp@release
         with:
           local: dist
-          remote: /home/alan/www/dist
+          remote: /home/alan/tmp
           host: ${{ secrets.HOST }}
           username: ${{ secrets.HOST_USERNAME }}
           password: ${{ secrets.HOST_PASSWORD }}
@@ -40,10 +40,10 @@ jobs:
           password: ${{ secrets.HOST_PASSWORD }}
           port: ${{ secrets.HOST_PORT }}
           script: |
-            cd /home/alan/www/blog
+            cd /home/alan/projects/blog
             ls |grep -v 'node_modules' |xargs rm -rf
-            mv /home/alan/www/dist/* /home/alan/www/blog/
+            mv /home/alan/tmp/blog/* /home/alan/projects/blog
             yarn install
             pm2 restart blog
-            rm -f /home/alan/www/dist/*
+            rm -f /home/alan/tmp/blog/*
 
