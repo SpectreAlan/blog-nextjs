@@ -41,7 +41,7 @@
     "lodash": "^4.17.15",
     "markdown-navbar": "^1.4.2",
     "marked": "^1.1.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "sitemap": "^6.1.5",
     "styled-components": "^5.1.1",
     "webpack": "^4.43.0",
