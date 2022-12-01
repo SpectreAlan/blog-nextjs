@@ -6,7 +6,7 @@ const MyHead = (props) => {
   const defaultHead = {
     keywords: 'AlanGrady,web前端,nginx,linux,nodejs,vue,react,flutter,react-hooks',
     article_des: 'AlanGrady的个人博客，一个有内涵的web前端，专注vue/react/nodejs/flutter',
-    article_title: "AlanGrady's blog",
+    article_title: "个人技术分享小站",
   }
   const head = props.info || defaultHead
   return (
