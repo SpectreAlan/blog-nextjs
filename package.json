@@ -32,7 +32,7 @@
     "babel-plugin-import": "^1.13.0",
     "babel-plugin-styled-components": "^1.10.7",
     "compression": "^1.7.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "file-saver": "^2.0.2",
     "highlight.js": "^10.0.3",
     "http-proxy-middleware": "^1.0.4",
