@@ -1,8 +1,0 @@
-User-agent: *
-Allow: /
-Allow: /detail/
-Allow: /timeLine
-Allow: /gallery
-Allow: /about
-Allow: /imageZip
-Sitemap: http://jszoo.com/sitemap.xml

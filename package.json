@@ -1,55 +1,29 @@
 {
-  "name": "alan-grady-blogs",
+  "name": "blog-nextjs",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "antd": "^4.2.5",
-    "babel-eslint": "10.1.0",
-    "eslint": "^6.6.0",
-    "eslint-config-react-app": "^5.2.1",
-    "eslint-loader": "3.0.3",
-    "eslint-plugin-flowtype": "4.6.0",
-    "eslint-plugin-import": "2.20.1",
-    "eslint-plugin-jsx-a11y": "6.2.3",
-    "eslint-plugin-react": "7.19.0",
-    "eslint-plugin-react-hooks": "^1.6.1",
-    "next": "^9.4.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  },
   "scripts": {
-    "dev": "next",
-    "build": "rm -rf build && next build",
-    "start": "rm -rf build && next build && node server.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "dependencies": {
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@ant-design/icons": "^4.2.0",
-    "@zeit/next-css": "^1.0.1",
-    "axios": "^0.19.2",
-    "babel-plugin-import": "^1.13.0",
-    "babel-plugin-styled-components": "^1.10.7",
-    "compression": "^1.7.4",
-    "express": "^4.17.1",
-    "file-saver": "^2.0.2",
-    "highlight.js": "^10.0.3",
-    "http-proxy-middleware": "^1.0.4",
-    "imgzip": "^1.0.7",
-    "jszip": "^3.5.0",
-    "lodash": "^4.17.15",
-    "markdown-navbar": "^1.4.2",
-    "marked": "^1.1.0",
-    "node-fetch": "^2.6.0",
-    "sitemap": "^6.1.5",
-    "styled-components": "^5.1.1",
-    "webpack": "^4.43.0",
-    "zlib": "^1.0.5"
-  },
-  "main": ".eslintrc.js",
-  "keywords": [],
-  "author": "AlanGrady",
-  "license": "ISC",
-  "description": "个人技术分享小站"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "babel-plugin-import": "^1.13.8",
+    "babel-plugin-styled-components": "^2.1.4",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
 }
