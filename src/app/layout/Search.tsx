@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {List, Modal, Input, message} from 'antd';
 import {useRouter} from "next/navigation";
-import UseFetch from "@/hooks/useFetch";
+import useFetch from "@/hooks/useFetch";
 
 interface IProps {
     setSearchModal: (visible: boolean) => void
@@ -11,7 +11,7 @@ const Search: React.FC<IProps> = ({setSearchModal}) => {
 
     const router = useRouter()
     const [keywords, setKeywords] = useState('');
-    const {response, loading, handleFetch} = UseFetch<{ list: Article.ArticleItem[] }>({
+    const {response, loading, handleFetch} = useFetch<{ list: Article.ArticleItem[] }>({
         url: '/blog/list',
         method: 'GET',
         data: {

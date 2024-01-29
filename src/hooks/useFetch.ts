@@ -2,19 +2,19 @@ import {useState, useEffect, useCallback} from 'react';
 import {message} from 'antd'
 import {decrypt} from "@/utils/common";
 
-interface UseFetchProps {
+interface useFetchProps {
     url: string;
     method: 'GET' | 'POST'
     data?: any;
 }
 
-interface UseFetchResult<T> {
+interface useFetchResult<T> {
     response: T | null;
     loading: boolean;
     handleFetch: () => void
 }
 
-const useFetch = <T>({url, method, data}: UseFetchProps): UseFetchResult<T> => {
+const useFetch = <T>({url, method, data}: useFetchProps): useFetchResult<T> => {
     const [response, setData] = useState<T | null>(null);
     const [loading, setLoading] = useState<boolean>(false);
 
