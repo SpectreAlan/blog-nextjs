@@ -7,3 +7,14 @@
   opacity: 1;
   transform: translate3d(0, 0 ,0);
 }
+
+@keyframes animation {
+  0% {
+    margin-bottom: 6px;
+    color: grey;
+  }
+  100% {
+    margin-bottom: 1px;
+    color: #fff;
+  }
+}

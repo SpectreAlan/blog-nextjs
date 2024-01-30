@@ -6,5 +6,3 @@ export function decrypt(data: string) {
     const decrypt = bytes.toString(CryptoJS.enc.Utf8)
     return JSON.parse(decrypt)
 }
-
-
