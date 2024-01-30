@@ -1,3 +1,4 @@
+'use client'
 import FullPage from "@/app/home/FullPage";
 
 const HomePage = ()=> {
@@ -7,5 +8,4 @@ const HomePage = ()=> {
         </div>
     );
 }
-
 export default HomePage
