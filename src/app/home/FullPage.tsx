@@ -1,37 +1,38 @@
-import React, {useState, useEffect, useRef} from 'react'
+import React, {useState, useEffect} from 'react'
 import {DoubleLeftOutlined} from '@ant-design/icons'
 import useFetch from "@/hooks/useFetch";
 
-const FullPage:React.FC = ()=>{
-    const [count, setCount] = useState(0)
-    const {data} = useFetch({
-        url: '/blog/poem',
-        method: 'GET'
-    })
-    
-    const InterRef = useRef()
-    const changeCount = () => {
-        const i = count < poem.length ? count + 1 : 0
-        setCount(i)
-    };
-    useEffect(() => {
-        InterRef?.current = changeCount
-    })
-    useEffect(() => {
-        const f = () => {
-            InterRef.current()
-        }
-        const timer = setInterval(f, 300)
-        return () => {
-            clearInterval(timer)
-        }
-    }, [])
-    return <div className={`bg-cover bg-center bg-fixed h-screen flex items-center relative" style="background-image: url(/image-proxy/blog/cover/${new Date().getDate()}.jpg);`}>
+let index = 0
+let count = 0
+const FullPage: React.FC = () => {
+    // const [count, setCount] = useState(0)
+    // const {response} = useFetch<{ content: string }[]>({
+    //     url: '/blog/poem',
+    //     method: 'GET'
+    // })
+
+    // useEffect(() => {
+    //     const timer = setInterval(() => {
+    //         if (response?.length) {
+    //             const i = count < response[index].content.length ? count + 1 : 0
+    //             if (i === 0) {
+    //                 index = Math.floor(Math.random() * (response.length))
+    //             }
+    //             setCount(i)
+    //         }
+    //
+    //     }, 300)
+    //     return () => {
+    //         clearInterval(timer)
+    //     }
+    // }, [])
+    return <div
+        className={`bg-cover bg-center bg-fixed h-screen flex items-center relative" style="background-image: url(/image-proxy/blog/cover/${new Date().getDate()}.jpg);`}>
         <div className="txt">
-            {poem.slice(0, count)}
+            {/*{response?.[index]?.content.slice(0, count)}*/}
             <span className={count % 2 === 0 ? 'show' : 'hide'}> |</span>
         </div>
-        <a href="#article-list" ><DoubleLeftOutlined/></a>
+        <a href="#article-list"><DoubleLeftOutlined rev=''/></a>
     </div>
 }
 
