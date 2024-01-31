@@ -7,15 +7,27 @@ import Image from 'next/image'
 
 const ArticleList: React.FC<Common.IProps> = async ({searchParams}) => {
     const current: string = searchParams?.current ?? '1'
+    const data:any = {
+        current,
+
+    }
+    const category: string = searchParams?.category ?? ''
+    if(category){
+        data.category = category
+    }
+    console.log(category);
     const res: { list: Article.ArticleItem[], total: number } | null = await httpRequest({
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/list`,
-        data: {current}
+        data
     })
-    console.log(res?.list);
+    if (!res) {
+        return null
+    }
     return <>
         {
-            res?.list?.map((item, index) => (
-                <Row className='rounded-lg mb-4 overflow-hidden fuck-shadow transition-shadow relative px-4' key={index}>
+            res.list.map((item, index) => (
+                <Row className='rounded-lg mb-4 overflow-hidden fuck-shadow transition-shadow relative px-4'
+                     key={index}>
                     <Col lg={8} md={8} sm={0} xs={0} className='overflow-hidden align-middle'>
                         <Image src={item.cover} alt={item.title} width={276} height={158} loading="lazy"
                                className='absolute top-1/2 left-0 -translate-y-1/2 rounded-md hover:scale-105'/>
