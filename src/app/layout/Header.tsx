@@ -11,7 +11,6 @@ const Header = () => {
     useEffect(() => {
         window.onscroll = _.throttle(() => {
             const y = document.documentElement.scrollTop
-            console.log(y > 200 && y > scrollY);
             setIsUp(y > 200 && y > scrollY)
             setScrollY(y)
         }, 300)

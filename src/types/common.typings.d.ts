@@ -3,6 +3,9 @@ declare namespace Common {
         url: string;
         method?: 'GET' | 'POST'
         data?: any;
+        options?: {
+            [key:string] : any
+        }
     }
 
     interface UseFetchResult<T> {
