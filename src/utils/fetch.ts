@@ -1,6 +1,7 @@
 import {decrypt} from "@/utils/common";
+import {message} from 'antd'
 
-async function httpRequest<T>({url, method = 'GET', data}: Common.UseFetchProps): Promise<Common.FetchResult<T>> {
+async function httpRequest<T>({url, method = 'GET', data}: Common.UseFetchProps): Promise<T | null> {
     try {
         const fetchConfig: RequestInit = {
             method
@@ -15,16 +16,23 @@ async function httpRequest<T>({url, method = 'GET', data}: Common.UseFetchProps)
         const response = await fetch(url, fetchConfig);
 
         if (!response.ok) {
-            return {
-                data: null,
-                message: response.statusText,
-                code: response.status
-            }
+            message.error(response.statusText)
+            return null
         }
         const result: string = await response.text();
-        return decrypt(result)
+        const {data:res, code, message:msg} = decrypt(result)
+        if(code){
+            message.error(msg)
+            return null
+        }
+        if(msg !== 'success'){
+            message.success(msg)
+        }
+        return res
+
     } catch (error: any) {
-        return {message: error.message, code: error?.response?.status || 400, data: null};
+        message.error(error.message || 'Service exception')
+        return null
     }
 }
 
