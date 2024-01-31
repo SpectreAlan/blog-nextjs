@@ -1,10 +1,11 @@
 import {decrypt} from "@/utils/common";
 import {message} from 'antd'
 
-async function httpRequest<T>({url, method = 'GET', data}: Common.UseFetchProps): Promise<T | null> {
+async function httpRequest<T>({url, method = 'GET', data, options = {}}: Common.UseFetchProps): Promise<T | null> {
     try {
         const fetchConfig: RequestInit = {
-            method
+            method,
+            ...options
         }
         if (method === 'GET') {
             const queryString = new URLSearchParams(data).toString();
