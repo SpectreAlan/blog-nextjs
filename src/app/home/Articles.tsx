@@ -25,7 +25,7 @@ const ArticleList: React.FC<Common.IProps> = async ({searchParams}) => {
                             <h2 className='text-center cursor-pointer'>{item.title}</h2>
                         </Link>
                         <p className='text-center'>
-                            <ScheduleOutlined/> {item.createdAt} | <InboxOutlined/>
+                            <ScheduleOutlined rev=''/> {item.createdAt} | <InboxOutlined rev=''/>
                             <span>{item.category.title}</span>
                         </p>
                         <div className='text-left h-[70px] overflow-hidden  overflow-ellipsis'>
