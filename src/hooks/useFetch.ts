@@ -4,7 +4,7 @@ import httpRequest from "@/utils/fetch";
 
 
 const useFetch = <T>(props: Common.UseFetchProps): Common.UseFetchResult<T> => {
-    const [response, setData] = useState<T | null>(null);
+    const [response, setData] = useState<any>();
     const [loading, setLoading] = useState<boolean>(false);
 
     const handleFetch = useCallback(async () => {

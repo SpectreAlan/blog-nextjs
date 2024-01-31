@@ -88,7 +88,7 @@ const Nav: React.FC = () => {
     />
     return <>
         {
-            window.innerWidth > 768 ?
+           window.innerWidth > 768 ?
                 renderMenu() :
                 <MenuFoldOutlined onClick={() => setNavDrawer(true)}/>
         }
