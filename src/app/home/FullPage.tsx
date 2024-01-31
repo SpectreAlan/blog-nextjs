@@ -1,3 +1,4 @@
+'use client'
 import React, {useState, useEffect} from 'react'
 import {DoubleLeftOutlined} from '@ant-design/icons'
 import httpRequest from "@/utils/fetch";
@@ -13,9 +14,8 @@ const FullPage: React.FC = () => {
     const [count, setCount] = useState(0)
 
     const query = async () => {
-        const res: Common.FetchResult<{ list: IPoem[] }> = await httpRequest({url: '/blog/poem'})
-        const {data = {list: []}} = res
-        setPoem(data.list)
+        const res: { list: IPoem[] } | null = await httpRequest({url: '/blog/poem'})
+        setPoem(res?.list ?? [])
     }
 
     useEffect(() => {
