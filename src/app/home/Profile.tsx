@@ -16,7 +16,7 @@ const Profile: React.FC<{ aside: Aside.Items }> = ({aside}) => {
             </Col>
         </Row>
         <div className="my-2 py-1 cursor-pointer relative z-10 bg-blue-500 text-white uppercase leading-6 rounded">
-            <BookOutlined className='mr-3'/>加入书签
+            <BookOutlined className='mr-3' rev=''/>加入书签
         </div>
         <div className="flex justify-around text-2xl my-4">
             <Tooltip title='SpectreAlan'><a href="https://github.com/SpectreAlan" target="_blank"><GithubOutlined/></a></Tooltip>

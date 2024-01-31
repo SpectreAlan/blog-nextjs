@@ -1,10 +1,15 @@
 declare namespace Aside {
-    interface Items{
-        categoryList: {category: string, count: number}[]
+    interface Category {
+        category: string
+        count: number
+    }
+
+    interface Items {
+        categoryList: Category[]
         totalArticle: number
         totalCategory: number
-        list: Article.ArticleItem[];
-        tags: string[];
-        notice: string;
+        list: Article.ArticleItem[]
+        tags: string[]
+        notice: string
     }
 }
