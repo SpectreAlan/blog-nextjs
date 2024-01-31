@@ -3,7 +3,7 @@ declare namespace Aside {
         categoryList: {category: string, count: number}[]
         totalArticle: number
         totalCategory: number
-        recentUpdate: Article.ArticleItem[];
+        list: Article.ArticleItem[];
         tags: string[];
         notice: string;
     }
