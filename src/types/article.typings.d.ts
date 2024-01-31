@@ -5,6 +5,7 @@ declare namespace Article {
         cover: string;
         description: string;
         createdAt: string;
+        updatedAt: string;
         category: {
             title: string
         }
