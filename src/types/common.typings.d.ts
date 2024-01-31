@@ -6,13 +6,11 @@ declare namespace Common {
     }
 
     interface UseFetchResult<T> {
-        response: T | null;
+        response: T;
         loading: boolean;
         handleFetch: () => void
     }
-    interface FetchResult<T> {
-        data: T;
-        message?: string;
-        code: number;
+    interface IProps {
+        searchParams: { [key: string]: string }
     }
 }
