@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const RecentUpdate: React.FC<{ articles: Article.ArticleItem[] }> = ({articles}) => {
     return <div className="p-4 rounded-lg mb-4 overflow-hidden text-center fuck-shadow">
-        <div className='text-left mb-2'><FieldTimeOutlined className='mr-2' rev=''/>最近更新</div>
+        <div className='text-left mb-2 font-bold'><FieldTimeOutlined className='mr-2' rev=''/>最近更新</div>
         {
             articles.map((item, index) => (
                 <Link href={{pathname: '/detail', query: {id: item.id}}} key={index}>
@@ -14,7 +14,7 @@ const RecentUpdate: React.FC<{ articles: Article.ArticleItem[] }> = ({articles})
                         <Col span={8}>
                             <Image src={item.cover} alt={item.title} width={88} height={55}/>
                         </Col>
-                        <Col span={14}>
+                        <Col span={15} offset={1}>
                             <div className='font-bold h-10'>{item.title}</div>
                             <i className='text-gray-400 text-sm'>{item.updatedAt}</i>
                         </Col>

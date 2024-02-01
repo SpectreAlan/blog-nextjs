@@ -51,7 +51,7 @@ const FullPage: React.FC = () => {
             </span>
         </div>
         <a href="#article-list"
-           className='transform rotate-[-90deg] left-1/2 transform-translate-x-1/2 text-3xl bottom-0 absolute  cursor-pointer'
+           className='transform rotate-[-90deg] left-1/2 transform -translate-x-1/2 text-3xl bottom-0 absolute  cursor-pointer'
            style={{animation: 'animation 1s linear infinite'}}>
             <DoubleLeftOutlined rev=''/>
         </a>
