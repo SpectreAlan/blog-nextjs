@@ -15,7 +15,6 @@ const ArticleList: React.FC<Common.IProps> = async ({searchParams}) => {
     if(category){
         data.category = category
     }
-    console.log(category);
     const res: { list: Article.ArticleItem[], total: number } | null = await httpRequest({
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/list`,
         data
