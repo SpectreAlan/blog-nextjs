@@ -2,6 +2,7 @@ import type {Metadata} from "next";
 import "./globals.css";
 import '@/assets/style/common.scss'
 import Header from '@/app/layout/Header'
+import Footer from '@/app/layout/Footer'
 import React from "react";
 
 
@@ -17,10 +18,11 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body>
-                <Header/>
-                {children}
-            </body>
+        <body>
+        <Header/>
+        {children}
+        <Footer/>
+        </body>
         </html>
     );
 }
