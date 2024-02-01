@@ -12,7 +12,7 @@ const TimeLinePage = async () => {
         return null
     }
     return (
-        <div>
+        <>
             <div
                 className="h-80 bg-cover bg-center bg-fixed relative mb-4"
                 style={{backgroundImage: `url(/image-proxy/blog/cover/${new Date().getDate()}.jpg)`}}
@@ -44,7 +44,7 @@ const TimeLinePage = async () => {
                     }
                 />
             </div>
-        </div>
+        </>
     )
 }
 export default TimeLinePage
