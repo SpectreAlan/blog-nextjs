@@ -14,4 +14,10 @@ declare namespace Article {
             _id: string
         }[]
     }
+
+    interface Detail extends ArticleItem{
+        content: string
+        catalogue: boolean
+        scan: number
+    }
 }
