@@ -16,4 +16,13 @@ declare namespace Common {
     interface IProps {
         searchParams: { [key: string]: string }
     }
+
+    interface IIP {
+        city: string
+        country:string
+        query:string
+        regionName:string
+        org:string
+        status: 'success' | 'fail'
+    }
 }
