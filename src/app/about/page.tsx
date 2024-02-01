@@ -72,14 +72,15 @@ const About = () => {
         },
         {
             key: '3',
-            label: '后台管理',
+            label: '后台管理系统',
             children: <>基于Umijs max开发<br/>
                 UI层使用 @ant-design/pro-components<br/>
+                图表采用react-echarts<br/>
                 新建/编辑文章使用 @toast-ui/editor</>
         },
         {
             key: '4',
-            label: '后台源码',
+            label: '后台管理源码',
             children: <a href="https://github.com/SpectreAlan/blog_admin" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog_admin&theme=blueberry" alt="blog-serve"/></a>
         },
         {

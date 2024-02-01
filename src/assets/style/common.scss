@@ -30,3 +30,18 @@
   color: red;
   animation: soundOutlined 0.3s linear infinite
 }
+
+.ant-descriptions-item-label {
+  color: rgb(61, 80, 100) !important;
+  font-weight: bold !important;
+}
+
+.ant-descriptions-item {
+  padding-bottom: 6px !important;
+}
+
+.ant-descriptions-item-content {
+  font-size: 12px !important;
+  line-height: 20px !important;
+  color: rgba(0, 0, 0, 0.85)!important;
+}
