@@ -1,7 +1,7 @@
 import React from "react";
 import Image from 'next/image'
 import httpRequest from "@/utils/fetch";
-import {Divider} from 'antd'
+import {BackTop, Divider} from 'antd'
 import Statistics from "@/app/layout/Statistics";
 
 const Footer: React.FC = async () => {
@@ -15,6 +15,7 @@ const Footer: React.FC = async () => {
         </div>
         <Image src="/image-proxy/blog/common/copyright.gif" alt="copyright" width={60} height={60}/>
         <Statistics/>
+        <BackTop />
     </div>
 }
 
