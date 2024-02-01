@@ -9,7 +9,7 @@ const useFetch = <T>(props: Common.UseFetchProps): Common.UseFetchResult<T> => {
 
     const handleFetch = useCallback(async () => {
         setLoading(true)
-        const res:Common.FetchResult<T> = await httpRequest(props)
+        const res:any = await httpRequest(props)
         const {data, message: msg, code} = res
         if (code) {
             message.error(msg)
