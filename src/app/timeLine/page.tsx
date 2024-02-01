@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 const TimeLinePage = async () => {
     const res: { list: Article.ArticleItem[] } | null = await httpRequest({
-        url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/list`,
+        url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/timeLine`,
     })
     if (!res) {
         return null
