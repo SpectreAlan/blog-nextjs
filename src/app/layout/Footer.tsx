@@ -14,7 +14,7 @@ const Footer: React.FC = async () => {
             <span> 访客(总数/今日): {response?.total ?? 0} / {response?.today ?? 0}, 总访问量: {response?.visitor ?? 0}</span>
         </div>
         <Image src="/image-proxy/blog/common/copyright.gif" alt="copyright" width={60} height={60}/>
-        <Statistics/>
+        {/*<Statistics/>*/}
         <BackTop />
     </div>
 }
