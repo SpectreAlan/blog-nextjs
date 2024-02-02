@@ -7,8 +7,11 @@ const useFetch = <T>(props: Common.UseFetchProps): Common.UseFetchResult<T> => {
     const [response, setData] = useState<any>();
     const [loading, setLoading] = useState<boolean>(false);
 
-    const handleFetch = useCallback(async () => {
+    const handleFetch = useCallback(async (params?:any) => {
         setLoading(true)
+        if(params){
+            props.data = params
+        }
         const res:any = await httpRequest(props)
         const {data, message: msg, code} = res
         if (code) {
