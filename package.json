@@ -11,6 +11,7 @@
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
     "antd": "^5.13.2",
+    "avataaars": "^2.0.0",
     "crypto-js": "^4.2.0",
     "lodash": "^4.17.21",
     "markdown-navbar": "^1.4.3",
