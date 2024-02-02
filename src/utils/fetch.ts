@@ -32,7 +32,8 @@ async function httpRequest<T>({url, method = 'GET', data, options = {}}: Common.
         return res
 
     } catch (error: any) {
-        message?.error(error.message || 'Service exception')
+        console.log(error);
+        // message?.error(error.message || 'Service exception')
         return null
     }
 }
