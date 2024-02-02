@@ -11,7 +11,7 @@ declare namespace Common {
     interface UseFetchResult<T> {
         response: T;
         loading: boolean;
-        handleFetch: () => void
+        handleFetch: (data?: any) => void
     }
     interface IProps {
         searchParams: { [key: string]: string }
