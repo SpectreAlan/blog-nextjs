@@ -2,32 +2,45 @@ import {Button, Form, Input, message} from 'antd';
 import {MailOutlined, MessageOutlined, UserOutlined} from '@ant-design/icons';
 import React, {useState} from 'react';
 import httpRequest from "@/utils/fetch";
+import platform from 'platform'
 
 interface IProps {
     info: Comment.Info
-    handelFinished: ()=>void
+    handelFinished: () => void
 }
+
 const CommentForm: React.FC<IProps> = ({info, handelFinished}) => {
     const [loading, setLoading] = useState(false)
 
+    const [form] =Form.useForm()
+
     const placeholder = info?.nickName ? '@' + info?.nickName : 'Talk is cheap,show me the code!'
-    const onFinish = async (values: { [key: string]: string } ) => {
+    const onFinish = async (values: { [key: string]: string }) => {
         setLoading(true)
+        const deviceInfo: { [key: string]: string } = {}
+        const deviceJSON = sessionStorage.getItem('device')
+        if (deviceJSON) {
+            const {province, os} = JSON.parse(deviceJSON)
+            deviceInfo.platform = os
+            deviceInfo.region = province
+        }
         httpRequest({
             url: '/blog/comment',
             method: 'POST',
             data: {
                 ...values,
-                ...info
+                ...info,
+                ...deviceInfo
             }
-        }).then(()=>{
+        }).then(() => {
             setLoading(false)
+            form.resetFields()
             handelFinished()
-        }).catch(()=>{
+        }).catch(() => {
             setLoading(false)
         })
     };
-    return (<Form onFinish={onFinish}>
+    return (<Form onFinish={onFinish} form={form}>
         <Form.Item
             label={<span><UserOutlined/>&nbsp;昵称&nbsp;</span>} name="nickName"
             rules={[{required: true, message: '请输入您的昵称!',}]}
