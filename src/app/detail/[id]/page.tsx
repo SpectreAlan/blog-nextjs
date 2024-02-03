@@ -20,9 +20,11 @@ const DetailPage = async ({params}: { params: { id: string } }) => {
     return <div className='lg:pl-80 relative'>
         <Nav content={content}/>
         <Title detail={detail}/>
-        <Content content={content}/>
-        <Recommend tags={tagsString} id={id}/>
-        <Comment id={id}/>
+        <div className='px-4'>
+            <Content content={content}/>
+            <Recommend tags={tagsString} id={id}/>
+            <Comment id={id}/>
+        </div>
     </div>
 }
 
