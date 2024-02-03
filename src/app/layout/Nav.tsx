@@ -61,12 +61,12 @@ const Nav: React.FC = () => {
         },
         {
             label: '工具',
-            key: '/tool',
+            key: '/onlineTools',
             icon: <ToolOutlined rev=''/>,
             children: [
                 {
                     label: '图片无损压缩',
-                    key: 'imageZip',
+                    key: '/onlineTools/imageZip',
                     icon: <FileZipOutlined rev=''/>,
                 },
             ]
