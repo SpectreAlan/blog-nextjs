@@ -10,35 +10,35 @@ import Copy from "@/app/detail/[id]/Copy";
 const Content: React.FC<{ content: string }> = ({content}) => {
 
     return <div className='md:max-w-[1000px] mx-auto p-8 fuck-shadow rounded detail-content'>
-        <Markdown
-            remarkPlugins={[remarkGfm]}
-            rehypePlugins={[rehypeRaw]}
-            components={{
-                code(props) {
-                    const {children, className, node, ...rest} = props
-                    const match = /language-(\w+)/.exec(className || '')
-                    return match ? (
-                        <SyntaxHighlighter
-                            {...rest}
-                            PreTag="div"
-                            language={match[1]}
-                            style={vscDarkPlus}
-                            customStyle={{position: 'relative'}}
-                            renderer={() => <>
-                                <Copy code={String(children)} />
-                                {String(children).replace(/\n$/, '')}</>}
-                        />
-                    ) : (
-                        <code {...rest} className={`${className}`}>
-                            {children}
-                        </code>
-                    )
-                }
-            }}
-        >
-            {content}
-        </Markdown>
-    </div>
+            <Markdown
+                remarkPlugins={[remarkGfm]}
+                rehypePlugins={[rehypeRaw]}
+                components={{
+                    code(props) {
+                        const {children, className, node, ...rest} = props
+                        const match = /language-(\w+)/.exec(className || '')
+                        return match ? (
+                            <SyntaxHighlighter
+                                {...rest}
+                                PreTag="div"
+                                language={match[1]}
+                                style={vscDarkPlus}
+                                customStyle={{position: 'relative'}}
+                                renderer={() => <>
+                                    <Copy code={String(children)} />
+                                    {String(children).replace(/\n$/, '')}</>}
+                            />
+                        ) : (
+                            <code {...rest} className={`${className}`}>
+                                {children}
+                            </code>
+                        )
+                    }
+                }}
+            >
+                {content}
+            </Markdown>
+        </div>
 }
 
 export default Content

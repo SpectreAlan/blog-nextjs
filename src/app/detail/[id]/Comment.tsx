@@ -89,7 +89,7 @@ const Comment: React.FC<{ id: string }> = ({id}) => {
                                                     shape="circle"/> : <RandomAvatar/>
                                     }
                                 </Col>
-                                <Col xs={20} sm={20} md={22} lg={21} xl={20}>
+                                <Col xs={20} sm={20} md={20} lg={21} xl={20}>
                                     {comment.pinned ? <Tag color="magenta">置顶</Tag> : (
                                         <div>
                                             {
@@ -110,11 +110,11 @@ const Comment: React.FC<{ id: string }> = ({id}) => {
                                     <div className='py-2 text-sm text-gray-400'>{comment.createdAt}</div>
                                     <span>{comment.content}</span>
                                 </Col>
-                                <Col xs={4} sm={4} md={2} lg={1} xl={2} className='text-right'>
+                                <Col xs={4} sm={4} md={4} lg={1} xl={2} className='lg:text-right'>
                                     {
                                         info.parentId === comment.id ?
-                                            <Button type="primary" onClick={() => setInfo(defaultInfo)}>取消</Button> :
-                                            <Button type="primary" onClick={() => setInfo({
+                                            <Button type="primary" size='small' onClick={() => setInfo(defaultInfo)}>取消</Button> :
+                                            <Button type="primary" size='small' onClick={() => setInfo({
                                                 article: id,
                                                 parentId: comment.id,
                                                 nickName: comment.nickName
