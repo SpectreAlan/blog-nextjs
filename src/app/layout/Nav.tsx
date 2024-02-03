@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import {
     HomeOutlined,
     SearchOutlined,
@@ -9,13 +9,15 @@ import {
     FileZipOutlined,
     MenuFoldOutlined
 } from '@ant-design/icons'
-import {useRouter} from 'next/navigation'
+import {useRouter, usePathname} from 'next/navigation'
 import {Menu, Drawer} from 'antd'
 import type {MenuProps} from 'antd';
 import Search from "@/app/layout/Search";
 
 const Nav: React.FC = () => {
     const router = useRouter()
+    const pathname = usePathname()
+
     const [current, setCurrent] = useState('home');
     const [searchModal, setSearchModal] = useState(false);
     const [navDrawer, setNavDrawer] = useState(false);
@@ -29,8 +31,7 @@ const Nav: React.FC = () => {
             setSearchModal(true)
             return
         }
-        setCurrent(key);
-        router.push(`/${key === 'home' ? '' : key}`)
+        router.push(key)
     };
     const items: MenuProps['items'] = [
         {
@@ -40,12 +41,12 @@ const Nav: React.FC = () => {
         },
         {
             label: '主页',
-            key: 'home',
+            key: '/',
             icon: <HomeOutlined/>,
         },
         {
             label: '时间轴',
-            key: 'timeLine',
+            key: '/timeLine',
             icon: <CalendarOutlined/>,
         },
         {
@@ -59,7 +60,7 @@ const Nav: React.FC = () => {
         },
         {
             label: '工具',
-            key: 'tool',
+            key: '/tool',
             icon: <ToolOutlined/>,
             children: [
                 {
@@ -71,15 +72,19 @@ const Nav: React.FC = () => {
         },
         {
             label: '关于',
-            key: 'about',
+            key: '/about',
             icon: <TagOutlined/>,
         },
     ]
 
-    const renderMenu = () => <Menu
+    useEffect(() => {
+        setCurrent(pathname)
+    }, [pathname])
+
+    const renderMenu = (mode: any) => <Menu
         onClick={onClick}
         selectedKeys={[current]}
-        mode="horizontal"
+        mode={mode}
         items={items}
         style={{
             background: 'transparent',
@@ -88,8 +93,8 @@ const Nav: React.FC = () => {
     />
     return <>
         {
-           window.innerWidth > 768 ?
-                renderMenu() :
+            window.innerWidth > 768 ?
+                renderMenu('horizontal') :
                 <MenuFoldOutlined onClick={() => setNavDrawer(true)}/>
         }
         {
@@ -100,7 +105,7 @@ const Nav: React.FC = () => {
                 width={300}
                 onClose={() => setNavDrawer(false)}
             >
-                {renderMenu()}
+                {renderMenu('vertical')}
             </Drawer>
         }
         {searchModal && <Search setSearchModal={setSearchModal}/>}
