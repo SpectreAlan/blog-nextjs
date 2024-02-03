@@ -18,21 +18,21 @@ const Recommend: React.FC<{ tags: string, id: string }> = async ({tags, id}) => 
         <Divider/>
         <div className='md:max-w-[1000px] mx-auto p-8 fuck-shadow rounded'>
             <div className='text-xl font-bold mb-4'><LikeFilled/> 相关推荐</div>
-            <div className="flex flex-wrap justify-between">
+            <div className="flex flex-wrap gap-8">
                 {
                     recommend.map((article, i) => (
                         <Link
-                            className='mb-4 pb-4 fuck-shadow rounded overflow-hidden'
+                            className='pb-4 fuck-shadow rounded overflow-hidden'
                             key={article.id}
                             href={`/detail/${article.id}`}
                             as={`/detail/${article.id}`}
                         >
-                            <div className="w-[238px] overflow-hidden">
+                            <div className="w-[310px] overflow-hidden">
                                 <Image
                                     src={article.cover}
                                     alt={article.title}
-                                    width={240}
-                                    height={150}
+                                    width={310}
+                                    height={170}
                                     loading="lazy"
                                     className='hover:scale-105'
                                 />
