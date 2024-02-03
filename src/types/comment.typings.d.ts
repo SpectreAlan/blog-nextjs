@@ -10,6 +10,8 @@ declare namespace Comment {
         author: number;
         pinned: number;
         createdAt: string
+        region: string
+        platform?: string
     }
     interface Info {
         article: string
