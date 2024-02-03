@@ -39,7 +39,7 @@ const TimeLinePage = async () => {
                                         loading="lazy"
                                         className='rounded-md hover:scale-105 mr-2 mb-2'
                                     />
-                                    <div className='w-[140px]'>{article.title}</div>
+                                    <div>{article.title}</div>
                                 </Link>
                             }))
                         }
