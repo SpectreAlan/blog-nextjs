@@ -2,7 +2,7 @@
 import React, {useState, useEffect} from 'react'
 import {Divider, Spin, Row, Col, Button, Tag, Avatar} from 'antd'
 import httpRequest from "@/utils/fetch";
-import {CommentOutlined, GlobalOutlined, LaptopOutlined} from '@ant-design/icons'
+import {CommentOutlined, GlobalOutlined, EnvironmentOutlined} from '@ant-design/icons'
 import RandomAvatar from '@/app/detail/[id]/Avatar'
 import CommentForm from "@/app/detail/[id]/CommentForm";
 
@@ -101,8 +101,10 @@ const Comment: React.FC<{ id: string }> = ({id}) => {
                                                 comment.parentName &&
                                                 <b className='text-teal-950 text-xl'> @ {comment.parentName}</b>
                                             }
-                                            <i className='mx-2'> <GlobalOutlined/>{comment.nickName} </i>
-                                            <i> <LaptopOutlined/>{comment.nickName} </i>
+                                            {
+                                                comment?.platform && <i className='mx-2'> <GlobalOutlined/>{comment.platform} </i>
+                                            }
+                                            <i> <EnvironmentOutlined />{comment.region} </i>
                                         </div>
                                     )}
                                     <div className='py-2 text-sm text-gray-400'>{comment.createdAt}</div>
