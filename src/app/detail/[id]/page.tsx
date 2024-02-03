@@ -5,6 +5,7 @@ import Title from '@/app/detail/[id]/Title'
 import Content from '@/app/detail/[id]/Content'
 import Recommend from '@/app/detail/[id]/Recommend'
 import Comment from '@/app/detail/[id]/Comment'
+import Error from '@/app/layout/error'
 
 const DetailPage = async ({params}: { params: { id: string } }) => {
     const {id} = params
@@ -13,7 +14,7 @@ const DetailPage = async ({params}: { params: { id: string } }) => {
         data: {id}
     })
     if (!detail) {
-        return null
+        return <Error status='500'/>
     }
     const {content, tags} = detail
     const tagsString = tags.map(tag => tag.title).join(',')
