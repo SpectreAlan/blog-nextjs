@@ -100,7 +100,7 @@ const Zip = () => {
                     onChange={(val) => setQuality(Number(val))}
                 />
             </Col>
-            <Col lg={8} md={24} sm={24} xs={24} className='text-center'>
+            <Col lg={8} md={24} sm={24} xs={24} className='text-center mb-4'>
                 <Upload {...uploadConfig}>
                     <Button className='w-full'>
                         <UploadOutlined rev=''/>
