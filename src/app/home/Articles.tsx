@@ -6,18 +6,9 @@ import httpRequest from "@/utils/fetch";
 import Image from 'next/image'
 
 const ArticleList: React.FC<Common.IProps> = async ({searchParams}) => {
-    const current: string = searchParams?.current ?? '1'
-    const data:any = {
-        current,
-
-    }
-    const category: string = searchParams?.category ?? ''
-    if(category){
-        data.category = category
-    }
     const res: { list: Article.ArticleItem[], total: number } | null = await httpRequest({
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/list`,
-        data
+        data: searchParams
     })
     if (!res) {
         return null
@@ -52,7 +43,7 @@ const ArticleList: React.FC<Common.IProps> = async ({searchParams}) => {
                 {
                     Array.from({length: Math.ceil(res.total / 10)}, (_, i) => i + 1).map((_) => <Link
                         href={`/?current=${_}`} as={`/?current=${_}`}
-                        className={`mr-2 bg-white border border-solid border-gray-300 rounded cursor-pointer px-3 py-1 ${Number(current) === _ ? 'border-blue-400 text-blue-400' : ''}`}
+                        className={`mr-2 bg-white border border-solid border-gray-300 rounded cursor-pointer px-3 py-1 ${Number(searchParams?.current ?? 1) === _ ? 'border-blue-400 text-blue-400' : ''}`}
                         key={_}>{_}</Link>)
                 }
             </div>
