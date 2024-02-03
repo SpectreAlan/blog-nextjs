@@ -17,7 +17,7 @@ const Header = () => {
     })
     return (
         <div
-            className={`box-border py-0 px-4 fixed z-50 w-full top-0 left-0 bg-opacity-60 bg-white shadow-md transition-transform duration-800 ${isUp ? 'opacity-0 transform translate-y-[-30px]' : 'opacity-100 transform translate-x-0 translate-y-0 translate-z-0'}`}>
+            className={`custom-nav box-border py-0 px-4 fixed z-50 w-full top-0 left-0 bg-opacity-60 bg-white shadow-md ${isUp ? 'opacity-0 translate-y-[-30px]' : 'opacity-100 translate-y-0'}`}>
             <div className="flex justify-between items-center">
                 <div className='flex items-center'>
                     <Image alt='logo' className='mr-2' width={38} height={38} src='/image-proxy/blog/common/logo.png'/>

@@ -38,17 +38,17 @@ const Nav: React.FC = () => {
         {
             label: '搜索',
             key: 'search',
-            icon: <SearchOutlined/>,
+            icon: <SearchOutlined rev=''/>,
         },
         {
             label: '主页',
             key: '/',
-            icon: <HomeOutlined/>,
+            icon: <HomeOutlined rev=''/>,
         },
         {
             label: '时间轴',
             key: '/timeLine',
-            icon: <CalendarOutlined/>,
+            icon: <CalendarOutlined rev=''/>,
         },
         {
             label: (
@@ -57,24 +57,24 @@ const Nav: React.FC = () => {
                 </a>
             ),
             key: 'note',
-            icon: <FileTextOutlined/>
+            icon: <FileTextOutlined rev=''/>
         },
         {
             label: '工具',
             key: '/tool',
-            icon: <ToolOutlined/>,
+            icon: <ToolOutlined rev=''/>,
             children: [
                 {
                     label: '图片无损压缩',
                     key: 'imageZip',
-                    icon: <FileZipOutlined/>,
+                    icon: <FileZipOutlined rev=''/>,
                 },
             ]
         },
         {
             label: '关于',
             key: '/about',
-            icon: <TagOutlined/>,
+            icon: <TagOutlined rev=''/>,
         },
     ]
 
@@ -94,7 +94,7 @@ const Nav: React.FC = () => {
     />
     return <div>
         <div className='hidden lg:block max-h-14 overflow-hidden'>{renderMenu('horizontal')}</div>
-        <div className='block lg:hidden max-h-14 overflow-hidden'><MenuFoldOutlined onClick={() => setNavDrawer(true)}/>
+        <div className='block lg:hidden max-h-14 overflow-hidden'><MenuFoldOutlined rev='' onClick={() => setNavDrawer(true)}/>
         </div>
         {
             navDrawer && <Drawer
