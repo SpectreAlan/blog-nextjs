@@ -127,9 +127,9 @@ const About = () => {
         </div>
         <div className='px-4 pt-4'>
             <div className='md:w-[1100px] mx-auto p-4 fuck-shadow rounded'>
-                <Descriptions title="关于我的博客" layout="vertical" column={{md: 24, lg: 12}} items={blog}/>
+                <Descriptions title="关于我的博客" layout="vertical" items={blog}/>
                 <Divider/>
-                <Descriptions title="关于我" layout="vertical" column={{md: 24, lg: 12}} items={me}/>
+                <Descriptions title="关于我" layout="vertical" items={me}/>
             </div>
         </div>
     </>
