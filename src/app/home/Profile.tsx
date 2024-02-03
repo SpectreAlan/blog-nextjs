@@ -1,10 +1,11 @@
 import React from "react";
-import {Avatar, Col, Row, Tooltip} from "antd";
+import {Col, Row, Tooltip} from "antd";
 import {BookOutlined, GithubOutlined, MailOutlined, TwitterOutlined} from "@ant-design/icons";
+import Image from "next/image";
 
 const Profile: React.FC<{ aside: Aside.Items }> = ({aside}) => {
     return <div className="p-4 rounded-lg mb-4 overflow-hidden text-center fuck-shadow mt-4">
-        <Avatar src='/image-proxy/blog/common/logo.png' size='large' shape="circle"/>
+        <Image alt='logo'  width={44} height={44} src='/image-proxy/blog/common/logo.png'/>
         <h2>AlanGrady</h2>
         <p>如果第一次失败了，那这是1.0版本，请继续努力</p>
         <Row>

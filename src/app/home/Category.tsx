@@ -4,7 +4,7 @@ import Link from 'next/link';
 import {FolderOpenOutlined} from "@ant-design/icons";
 
 const RecentUpdate: React.FC<{ categoryList: Aside.Category[] }> = ({categoryList}) => {
-    return <div className="p-4 rounded-lg mb-4 overflow-hidden text-center fuck-shadow">
+    return <div className="p-4 rounded-lg mb-4 overflow-hidden text-center fuck-shadow" id='category'>
         <div className='text-left mb-2 font-bold'><FolderOpenOutlined className='mr-2' rev=''/>分类</div>
         {
             categoryList.map((item) => (

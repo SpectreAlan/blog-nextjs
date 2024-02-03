@@ -23,9 +23,9 @@ export const Notice: React.FC<{ notice: string }> = ({notice}) => {
         }
     }, [x])
     return <div className="p-4 rounded-lg mb-4 overflow-hidden text-center fuck-shadow">
-        <div className="text-left flex items-center">
+        <div className="text-left w-full flex items-center">
             <span className='mr-2'><SoundOutlined className='soundOutlined mr-2' rev=''/>公告</span>
-            <canvas ref={canvas} width="252" height="40"/>
+            <canvas ref={canvas} width="200" height="40"/>
         </div>
     </div>
 }
