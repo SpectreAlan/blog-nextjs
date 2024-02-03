@@ -1,3 +1,4 @@
+"use client"
 import React, {useEffect, useState} from 'react'
 import {
     HomeOutlined,
@@ -10,7 +11,7 @@ import {
     MenuFoldOutlined
 } from '@ant-design/icons'
 import {useRouter, usePathname} from 'next/navigation'
-import {Menu, Drawer} from 'antd'
+import {Menu, Drawer, Row, Col} from 'antd'
 import type {MenuProps} from 'antd';
 import Search from "@/app/layout/Search";
 
@@ -91,12 +92,10 @@ const Nav: React.FC = () => {
             border: 'none'
         }}
     />
-    return <>
-        {
-            window.innerWidth > 768 ?
-                renderMenu('horizontal') :
-                <MenuFoldOutlined onClick={() => setNavDrawer(true)}/>
-        }
+    return <div>
+        <div className='hidden lg:block max-h-14 overflow-hidden'>{renderMenu('horizontal')}</div>
+        <div className='block lg:hidden max-h-14 overflow-hidden'><MenuFoldOutlined onClick={() => setNavDrawer(true)}/>
+        </div>
         {
             navDrawer && <Drawer
                 open={navDrawer}
@@ -109,7 +108,7 @@ const Nav: React.FC = () => {
             </Drawer>
         }
         {searchModal && <Search setSearchModal={setSearchModal}/>}
-    </>
+    </div>
 }
 
 export default Nav
