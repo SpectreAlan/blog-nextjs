@@ -5,7 +5,7 @@ const nextConfig = {
         return [
             {
                 source: '/blog/:path*',
-                destination: 'https://server.efv.cc/blog/:path*',
+                destination: 'http://localhost:4000/blog/:path*',
             },
             {
                 source: '/image-proxy/:path*',
