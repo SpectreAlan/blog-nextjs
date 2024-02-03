@@ -8,6 +8,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const sitemap: MetadataRoute.Sitemap = [
         {url: baseURL + '/about', lastModified: today, changeFrequency: 'daily'},
         {url: baseURL + '/timeLine', lastModified: today, changeFrequency: 'daily'},
+        {url: baseURL + '/onlineTools/imageZip', lastModified: today, changeFrequency: 'monthly'},
         {url: baseURL + '/', lastModified: today, changeFrequency: 'daily'},
     ]
     const res: { list: Article.ArticleItem[] } | null = await httpRequest({

@@ -2,6 +2,13 @@ import React from 'react'
 import {Descriptions, DescriptionsProps, Divider} from 'antd'
 
 import {GithubOutlined, TwitterOutlined} from '@ant-design/icons'
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: '关于 - SpectreAlan',
+    description: '近些年一直从事web前端开发工作，熟悉前端主要技术栈，平时喜欢研究web前端、服务器方面的各种技术',
+    keywords: 'vercel,NestJS,NextJS,Umi Max,MongoDb,阿里云OSS,Antd,Sass'
+};
 
 const About = () => {
     const me: DescriptionsProps['items'] = [
@@ -40,7 +47,7 @@ const About = () => {
         {
             key: 'summary',
             label: 'Summary',
-            children: '近些年一直从事web前端开发工作，熟悉前端主要技术栈，平时喜欢研究web前端、服务器方面的各种技术'
+            children: metadata.description
         },
         {
             key: 'web',
