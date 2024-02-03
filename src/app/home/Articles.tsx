@@ -13,7 +13,7 @@ const ArticleList: React.FC<Common.IProps> = async ({searchParams}) => {
     if (!res) {
         return null
     }
-    return <div id='article-list'>
+    return <div id='article-list' className='pt-4'>
         {
             res.list.map((item, index) => (
                 <Row className='rounded-lg mb-4 overflow-hidden fuck-shadow transition-shadow relative px-4'
@@ -30,7 +30,8 @@ const ArticleList: React.FC<Common.IProps> = async ({searchParams}) => {
                             <ScheduleOutlined rev=''/> {item.createdAt} | <InboxOutlined rev=''/>
                             <span>{item.category.title}</span>
                         </p>
-                        <div className='text-left max-h-[120px] min-h-[50px] py-2 overflow-hidden  overflow-ellipsis leading-6'>
+                        <div
+                            className='text-left max-h-[120px] min-h-[50px] py-2 overflow-hidden  overflow-ellipsis leading-6'>
                             {item.description}
                         </div>
                     </Col>

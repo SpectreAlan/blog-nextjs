@@ -9,8 +9,8 @@ const RecentUpdate: React.FC<{ categoryList: Aside.Category[] }> = ({categoryLis
         {
             categoryList.map((item) => (
                 <Link
-                    href={`/?category=${item.category}`}
-                    as={`/?category=${item.category}`}
+                    href={`/?category=${item.category}#article-list`}
+                    as={`/?category=${item.category}#article-list`}
                     key={item.category}
                 >
                     <Row className='py-1 text-left hover:bg-blue-500 hover:text-white hover:px-2 hover:rounded' gutter={8}>

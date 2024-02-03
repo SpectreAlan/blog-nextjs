@@ -10,8 +10,8 @@ const RecentUpdate: React.FC<{ tags: string[] }> = ({tags}) => {
                 tags.map((tag, index) => (
                     <Link
                         key={tag}
-                        href={`/?tags=${tag}`}
-                        as={`/?tags=${tag}`}
+                        href={`/?tags=${tag}#article-list`}
+                        as={`/?tags=${tag}#article-list`}
                     >
                     <span
                         className='p-1'

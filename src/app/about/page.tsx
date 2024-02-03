@@ -1,7 +1,8 @@
 import React from 'react'
 import {Descriptions, DescriptionsProps, Divider} from 'antd'
 
-import { GithubOutlined, TwitterOutlined } from '@ant-design/icons'
+import {GithubOutlined, TwitterOutlined} from '@ant-design/icons'
+
 const About = () => {
     const me: DescriptionsProps['items'] = [
         {
@@ -28,8 +29,10 @@ const About = () => {
             key: 'contacts',
             label: 'Other Contacts',
             children: <>
-                <a href="https://github.com/SpectreAlan" target="_blank" title='SpectreAlan' className='mr-4'><GithubOutlined className='text-2xl'/></a>
-                <a href="https://twitter.com/SpectreAlan" target="_blank" title='SpectreAlan'><TwitterOutlined className='text-2xl'/></a>
+                <a href="https://github.com/SpectreAlan" target="_blank" title='SpectreAlan'
+                   className='mr-4'><GithubOutlined className='text-2xl'/></a>
+                <a href="https://twitter.com/SpectreAlan" target="_blank" title='SpectreAlan'><TwitterOutlined
+                    className='text-2xl'/></a>
             </>
         },
         {
@@ -66,9 +69,14 @@ const About = () => {
                 生成文章目录使用 markdown-navbar ，语法高亮 highlight.js</>,
         },
         {
-            key: '2',
+            key: 'blog-nextjs',
             label: '前台源码',
-            children: <a href="https://github.com/SpectreAlan/blog-nextjs" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog-nextjs&theme=react" alt="blog-serve"/></a>
+            children: <a href="https://github.com/SpectreAlan/blog-nextjs" target="_blank">
+                <img
+                    className='w-full'
+                    src="https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog-nextjs&theme=react"
+                    alt="blog-nextjs"/>
+            </a>
         },
         {
             key: '3',
@@ -79,9 +87,14 @@ const About = () => {
                 新建/编辑文章使用 @toast-ui/editor</>
         },
         {
-            key: '4',
+            key: 'blog-admin-umijs-max',
             label: '后台管理源码',
-            children: <a href="https://github.com/SpectreAlan/blog_admin" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog_admin&theme=blueberry" alt="blog-serve"/></a>
+            children: <a href="https://github.com/SpectreAlan/blog-admin-umijs-max" target="_blank">
+                <img
+                    className='w-full'
+                    src="https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog-admin-umijs-max&theme=blueberry"
+                    alt="blog-admin-umijs-max"/>
+            </a>
         },
         {
             key: '5',
@@ -94,22 +107,30 @@ const About = () => {
                 数据库使用MongoDB Cloud免费部署</>
         },
         {
-            key: '6',
+            key: 'blog-server-nestjs-vercel',
             label: '中台源码',
-            children: <a href="https://github.com/SpectreAlan/blog-server" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog-server&theme=chartreuse-dark" alt="blog-serve"/></a>
+            children: <a href="https://github.com/SpectreAlan/blog-server-nestjs-vercel" target="_blank">
+                <img
+                    className='w-full'
+                    src="https://github-readme-stats.vercel.app/api/pin/?username=SpectreAlan&repo=blog-server-nestjs-vercel&theme=chartreuse-dark"
+                    alt="blog-server-nestjs-vercel"/>
+            </a>
         },
     ]
     return <>
         <div
-            className="h-80 bg-cover bg-center bg-fixed relative mb-4"
+            className="h-80 bg-cover bg-center bg-fixed relative"
             style={{backgroundImage: `url(/image-proxy/blog/cover/${new Date().getDate()}.jpg)`}}
         >
-            <p className='w-full absolute top-1/2 text-center transform -translate-y-1/2 font-bold text-4xl text-white'>关于我 - SpectreAlan</p>
+            <p className='w-full absolute top-1/2 text-center transform -translate-y-1/2 lg:text-4xl text-xl font-bold text-white'>关于我
+                - SpectreAlan</p>
         </div>
-        <div className='md:w-[1100px] mx-auto p-4 fuck-shadow rounded'>
-            <Descriptions title="关于我的博客" layout="vertical" column={2} items={blog} />
-            <Divider/>
-            <Descriptions title="关于我" layout="vertical" column={2} items={me} />
+        <div className='px-4 pt-4'>
+            <div className='md:w-[1100px] mx-auto p-4 fuck-shadow rounded'>
+                <Descriptions title="关于我的博客" layout="vertical" column={{md: 24, lg: 12}} items={blog}/>
+                <Divider/>
+                <Descriptions title="关于我" layout="vertical" column={{md: 24, lg: 12}} items={me}/>
+            </div>
         </div>
     </>
 }

@@ -8,7 +8,7 @@ const HomePage: React.FC<Common.IProps> = ({searchParams}) => {
     return (
         <>
             <FullPage/>
-            <Row className='items-start mx-auto px-4 max-w-[1200px] flex py-4'>
+            <Row className='items-start mx-auto px-4 max-w-[1200px] flex pt-4'>
                 <Col lg={17} md={17} sm={24} xs={24}>
                     <Articles searchParams={searchParams}/>
                 </Col>
