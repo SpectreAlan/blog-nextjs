@@ -29,10 +29,12 @@ const About = () => {
             key: 'contacts',
             label: 'Other Contacts',
             children: <>
-                <a href="https://github.com/SpectreAlan" target="_blank" title='SpectreAlan'
-                   className='mr-4'><GithubOutlined className='text-2xl'/></a>
-                <a href="https://twitter.com/SpectreAlan" target="_blank" title='SpectreAlan'><TwitterOutlined
-                    className='text-2xl'/></a>
+                <a href="https://github.com/SpectreAlan" target="_blank" title='SpectreAlan' className='mr-4'>
+                    <GithubOutlined rev='' className='text-2xl'/>
+                </a>
+                <a href="https://twitter.com/SpectreAlan" target="_blank" title='SpectreAlan'>
+                    <TwitterOutlined rev='' className='text-2xl'/>
+                </a>
             </>
         },
         {
@@ -127,9 +129,9 @@ const About = () => {
         </div>
         <div className='px-4 pt-4'>
             <div className='md:w-[1100px] mx-auto p-4 fuck-shadow rounded'>
-                <Descriptions title="关于我的博客" layout="vertical" items={blog}/>
+                <Descriptions title="关于我的博客" column={{xs: 1, sm: 1, md: 2, lg: 2, xl: 2, xxl: 2}} layout="vertical" items={blog}/>
                 <Divider/>
-                <Descriptions title="关于我" layout="vertical" items={me}/>
+                <Descriptions title="关于我" column={{xs: 1, sm: 1, md: 2, lg: 2, xl: 2, xxl: 2}} layout="vertical" items={me}/>
             </div>
         </div>
     </>
