@@ -7,11 +7,10 @@ interface IPoem {
     content: string
 }
 
-let index = 0
-let timer: any = null
 const FullPage: React.FC = () => {
     const [poem, setPoem] = useState<IPoem[]>([{content: '茶若醉人何须酒,唯有碎银解千愁'}])
     const [count, setCount] = useState(0)
+    const [index, setIndex] = useState(0)
 
     const query = async () => {
         const res: { list: IPoem[] } | null = await httpRequest({url: '/blog/poem'})
@@ -22,18 +21,15 @@ const FullPage: React.FC = () => {
         query()
     }, [])
     useEffect(() => {
-        if (poem.length) {
-            clearInterval(timer)
-            timer = setInterval(() => {
-                setCount(prevCount => {
-                    const i = prevCount < poem[index].content.length ? prevCount + 1 : 0;
-                    if (i === 0) {
-                        index = Math.floor(Math.random() * (poem.length))
-                    }
-                    return i;
-                });
-            }, 300)
-        }
+        const timer = setInterval(() => {
+            setCount(prevCount => {
+                const i = prevCount < poem[index].content.length ? prevCount + 1 : 0;
+                if (i === 0) {
+                    setIndex(Math.floor(Math.random() * (poem.length)))
+                }
+                return i;
+            });
+        }, 300)
         return () => {
             clearInterval(timer)
         }
