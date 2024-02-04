@@ -21,13 +21,13 @@ const Profile: React.FC<{ aside: Aside.Items }> = ({aside}) => {
         </div>
         <div className="flex justify-around text-2xl my-4">
             <Tooltip title='SpectreAlan'>
-                <a href="https://github.com/SpectreAlan" target="_blank"><GithubOutlined rev/></a>
+                <a href="https://github.com/SpectreAlan" target="_blank"><GithubOutlined rev=''/></a>
             </Tooltip>
             <Tooltip title='comjszoo@gmail.com@gmail.com'>
-                <a href="mailto:comjszoo@gmail.com" target="_blank"><MailOutlined rev/></a>
+                <a href="mailto:comjszoo@gmail.com" target="_blank"><MailOutlined rev=''/></a>
             </Tooltip>
             <Tooltip title='SpectreAlan'>
-                <a href="https://twitter.com/SpectreAlan" target="_blank"><TwitterOutlined rev/></a>
+                <a href="https://twitter.com/SpectreAlan" target="_blank"><TwitterOutlined rev=''/></a>
             </Tooltip>
         </div>
     </div>
