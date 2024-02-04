@@ -6,17 +6,15 @@ import Content from '@/app/detail/[id]/Content'
 import Recommend from '@/app/detail/[id]/Recommend'
 import Comment from '@/app/detail/[id]/Comment'
 import Error from '@/app/layout/error'
-import {Metadata, ResolvingMetadata} from 'next'
+import {Metadata} from 'next'
 import DefaultMetadata from '@/utils/metadata'
 
 type Props = {
     params: { id: string }
-    searchParams: { [key: string]: string | string[] | undefined }
 }
 
 export async function generateMetadata(
-    {params, searchParams}: Props,
-    parent: ResolvingMetadata
+    {params}: Props
 ): Promise<Metadata> {
     const detail: Article.Detail | null = await httpRequest({
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/detail`,
