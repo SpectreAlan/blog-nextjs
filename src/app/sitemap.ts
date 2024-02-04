@@ -4,7 +4,7 @@ import httpRequest from "@/utils/fetch";
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const baseURL = process.env.NEXT_PUBLIC_HOST
     const now = new Date()
-    const today = `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDay()}`
+    const today = `${now.getFullYear()}-${now.getMonth() + 1}-${now.getDate()}`
     const sitemap: MetadataRoute.Sitemap = [
         {url: baseURL + '/about', lastModified: today, changeFrequency: 'daily'},
         {url: baseURL + '/timeLine', lastModified: today, changeFrequency: 'daily'},
@@ -17,7 +17,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     res?.list?.map((article)=>{
         sitemap.push({
             url: baseURL + '/detail/' + article.id,
-            lastModified: article.updatedAt,
+            lastModified: article.updatedAt.split(' ')[0],
             changeFrequency: 'weekly'
         })
     })
