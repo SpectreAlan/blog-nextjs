@@ -30,6 +30,7 @@ const Content: React.FC<{ content: string }> = ({content}) => {
                                     language={match[1]}
                                     style={vscDarkPlus}
                                     customStyle={{paddingTop: '20px'}}
+                                    ref={null}
                                 >
                                     {String(children).replace(/\n$/, '')}
                                 </SyntaxHighlighter>
