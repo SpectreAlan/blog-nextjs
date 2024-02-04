@@ -72,7 +72,7 @@ const Comment: React.FC<{ id: string }> = ({id}) => {
     return <>
         <Divider/>
         <div className='md:max-w-[1000px] mx-auto p-8 fuck-shadow rounded'>
-            <div className='text-xl font-bold mb-4'><CommentOutlined/> 吐槽一下</div>
+            <div className='text-xl font-bold mb-4'><CommentOutlined rev=''/> 吐槽一下</div>
             {
                 info.parentId === '-1' && <CommentForm info={info} handelFinished={handelFinished}/>
             }
@@ -102,9 +102,9 @@ const Comment: React.FC<{ id: string }> = ({id}) => {
                                                 <b className='text-teal-950 text-xl'> @ {comment.parentName}</b>
                                             }
                                             {
-                                                comment?.platform && <i className='mx-2'> <GlobalOutlined/>{comment.platform} </i>
+                                                comment?.platform && <i className='mx-2'> <GlobalOutlined rev=''/>{comment.platform} </i>
                                             }
-                                            <i> <EnvironmentOutlined />{comment.region} </i>
+                                            <i> <EnvironmentOutlined rev='' />{comment.region} </i>
                                         </div>
                                     )}
                                     <div className='py-2 text-sm text-gray-400'>{comment.createdAt}</div>
