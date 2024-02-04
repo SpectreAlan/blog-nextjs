@@ -22,13 +22,13 @@ export async function generateMetadata(
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/detail`,
         data: params
     })
-    if(detail){
+    if (detail) {
         const {title, description, category, tags} = detail
         return {
             title,
             description,
             category: category.title,
-            keywords: tags.map(item=>item.title).join(',')
+            keywords: tags.map(item => item.title).join(',')
         }
     }
     return DefaultMetadata
@@ -43,10 +43,12 @@ const DetailPage = async ({params}: { params: { id: string } }) => {
     if (!detail) {
         return <Error status='500'/>
     }
-    const {content, tags} = detail
+    const {content, tags, catalogue} = detail
     const tagsString = tags.map(tag => tag.title).join(',')
-    return <div className='lg:pl-80 relative'>
-        <Nav content={content}/>
+    return <div className={`${catalogue ? 'lg:pl-80' : ''} relative`}>
+        {
+            catalogue && <Nav content={content}/>
+        }
         <Title detail={detail}/>
         <div className='px-4'>
             <Content content={content}/>
