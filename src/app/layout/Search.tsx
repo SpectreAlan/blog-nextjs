@@ -14,12 +14,10 @@ const Search: React.FC<IProps> = ({setSearchModal}) => {
     const {response, loading, handleFetch} = useFetch<{ list: Article.ArticleItem[] }>({
         url: '/blog/list',
         method: 'GET',
-        data: {
-            keywords
-        }
     })
 
     const onSelect = (id: string) => {
+        setSearchModal(false)
         router.push(`/detail/${id}`)
     }
     const onSearch = async () => {
@@ -27,7 +25,7 @@ const Search: React.FC<IProps> = ({setSearchModal}) => {
             message.info('老铁，请输入关键字');
             return
         }
-        handleFetch()
+        handleFetch({keywords})
     };
     return <Modal
         closeIcon={false}
@@ -38,12 +36,14 @@ const Search: React.FC<IProps> = ({setSearchModal}) => {
     >
         <Input.Search
             placeholder="关键字模糊搜索..."
-            onSearch={onSearch} allowClear
+            onSearch={onSearch}
+            allowClear
             onChange={(e) => setKeywords(e.target.value)}
             value={keywords}
             className='mb-2'
         />
         <List
+            locale={{emptyText: '暂无数据...'}}
             size="small"
             loading={loading}
             bordered

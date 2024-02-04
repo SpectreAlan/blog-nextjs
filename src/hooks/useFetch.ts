@@ -13,12 +13,7 @@ const useFetch = <T>(props: Common.UseFetchProps): Common.UseFetchResult<T> => {
             props.data = params
         }
         const res:any = await httpRequest(props)
-        const {data, message: msg, code} = res
-        if (code) {
-            message.error(msg)
-        } else {
-            setData(data);
-        }
+        setData(res);
         setLoading(false)
     }, []);
 
