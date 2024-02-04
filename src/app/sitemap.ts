@@ -19,7 +19,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     res?.list?.map((article)=>{
         sitemap.push({
             url: baseURL + '/detail/' + article.id,
-            lastModified: article.updatedAt,
+            lastModified: article.updatedAt.split(' ')[0],
             changeFrequency: 'weekly'
         })
     })
