@@ -12,7 +12,7 @@ const Copy: React.FC<{ code: string }> = ({code}) => {
 
     return <CopyOutlined
         rev=''
-        className='absolute right-2 top-2 cursor-pointer hover:scale-125'
+        className='absolute right-2 top-2 cursor-pointer hover:scale-125 text-white z-50'
         onClick={() => copy()}
         title='点击复制'
     />

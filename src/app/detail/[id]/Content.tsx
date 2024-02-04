@@ -9,25 +9,40 @@ import Copy from "@/app/detail/[id]/Copy";
 
 const Content: React.FC<{ content: string }> = ({content}) => {
 
+    const customRenderer = (props) => {
+        // 自定义渲染代码块的方式
+        return (
+            <span style={{ color: 'red' }}>
+        {props.children}
+      </span>
+        );
+    };
+
     return <div className='md:max-w-[1000px] mx-auto p-8 fuck-shadow rounded detail-content'>
             <Markdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeRaw]}
                 components={{
                     code(props) {
-                        const {children, className, node, ...rest} = props
+                        const {children, className = 'language-shell', node, ...rest} = props
                         const match = /language-(\w+)/.exec(className || '')
+                        // @ts-ignore
+                        const showLineNumbers = String(children).split('\n').length > 2
                         return match ? (
-                            <SyntaxHighlighter
-                                {...rest}
-                                PreTag="div"
-                                language={match[1]}
-                                style={vscDarkPlus}
-                                customStyle={{position: 'relative'}}
-                                renderer={() => <>
-                                    <Copy code={String(children)} />
-                                    {String(children).replace(/\n$/, '')}</>}
-                            />
+                            <div className='relative'>
+                                <Copy code={String(children)} />
+                                <SyntaxHighlighter
+                                    {...rest}
+                                    showLineNumbers={showLineNumbers}
+                                    PreTag="div"
+                                    language={match[1]}
+                                    style={vscDarkPlus}
+                                    customStyle={{paddingTop: '20px'}}
+                                >
+                                    {String(children).replace(/\n$/, '')}
+                                </SyntaxHighlighter>
+                            </div>
+
                         ) : (
                             <code {...rest} className={`${className}`}>
                                 {children}

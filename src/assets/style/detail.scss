@@ -1,14 +1,15 @@
 @keyframes msg {
-  0%{
+  0% {
     transform: scale(0.01);
   }
-  80%{
+  80% {
     transform: scale(1);
   }
-  100%{
+  100% {
     transform: scale(0.01);
   }
 }
+
 .detail-content {
   table {
     width: 100%;
@@ -99,5 +100,14 @@
     max-width: 100%;
     display: block;
     margin: 10px 0;
+  }
+
+  .react-syntax-highlighter-line-number {
+    color: rgba(255, 255, 255, 0.3) !important;
+    font-size: 12px;
+    min-width: 16px !important;
+    margin-right: 10px !important;
+    padding: 2px 4px 2px 0!important;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
