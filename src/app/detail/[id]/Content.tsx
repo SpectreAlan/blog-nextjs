@@ -7,16 +7,8 @@ import rehypeRaw from 'rehype-raw';
 import '@/assets/style/detail.scss'
 import Copy from "@/app/detail/[id]/Copy";
 
-const Content: React.FC<{ content: string }> = ({content}) => {
 
-    const customRenderer = (props) => {
-        // 自定义渲染代码块的方式
-        return (
-            <span style={{ color: 'red' }}>
-        {props.children}
-      </span>
-        );
-    };
+const Content: React.FC<{ content: string }> = ({content}) => {
 
     return <div className='md:max-w-[1000px] mx-auto p-8 fuck-shadow rounded detail-content'>
             <Markdown
