@@ -29,7 +29,7 @@ const TimeLinePage = async () => {
                                 children: <Link
                                     className={`flex flex-wrap items-center transform -translate-y-[30px] ${i % 2 === 0 ? '' : 'flex-row-reverse'}`}
                                     href={`/detail/${article.id}`}
-                                    as={`/detail/${article.id}`}
+                                    prefetch
                                 >
                                     <Image
                                         src={article.cover}

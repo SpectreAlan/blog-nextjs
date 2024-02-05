@@ -25,7 +25,7 @@ const Recommend: React.FC<{ tags: string, id: string }> = async ({tags, id}) => 
                             className='pb-4 fuck-shadow rounded overflow-hidden'
                             key={article.id}
                             href={`/detail/${article.id}`}
-                            as={`/detail/${article.id}`}
+                            prefetch
                         >
                             <div className="w-[310px] overflow-hidden">
                                 <Image
