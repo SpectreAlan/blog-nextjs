@@ -2,6 +2,7 @@
 import React, {useEffect} from 'react'
 import httpRequest from "@/utils/fetch";
 import platform from 'platform'
+import '@/assets/js/ribbon'
 
 const fetchIp = async (): Promise<Common.IIP> => {
     const res = await fetch('/ip/json?lang=zh-CN')
