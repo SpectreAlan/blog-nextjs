@@ -9,7 +9,7 @@ const RecentUpdate: React.FC<{ articles: Article.ArticleItem[] }> = ({articles})
         <div className='text-left mb-2 font-bold'><FieldTimeOutlined className='mr-2' rev=''/>最近更新</div>
         {
             articles.map((item, index) => (
-                <Link href={'/detail?id=' + item.id} as={`/detail/${item.id}`} key={item.id}>
+                <Link href={'/detail/' + item.id} as={`/detail/${item.id}`} key={item.id}>
                     <Row className='py-2 text-left border-b border-dashed border-gray-500 border-l-0 border-t-0 border-r-0' gutter={8}>
                         <Col span={8}>
                             <Image src={item.cover} alt={item.title} width={88} height={55}/>

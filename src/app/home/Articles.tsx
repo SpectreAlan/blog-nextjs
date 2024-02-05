@@ -23,7 +23,7 @@ const ArticleList: React.FC<Common.IProps> = async ({searchParams}) => {
                                className='absolute top-1/2 left-0 -translate-y-1/2 rounded-md hover:scale-105'/>
                     </Col>
                     <Col lg={16} md={16} sm={24} xs={24} className='p-2 '>
-                        <Link href={'/detail?id=' + item.id} prefetch>
+                        <Link href={'/detail/' + item.id} prefetch>
                             <h2 className='text-center cursor-pointer'>{item.title}</h2>
                         </Link>
                         <p className='text-center'>
