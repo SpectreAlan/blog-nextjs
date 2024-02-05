@@ -3,8 +3,9 @@ import Image from 'next/image'
 import httpRequest from "@/utils/fetch";
 import { Divider} from 'antd'
 import Statistics from "@/app/layout/Statistics";
-
+import { headers } from 'next/headers';
 const Footer: React.FC = async () => {
+    const ip = headers().get('x-forwarded-for')?.split(',')[0] || headers().get('x-real-ip') || ''
     const response: { visitor: number, total: number, today: number } | null = await httpRequest({
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/visitor`,
     })
@@ -16,7 +17,7 @@ const Footer: React.FC = async () => {
             <li> 总访问量: {response?.visitor ?? 0}</li>
         </ul>
         <Image src="/image-proxy/blog/common/copyright.gif" alt="copyright" width={60} height={60}/>
-        <Statistics/>
+        <Statistics ip={ip}/>
     </div>
 }
 

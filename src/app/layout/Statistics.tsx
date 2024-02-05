@@ -3,18 +3,17 @@ import React, {useEffect} from 'react'
 import httpRequest from "@/utils/fetch";
 import platform from 'platform'
 import '@/assets/js/ribbon'
-import { headers } from 'next/headers';
 
-const fetchIp = async (): Promise<Common.IIP> => {
-    const res = await fetch(`/ip/json/${headers().get('x-forwarded-for')}?lang=zh-CN`)
+const fetchIp = async (ip:string): Promise<Common.IIP> => {
+    const res = await fetch(`/ip/json/${ip}?lang=zh-CN`)
     return await res.json()
 }
 
-const Statistics = () => {
+const Statistics:React.FC<{ip:string}> = ({ip}) => {
     useEffect(() => {
         const last = sessionStorage.getItem('last')
         if (!last || ((new Date().getTime() - Number(last)) > 300000)) {
-            fetchIp().then(({status, ...res}) => {
+            fetchIp(ip).then(({status, ...res}) => {
                 if (status === 'success') {
                     const {country, city, org: organization, regionName: province, query: ip} = res
                     const {product, os, name} = platform
