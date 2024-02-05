@@ -33,7 +33,7 @@ const Statistics:React.FC<{ip:string}> = ({ip}) => {
                 }
             })
         }
-    }, [])
+    }, [ip])
     return null
 }
 
