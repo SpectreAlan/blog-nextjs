@@ -3,9 +3,10 @@ import React, {useEffect} from 'react'
 import httpRequest from "@/utils/fetch";
 import platform from 'platform'
 import '@/assets/js/ribbon'
+import { headers } from 'next/headers';
 
 const fetchIp = async (): Promise<Common.IIP> => {
-    const res = await fetch('/ip/json?lang=zh-CN')
+    const res = await fetch(`/ip/json/${headers().get('x-forwarded-for')}?lang=zh-CN`)
     return await res.json()
 }
 
