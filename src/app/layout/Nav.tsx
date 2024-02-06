@@ -11,9 +11,11 @@ import {
     MenuFoldOutlined
 } from '@ant-design/icons'
 import {useRouter, usePathname} from 'next/navigation'
-import {Menu, Drawer, Row, Col} from 'antd'
+import {Menu, Drawer} from 'antd'
 import type {MenuProps} from 'antd';
-import Search from "@/app/layout/Search";
+import dynamic from 'next/dynamic'
+
+const Search = dynamic(() => import('@/app/layout/Search'))
 
 const Nav: React.FC = () => {
     const router = useRouter()
@@ -94,7 +96,8 @@ const Nav: React.FC = () => {
     />
     return <div>
         <div className='hidden lg:block max-h-14 overflow-hidden'>{renderMenu('horizontal')}</div>
-        <div className='block lg:hidden max-h-14 overflow-hidden'><MenuFoldOutlined rev='' onClick={() => setNavDrawer(true)}/>
+        <div className='block lg:hidden max-h-14 overflow-hidden'><MenuFoldOutlined rev=''
+                                                                                    onClick={() => setNavDrawer(true)}/>
         </div>
         {
             navDrawer && <Drawer
