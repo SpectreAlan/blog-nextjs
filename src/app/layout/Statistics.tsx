@@ -3,7 +3,6 @@ import React, {useEffect} from 'react'
 import httpRequest from "@/utils/fetch";
 import platform from 'platform'
 import '@/assets/js/ribbon'
-import VConsole from 'vconsole';
 
 const fetchIp = async (ip:string): Promise<Common.IIP> => {
     const res = await fetch(`/ip/json/${ip}?lang=zh-CN`)
@@ -12,7 +11,6 @@ const fetchIp = async (ip:string): Promise<Common.IIP> => {
 
 const Statistics:React.FC<{ip:string}> = ({ip}) => {
     useEffect(() => {
-        new VConsole();
         const last = sessionStorage.getItem('last')
         if (!last || ((new Date().getTime() - Number(last)) > 300000)) {
             fetchIp(ip).then(({status, ...res}) => {
