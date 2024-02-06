@@ -16,7 +16,7 @@ const RecentUpdate: React.FC<{ articles: Article.ArticleItem[] }> = ({articles})
                         </Col>
                         <Col span={15} offset={1}>
                             <div className='font-bold h-10'>{item.title}</div>
-                            <i className='text-gray-400 text-sm'>{item.updatedAt}</i>
+                            <i className='text-gray-400 text-sm'>{item.createdAt}</i>
                         </Col>
                     </Row>
                 </Link>

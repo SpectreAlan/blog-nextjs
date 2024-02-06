@@ -10,7 +10,7 @@ import Copy from "@/app/detail/[id]/Copy";
 
 const Content: React.FC<{ content: string }> = ({content}) => {
 
-    return <div className='md:max-w-[1000px] mx-auto p-8 fuck-shadow rounded detail-content'>
+    return <div className='md:max-w-[1000px] mx-auto lg:p-8 p-4 fuck-shadow rounded detail-content'>
             <Markdown
                 remarkPlugins={[remarkGfm]}
                 rehypePlugins={[rehypeRaw]}
@@ -29,7 +29,7 @@ const Content: React.FC<{ content: string }> = ({content}) => {
                                     PreTag="div"
                                     language={match[1]}
                                     style={vscDarkPlus}
-                                    customStyle={{paddingTop: '20px'}}
+                                    customStyle={{padding: '20px 0 0'}}
                                     ref={null}
                                 >
                                     {String(children).replace(/\n$/, '')}
