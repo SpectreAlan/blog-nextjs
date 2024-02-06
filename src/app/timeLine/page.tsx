@@ -17,6 +17,7 @@ const TimeLinePage = async () => {
                 className="h-80 bg-cover bg-center bg-fixed relative"
                 style={{backgroundImage: `url(/image-proxy/blog/cover/${new Date().getDate()}.jpg)`}}
             >
+                <div className='bg-black bg-opacity-50 absolute w-full h-full'/>
                 <p className='w-full absolute top-1/2 text-center transform -translate-y-1/2 lg:text-4xl text-xl font-bold text-white'>流年不念终将安，时光不老你还在</p>
             </div>
             <div className='px-4 pt-4'>

@@ -37,8 +37,9 @@ const FullPage: React.FC = () => {
     return <div
         className={`bg-cover bg-center bg-fixed h-[100vh] relative`}
         style={{backgroundImage: `url(/image-proxy/blog/cover/${new Date().getDate()}.jpg)`}}>
+        <div className='bg-black bg-opacity-50 absolute w-full h-full'/>
         <div
-            className="absolute w-full top-1/2 text-center transform-translate-y-1/2 text-white sm:text-2xl md:text-4xl">
+            className="absolute w-full top-1/2 text-center transform-translate-y-1/2 font-bold text-white text-2xl lg:text-4xl">
             {poem?.[index]?.content.slice(0, count)}
             <span
                 className={`text-gray-200 ml-2 ${count % 2 === 0 ? 'show' : 'hide'}`}
