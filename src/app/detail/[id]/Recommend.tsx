@@ -17,8 +17,8 @@ const Recommend: React.FC<{ tags: string, id: string }> = async ({tags, id}) => 
     return <>
         <Divider/>
         <div className='md:max-w-[1000px] mx-auto lg:p-8 p-4 fuck-shadow rounded'>
-            <div className='text-xl font-bold mb-4'><LikeFilled/> 相关推荐</div>
-            <div className="flex flex-wrap lg:gap-8 gap-4">
+            <div className='text-xl font-bold mb-4'><LikeFilled rev=''/> 相关推荐</div>
+            <div className="flex flex-wrap lg:gap-8 gap-4 lg:justify-start justify-center">
                 {
                     recommend.map((article, i) => (
                         <Link
