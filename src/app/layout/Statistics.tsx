@@ -19,7 +19,7 @@ const Statistics:React.FC<{ip:string}> = ({ip}) => {
                     const {product, os, name} = platform
                     let osName = ''
                     if (os) {
-                        osName = os?.family ?? '' + ' ' + os?.version ?? ''
+                        osName = (os?.family ?? '') + ' ' + (os?.version ?? '')
                     }
                     const data = {country, city, organization, province, ip, device: product, os: osName, browser: name}
                     sessionStorage.setItem('device', JSON.stringify(data))
