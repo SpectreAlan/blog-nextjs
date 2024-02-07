@@ -8,7 +8,8 @@ import {
     FileTextOutlined,
     ToolOutlined,
     FileZipOutlined,
-    MenuFoldOutlined
+    MenuFoldOutlined,
+    DeploymentUnitOutlined
 } from '@ant-design/icons'
 import {useRouter, usePathname} from 'next/navigation'
 import {Menu, Drawer} from 'antd'
@@ -54,8 +55,17 @@ const Nav: React.FC = () => {
         },
         {
             label: (
+                <a href="https://efv.cc" target="_blank" rel="noopener noreferrer">
+                    趣导航
+                </a>
+            ),
+            key: 'note',
+            icon: <DeploymentUnitOutlined rev=''/>
+        },
+        {
+            label: (
                 <a href="https://note.jszoo.com" target="_blank" rel="noopener noreferrer">
-                    文档
+                    个人文档
                 </a>
             ),
             key: 'note',
