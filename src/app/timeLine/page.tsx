@@ -14,7 +14,6 @@ const TimeLinePage = async () => {
     if (!res) {
         return null
     }
-    console.log(res.list);
     return (
         <>
             <div
