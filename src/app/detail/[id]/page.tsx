@@ -18,7 +18,10 @@ export async function generateMetadata(
 ): Promise<Metadata> {
     const detail: Article.Detail | null = await httpRequest({
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/detail`,
-        data: params
+        data: params,
+        options: {
+            cache: 'no-store'
+        }
     })
     if (detail) {
         const {title, description, category, tags} = detail
