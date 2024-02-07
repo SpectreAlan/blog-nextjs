@@ -20,7 +20,7 @@ const Recommend: React.FC<{ tags: string, id: string }> = async ({tags, id}) => 
             <div className='text-xl font-bold mb-4'><LikeFilled rev=''/> 相关推荐</div>
             <div className="flex flex-wrap lg:gap-8 gap-4 lg:justify-start justify-center">
                 {
-                    recommend.map((article, i) => (
+                    recommend.map((article) => (
                         <Link
                             className='pb-4 fuck-shadow rounded overflow-hidden'
                             key={article.id}
