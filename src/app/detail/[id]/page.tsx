@@ -39,7 +39,10 @@ const DetailPage = async ({params}: { params: { id: string } }) => {
     const {id} = params
     const detail: Article.Detail | null = await httpRequest({
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/detail`,
-        data: {id}
+        data: {id},
+        options: {
+            cache: 'no-store'
+        }
     })
     if (!detail) {
         return <Error status='500'/>
