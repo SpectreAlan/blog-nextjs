@@ -7,10 +7,14 @@ import Image from 'next/image'
 const TimeLinePage = async () => {
     const res: { list: Article.ArticleItem[] } | null = await httpRequest({
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/timeLine`,
+        options: {
+            cache: 'no-store'
+        }
     })
     if (!res) {
         return null
     }
+    console.log(res.list);
     return (
         <>
             <div
