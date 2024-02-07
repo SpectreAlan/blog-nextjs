@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@ant-design/icons": "^5.2.6",
+    "@excalidraw/excalidraw": "^0.17.2",
     "antd": "^5.13.2",
     "avataaars": "^2.0.0",
     "crypto-js": "^4.2.0",

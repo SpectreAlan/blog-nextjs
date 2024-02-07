@@ -9,7 +9,8 @@ import {
     ToolOutlined,
     FileZipOutlined,
     MenuFoldOutlined,
-    DeploymentUnitOutlined
+    DeploymentUnitOutlined,
+    FormatPainterOutlined
 } from '@ant-design/icons'
 import {useRouter, usePathname} from 'next/navigation'
 import {Menu, Drawer} from 'antd'
@@ -80,6 +81,11 @@ const Nav: React.FC = () => {
                     label: '图片无损压缩',
                     key: '/onlineTools/imageZip',
                     icon: <FileZipOutlined rev=''/>,
+                },
+                {
+                    label: '手绘白板',
+                    key: '/onlineTools/excalidraw',
+                    icon: <FormatPainterOutlined rev=''/>,
                 },
             ]
         },

@@ -19,7 +19,7 @@ const ImageZipPage = () => {
             <p className='w-full absolute top-1/2 text-center transform -translate-y-1/2 lg:text-4xl text-xl font-bold text-white'>在线批量无损压缩图片</p>
         </div>
         <div className='p-4'>
-            <div className='md:w-[1100px] mx-auto p-8 fuck-shadow rounded'>
+            <div className='md:w-[1100px] mx-auto lg:p-8 p-4 fuck-shadow rounded'>
                 <Introduction/>
                 <Zip/>
             </div>
