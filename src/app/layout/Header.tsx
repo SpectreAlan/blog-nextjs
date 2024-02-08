@@ -21,7 +21,7 @@ const Header = () => {
         <div
             className={`custom-nav box-border py-0 px-4 fixed z-50 w-full top-0 left-0 bg-opacity-60 bg-white shadow-md ${isUp ? 'opacity-0 translate-y-[-30px]' : 'opacity-100 translate-y-0'}`}>
             <div className="flex justify-between items-center">
-                <div className='flex items-center' onClick={()=>router.push('/')}>
+                <div className='flex items-center cursor-pointer' onClick={()=>router.push('/')}>
                     <Image alt='logo' className='mr-2' width={38} height={38} src='/image-proxy/blog/common/logo.png'/>
                     <span>{'SpectreAlan\'s blogs'}</span>
                 </div>
