@@ -6,7 +6,7 @@ import Image from "next/image";
 const Profile: React.FC<{ aside: Aside.Items }> = ({aside}) => {
     return <div className="p-4 rounded-lg mb-4 overflow-hidden text-center fuck-shadow mt-4">
         <Image alt='logo' width={44} height={44} src='/image-proxy/blog/common/logo.png'/>
-        <h2>AlanGrady</h2>
+        <h2>SpectreAlan</h2>
         <p>如果第一次失败了，那这是1.0版本，请继续努力</p>
         <Row>
             <Col span={8}><span className='font-bold'>文章</span> <a href="#article-list" className='text-blue-600'><p>{aside.totalArticle}</p>
