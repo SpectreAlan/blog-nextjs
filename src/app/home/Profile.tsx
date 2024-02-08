@@ -9,11 +9,11 @@ const Profile: React.FC<{ aside: Aside.Items }> = ({aside}) => {
         <h2>AlanGrady</h2>
         <p>如果第一次失败了，那这是1.0版本，请继续努力</p>
         <Row>
-            <Col span={8}>文章 <a href="#article-list" className='text-blue-600'><p>{aside.totalArticle}</p>
+            <Col span={8}><span className='font-bold'>文章</span> <a href="#article-list" className='text-blue-600'><p>{aside.totalArticle}</p>
             </a> </Col>
-            <Col span={8}>标签 <a href="#tags" className='text-blue-600'><p>{aside.tags.length}</p></a>
+            <Col span={8}><span className='font-bold'>标签</span>  <a href="#tags" className='text-blue-600'><p>{aside.tags.length}</p></a>
             </Col>
-            <Col span={8}>分类 <a href="#category" className='text-blue-600'><p>{aside.categoryList.length}</p></a>
+            <Col span={8}><span className='font-bold'>分类</span> <a href="#category" className='text-blue-600'><p>{aside.categoryList.length}</p></a>
             </Col>
         </Row>
         <div className="my-2 py-1 cursor-pointer relative z-10 bg-blue-500 text-white uppercase leading-6 rounded">
@@ -23,7 +23,7 @@ const Profile: React.FC<{ aside: Aside.Items }> = ({aside}) => {
             <Tooltip title='SpectreAlan'>
                 <a href="https://github.com/SpectreAlan" target="_blank"><GithubOutlined rev=''/></a>
             </Tooltip>
-            <Tooltip title='comjszoo@gmail.com@gmail.com'>
+            <Tooltip title='comjszoo@gmail.com'>
                 <a href="mailto:comjszoo@gmail.com" target="_blank"><MailOutlined rev=''/></a>
             </Tooltip>
             <Tooltip title='SpectreAlan'>
