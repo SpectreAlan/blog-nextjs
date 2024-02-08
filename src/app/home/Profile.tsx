@@ -1,5 +1,5 @@
 import React from "react";
-import {Col, Row, Tooltip} from "antd";
+import {Col, message, Row, Tooltip} from "antd";
 import {BookOutlined, GithubOutlined, MailOutlined, TwitterOutlined} from "@ant-design/icons";
 import Image from "next/image";
 
@@ -16,7 +16,7 @@ const Profile: React.FC<{ aside: Aside.Items }> = ({aside}) => {
             <Col span={8}><span className='font-bold'>分类</span> <a href="#category" className='text-blue-600'><p>{aside.categoryList.length}</p></a>
             </Col>
         </Row>
-        <div className="my-2 py-1 cursor-pointer relative z-10 bg-blue-500 text-white uppercase leading-6 rounded">
+        <div className="my-2 py-1 cursor-pointer relative z-10 bg-blue-500 text-white uppercase leading-6 rounded" onClick={()=>message.info(`请使用浏览器的添加书签功能（通常是按 Ctrl+D 或 Command+D）手动将网站添加到书签。`)}>
             <BookOutlined className='mr-3' rev=''/>加入书签
         </div>
         <div className="flex justify-around text-2xl my-4">
