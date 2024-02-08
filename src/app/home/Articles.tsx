@@ -46,7 +46,7 @@ const ArticleList: React.FC<Common.IProps> = async ({searchParams}) => {
                 <span className='mr-2'>Total {res.total} items</span>
                 {
                     Array.from({length: Math.ceil(res.total / 10)}, (_, i) => i + 1).map((_) => <Link
-                        href={`/?current=${_}`} as={`/?current=${_}`}
+                        href={`/?current=${_}#article-list`}
                         className={`mr-2 bg-white border border-solid border-gray-300 rounded cursor-pointer px-3 py-1 ${Number(searchParams?.current ?? 1) === _ ? 'border-blue-400 text-blue-400' : ''}`}
                         key={_}>{_}</Link>)
                 }
