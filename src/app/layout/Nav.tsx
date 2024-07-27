@@ -56,7 +56,7 @@ const Nav: React.FC = () => {
         },
         {
             label: (
-                <a href="https://efv.cc" target="_blank" rel="noopener noreferrer">
+                <a href="https://nav.jszoo.com" target="_blank" rel="noopener noreferrer">
                     趣导航
                 </a>
             ),
