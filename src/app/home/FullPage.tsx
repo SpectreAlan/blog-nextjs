@@ -13,7 +13,9 @@ const FullPage: React.FC = () => {
     const [index, setIndex] = useState(0)
 
     const query = async () => {
-        const res: { list: IPoem[] } | null = await httpRequest({url: '/blog/poem'})
+        const res: { list: IPoem[] } | null = await httpRequest({
+            url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/poem`,
+        })
         setPoem(res?.list ?? [])
     }
 
