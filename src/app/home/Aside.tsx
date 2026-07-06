@@ -6,6 +6,7 @@ import RecentUpdate from "@/app/home/RecentUpdate";
 import Category from "@/app/home/Category";
 import Tags from "@/app/home/Tags";
 
+// @ts-ignore
 const ArticleList: React.FC = async () => {
     const aside: Aside.Items | null = await httpRequest({
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/aside`,

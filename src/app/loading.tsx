@@ -2,6 +2,7 @@ import React from "react";
 import '@/assets/style/loading.scss'
 import Image from 'next/image'
 
+// @ts-ignore
 const Loading: React.FC = () => {
     return <div className="w-full h-screen text-center fixed top-0 left-0 global-loading">
         <div className="loading"/>

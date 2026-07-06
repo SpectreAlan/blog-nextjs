@@ -84,11 +84,28 @@ const Zip = () => {
     }
     return <>
         <div className='font-bold text-md'><RobotOutlined rev=''/>使用步骤：</div>
-        <Steps type="navigation" size="small" current={step} className="mb-8">
-            <Steps.Step title="第一步" status="finish" subTitle="设置图片压缩比" description="建议默认"/>
-            <Steps.Step title="第二步" status="process" subTitle="选择图片" description="可以多选、多次选择"/>
-            <Steps.Step title="第三步" status="wait" subTitle="开始压缩" description="压缩完以后自动下载"/>
-        </Steps>
+        <Steps type="navigation" size="small" current={step} className="mb-8"
+               items={[
+                   {
+                       title: '第一步',
+                       status: 'finish',
+                       subTitle: '设置图片压缩比',
+                       description: '建议默认',
+                   },
+                   {
+                       title: '第二步',
+                       status: 'process',
+                       subTitle: '选择图片',
+                       description: '可以多选、多次选择',
+                   },
+                   {
+                       title: '第三步',
+                       status: 'wait',
+                       subTitle: '开始压缩',
+                       description: '压缩完以后自动下载',
+                   },
+               ]}
+        />
         <Row className='rounded-md p-4 border-1 border-dashed border-lightslategrey items-center'>
             <Col lg={8} md={24} sm={24} xs={24}>
                 <div>压缩比 <QuestionCircleOutlined rev=''/> (默认7)</div>

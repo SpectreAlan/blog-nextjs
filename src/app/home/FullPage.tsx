@@ -7,6 +7,7 @@ interface IPoem {
     content: string
 }
 
+// @ts-ignore
 const FullPage: React.FC = () => {
     const [poem, setPoem] = useState<IPoem[]>([{content: '茶若醉人何须酒,唯有碎银解千愁'}])
     const [count, setCount] = useState(0)

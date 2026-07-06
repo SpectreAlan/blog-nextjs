@@ -19,6 +19,7 @@ import dynamic from 'next/dynamic'
 
 const Search = dynamic(() => import('@/app/layout/Search'))
 
+// @ts-ignore
 const Nav: React.FC = () => {
     const router = useRouter()
     const pathname = usePathname()

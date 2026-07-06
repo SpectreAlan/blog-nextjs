@@ -5,6 +5,7 @@ import {LikeFilled} from '@ant-design/icons'
 import Link from 'next/link'
 import Image from 'next/image'
 
+// @ts-ignore
 const Recommend: React.FC<{ tags: string, id: string }> = async ({tags, id}) => {
     const res: { list: Article.ArticleItem[] } | null = await httpRequest({
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/related`,

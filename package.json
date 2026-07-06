@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ant-design/icons": "^5.2.6",
+    "@ant-design/icons": "^6.3.2",
     "@excalidraw/excalidraw": "^0.17.2",
-    "antd": "^5.13.2",
+    "antd": "^6.5.0",
     "avataaars": "^2.0.0",
     "crypto-js": "^4.2.0",
     "file-saver": "^2.0.5",

@@ -4,6 +4,7 @@ import httpRequest from "@/utils/fetch";
 import { Divider} from 'antd'
 import Statistics from "@/app/layout/Statistics";
 import { headers } from 'next/headers';
+// @ts-ignore
 const Footer: React.FC = async () => {
     const ip = headers().get('x-forwarded-for')?.split(',')[0] || headers().get('x-real-ip') || ''
     const response: { visitor: number, total: number, today: number } | null = await httpRequest({

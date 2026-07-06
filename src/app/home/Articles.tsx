@@ -5,6 +5,7 @@ import Link from 'next/link'
 import httpRequest from "@/utils/fetch";
 import Image from 'next/image'
 
+// @ts-ignore
 const ArticleList: React.FC<Common.IProps> = async ({searchParams}) => {
     const res: { list: Article.ArticleItem[], total: number } | null = await httpRequest({
         url: `${process.env.NEXT_PUBLIC_BASE_URL}/blog/list`,
