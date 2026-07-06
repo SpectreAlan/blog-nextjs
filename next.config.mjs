@@ -5,7 +5,7 @@ const nextConfig = {
         return [
             {
                 source: '/blog/:path*',
-                destination: 'https://server.jszoo.com/blog/:path*',
+                destination: 'https://server.444007.xyz/blog/:path*',
             },
             {
                 source: '/image-proxy/:path*',
