@@ -4,7 +4,7 @@ const DefaultMetadata: Metadata = {
     title: `SpectreAlan's Blog`,
     keywords: 'SpectreAlan,web前端,Nginx,Linux,Vue,Flutter,React,NextJS,react-hooks,NodeJS,NestJS, Vercel',
     description: "SpectreAlan的个人博客，一个有内涵的web前端，专注vue/react/nodejs/flutter",
-    authors: [{name: 'SpectreAlan', url: 'https://444007.xyz'}],
+    authors: [{name: 'SpectreAlan', url: 'https://vercelpro.com'}],
     creator: 'SpectreAlan',
     icons: {
         shortcut: '/favicon.ico',

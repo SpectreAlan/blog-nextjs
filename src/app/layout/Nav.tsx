@@ -57,7 +57,7 @@ const Nav: React.FC = () => {
         },
         {
             label: (
-                <a href="https://nav.444007.xyz" target="_blank" rel="noopener noreferrer">
+                <a href="https://nav.vercelpro.com" target="_blank" rel="noopener noreferrer">
                     趣导航
                 </a>
             ),
@@ -66,7 +66,7 @@ const Nav: React.FC = () => {
         },
         {
             label: (
-                <a href="https://note.444007.xyz" target="_blank" rel="noopener noreferrer">
+                <a href="https://note.vercelpro.com" target="_blank" rel="noopener noreferrer">
                     个人文档
                 </a>
             ),

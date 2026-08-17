@@ -5,7 +5,7 @@ const nextConfig = {
         return [
             {
                 source: '/blog/:path*',
-                destination: 'https://server.444007.xyz/blog/:path*',
+                destination: 'https://server.vercelpro.com/blog/:path*',
             },
             {
                 source: '/image-proxy/:path*',
